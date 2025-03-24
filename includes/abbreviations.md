@@ -280,6 +280,8 @@
 *[FAJO]: Johannesburg FIR
 *[AYPM]: Port Moresby FIR
 *[AYPE]: Port Moresby (East) FIR
+*[AYPYA]: Jacksons Radar
+*[AYNZA]: Nadzab Radar
 *[NWWW]: Noumea FIR
 *[NVVV]: Port Vila FIR
 *[RJTG]: Fukuoka FIR
