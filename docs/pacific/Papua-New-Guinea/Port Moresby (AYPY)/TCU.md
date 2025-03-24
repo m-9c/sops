@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name                    | Callsign         | Frequency | Login ID    |
-| ----------------------- | --------- | ---------------- | --------- |
-| **Port Moresby Approach** | **Jacksons Radar**	| **125.800** | **AYPY_APP**	| 
+| Name                    | ID |  Callsign         | Frequency | Login ID    |
+| ----------------------- | ----------- | --------- | ---------------- | --------- |
+| **Port Moresby Approach** | **AYPYA** | **Jacksons Radar**	| **125.800** | **AYPY_APP**	| 
 
 ## Airspace
 The vertical limits of the Port Moresby TCU are `SFC` to `A150`.
@@ -21,12 +21,12 @@ Refer to the [PNG Local instructions](../) for more information about Class F op
 ### Enroute
 #### Departures
 
-Voiceless coordination is in place from AYPY TCU to AYPM for aircraft assigned the lower of `A150` or the `RFL` and tracking via a procedural SID terminus.
+Voiceless coordination is in place from AYPYA to AYPM for aircraft assigned the lower of `A150` or the `RFL` and tracking via a procedural SID terminus.
 
 Any aircraft not meeting the above requirements must be prior coordinated to AYPM.
 
 #### Arrivals
-Voiceless coordination is in place from AYPM to AYPY TCU given the arrival has been assigned the standard assignable level of `A140` and assigned a STAR.
+Voiceless coordination is in place from AYPM to AYPYA given the arrival has been assigned the standard assignable level of `A140` and assigned a STAR.
 
 All other aircraft must be prior coordinated.
 
@@ -39,7 +39,7 @@ All other aircraft must be prior coordinated.
 - Assigned a **Procedural** SID
 
 #### Overfliers
-AYPY TCU will heads-up coordinate arrivals/overfliers from AYPY Class C to AYPY ADC prior to **5 mins** from the boundary.
+AYPYA will heads-up coordinate arrivals/overfliers from AYPY Class C to AYPY ADC prior to **5 mins** from the boundary.
 VFR aircraft require a level readback.  
 
 ## Charts
