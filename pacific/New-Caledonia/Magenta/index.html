@@ -6815,7 +6815,7 @@
 <li>The Class D Airspace within the NWWM <abbr title="Control Zone">CTR</abbr> Part 2 (the inner boundary) from <code>SFC</code> to <code>A015</code>.</li>
 </ul>
 <figure>
-<p><a class="glightbox" href="../img/nwww_adc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="NWWM ADC Airspace" src="../img/nwww_adc.png" width="700" /></a>
+<p><a class="glightbox" href="../img/nwwm_adc.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="NWWM ADC Airspace" src="../img/nwwm_adc.png" width="700" /></a>
   </p>
 <figcaption>NWWM ADC Airspace</figcaption>
 </figure>
@@ -6838,7 +6838,7 @@
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
 <p><strong>FOABC:</strong> "Magenta Tower FOABC, Cessna 172, western general aviation parking, information A, request taxi <abbr title="Visual Flight Rules">VFR</abbr> to Île des Pins, via WA."<br />
-<strong><abbr title="Noumea FIR">NWWW</abbr> <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>:</strong> "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.
+<strong><abbr title="Noumea FIR">NWWW</abbr> <abbr title="Surface Movement Control (Ground Controller)">SMC</abbr>:</strong> "FOXYZ, Tontouta Ground, squawk 7001, expect to exit control zone via WA. Taxi holding point C, Runway 29. Report ready for departure.<br />
 <strong>FOXYZ:</strong> "Squawk 7001, expect WA exit. Taxi holding point C, Runway 29. FOXYZ"</p>
 </div>
 <h3 id="arrivals">Arrivals</h3>
@@ -6925,14 +6925,36 @@
 <h2 id="runway-modes">Runway Modes</h2>
 <h3 id="runway-selection">Runway Selection</h3>
 <p>The preferred runway mode is reciprocal runway operations on <strong>Runway 17/35</strong>.</p>
-<p>| Mode | Arrivals | Departures |
-| 1 - 17D35A | <strong>35</strong> | <strong>17</strong> |
-| 2 - 35AD | <strong>35</strong> | <strong>35</strong> |
-| 3 - 17AD | <strong>17</strong> | <strong>17</strong> |</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Arrivals</th>
+<th>Departures</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 - 17D35A</td>
+<td><strong>35</strong></td>
+<td><strong>17</strong></td>
+</tr>
+<tr>
+<td>2 - 35AD</td>
+<td><strong>35</strong></td>
+<td><strong>35</strong></td>
+</tr>
+<tr>
+<td>3 - 17AD</td>
+<td><strong>17</strong></td>
+<td><strong>17</strong></td>
+</tr>
+</tbody>
+</table>
 <p>If weather or traffic levels preclude reciprocal runway operations <strong>Runway 35</strong> shall be used for arrivals and departures, <strong>except</strong> when:</p>
 <ul>
-<li>Tailwind is greather than <strong>10 kts</strong>, or</li>
-<li>Tailwind is greather than <strong>5 kts</strong> and the runway is <strong>wet</strong>.</li>
+<li>Tailwind is greater than <strong>10 kts</strong>, or</li>
+<li>Tailwind is greater than <strong>5 kts</strong> and the runway is <strong>wet</strong>.</li>
 </ul>
 <p>In those situations, <strong>Runway 17</strong> shall be used for arrivals and departures.</p>
 <h3 id="circuit-direction">Circuit Direction</h3>
@@ -6957,7 +6979,7 @@
 <h2 id="sid-selection"><abbr title="Standard Instrument Departure">SID</abbr> Selection</h2>
 <p>Aircraft planned via <strong>MR <abbr title="Non-Directional Beacon">NDB</abbr></strong>, <strong><abbr title="Initial Point">IP</abbr> <abbr title="Non-Directional Beacon">NDB</abbr></strong>, or <strong>LTO <abbr title="VHF Omni-directional Range">VOR</abbr></strong> shall be assigned the <strong>Procedural <abbr title="Standard Instrument Departure">SID</abbr></strong> that terminates at the appropriate waypoint. Unless the pilot indicates they are unable to accept a Procedural <abbr title="Standard Instrument Departure">SID</abbr>, aircraft <strong>not</strong> planned via any of these waypoints will:</p>
 <ul>
-<li>When <strong>Runway 17</strong> is in use, be assigned either the <strong>SEP 1A</strong> or <strong>MG 1</strong>, or</li>
+<li>When <strong>Runway 17</strong> is in use, be assigned either the <strong>SEP</strong> or <strong>MG</strong> SIDs, or</li>
 <li>When Runway <strong>Runway 35</strong> is in use, receive amended routing via the most appropriate <abbr title="Standard Instrument Departure">SID</abbr> terminus.</li>
 </ul>
 <h3 id="ades-nwww"><abbr title="Destination Aerodrome">ADES</abbr> <abbr title="Noumea FIR">NWWW</abbr></h3>
@@ -6966,7 +6988,7 @@
 <p>All <abbr title="Instrument Flight Rules">IFR</abbr> aircraft that cannot accept a Procedural <abbr title="Standard Instrument Departure">SID</abbr> shall be assigned an <strong><a href="../#omnidirectional-departures">omnidirectional departure</a></strong>. Aircraft will follow the published omnidirectional procedure before following the tracking instructions given in their airwards clearance.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>:</strong> "VHABC, Magenta Tower, Cleared to Lord Howe Island via flight planned route, omnidirectional departure runway 35 then direct POXAK, inital climb 5000 feet, squawk 1234.</p>
+<p><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>:</strong> "VHABC, Magenta Tower, Cleared to YLHI via LTO, flight planned route. Omnidirectional departure runway 35 then direct POXAK, inital climb 5000 feet, squawk 1234.</p>
 </div>
 <h3 id="visual-departure">Visual Departure</h3>
 <p><abbr title="Instrument Flight Rules">IFR</abbr> aircraft can also be assigned a visual departure, when:</p>
@@ -7008,8 +7030,8 @@
 <p><abbr title="Visual Flight Rules">VFR</abbr> aircraft require a level readback.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
-<p><span class="coldline"><strong><abbr title="Tontouta Approach">NWWWA</abbr></strong> -&gt; <strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "Via the LU1N Arrival, TPC220 for the <abbr title="Visual Manoeuvre with Prescribed Track">VPT</abbr>”<br />
-<span class="coldline"><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong><abbr title="Tontouta Approach">NWWWA</abbr></strong></span>: "TPC220, <abbr title="Visual Manoeuvre with Prescribed Track">VPT</abbr>"  </p>
+<p><span class="hotline"><strong><abbr title="Tontouta Approach">NWWWA</abbr></strong> -&gt; <strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "Via the LU1N Arrival, TPC220 for the <abbr title="Visual Manoeuvre with Prescribed Track">VPT</abbr>”<br />
+<span class="hotline"><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong><abbr title="Tontouta Approach">NWWWA</abbr></strong></span>: "TPC220, <abbr title="Visual Manoeuvre with Prescribed Track">VPT</abbr>"  </p>
 </div>
 <h3 id="nwwm-adc">NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></h3>
 <p>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> Class D Airspace adjoins the <abbr title="Noumea FIR">NWWW</abbr> <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> Class D Airspace. Both <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> positions are jointly responsible for separation with traffic in the adjacent <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr> airspace.</p>
@@ -7026,7 +7048,7 @@
 <span class="hotline"><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong><abbr title="Noumea FIR">NWWW</abbr> <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "FOABC, <code>A010</code>"  </p>
 </div>
 <h4 id="boundary">Boundary</h4>
-<p>Aircraft operating within <strong>1.5nm</strong> of the boundary between the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>'s must be <strong>[boundary coordinated](../../../controller-skills/coordination/#boundary</strong>.</p>
+<p>Aircraft operating within <strong>1.5nm</strong> of the boundary between the <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr>'s must be <a href="../../../controller-skills/coordination/#boundary**">boundary coordinated</a>.</p>
 <div class="admonition phraseology">
 <p class="admonition-title">Phraseology</p>
 <p><span class="hotline"><strong>NWWM <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong> -&gt; <strong><abbr title="Noumea FIR">NWWW</abbr> <abbr title="Aerodrome Control (Tower Controller)">ADC</abbr></strong></span>: "For Ident, east of TINDU, TPC307"<br />
@@ -7057,7 +7079,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 14, 2025 22:54:35">May 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 20, 2025 01:24:13">May 20, 2025</span>
   </span>
 
     
