@@ -25,19 +25,19 @@ The vertical limits of the CS TCU are `SFC` to `F180`. **CS ADC** is responsible
 ### Airspace Division
 The divisions of the airspace between **CS1** and **CS2** change based on the runway mode. In either case, CS2 is responsible for the Class G airspace within the Cairns TMA.
 
-#### Runway 15
-<figure markdown>
-![15 TCU Structure](img/cs15annotated.png){ width="700" }
-  <figcaption>15 TCU Structure</figcaption>
-</figure>
+=== "Runway 15"
+	<figure markdown>
+	![15 TCU Structure](img/cs15annotated.png){ width="700" }
+	  <figcaption>15 TCU Structure</figcaption>
+	</figure>
 
-#### Runway 33
-<figure markdown>
-![33 TCU Structure](img/cs33annotated.png){ width="700" }
-  <figcaption>33 TCU Structure</figcaption>
-</figure>
+=== "Runway 33"
+	<figure markdown>
+	![33 TCU Structure](img/cs33annotated.png){ width="700" }
+	  <figcaption>33 TCU Structure</figcaption>
+	</figure>
 
-## Departure Procedures
+## Departure and Arrival Procedures
 ### IFR Departures
 IFR aircraft shall be processed via one of the following SIDs:
 
@@ -48,7 +48,7 @@ c) All others: CS (RADAR) SID
 !!! Note
     Non-jet aircraft may be issued a Visual Departure.
 
-### Standard Assignable Headings
+#### Standard Assignable Headings
 Any aircraft departing via the **radar SID** shall be issued an assigned heading from the table below.
 
 | Runway | VMC below A030 | Otherwise |
@@ -69,8 +69,8 @@ The lowest assignable levels in IMC for the following assigned headings are:
   <figcaption>Minimum IMC Levels</figcaption>
 </figure>
 
-## Arrival Procedures
-### Visual Approaches
+### Arrival Procedures
+#### Visual Approaches
 When VMC exists below `A030`, aircraft of light & medium weight categories (B737/A320 and below) may be processed via a visual approach to either runway 15 or 33. 
 
 #### Creek Corridor

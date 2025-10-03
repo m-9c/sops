@@ -19,8 +19,6 @@
 WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
 When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
-=======
-By default, WLM TCU owns the airspace from `SFC` to `F125`. In exceptional circumstances, such as specific military exercises or events, an additional TCU controller may log on, splitting the TCU vertically. In these situations, the controller should negotiate an upper limit with ARL(All) which works for both parties.
 
 When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
 
@@ -41,7 +39,8 @@ When WLM ADC is online, they own the airspace within the WLM MIL CTR A (`SFC`-`A
   <figcaption>WLM ADC Airspace</figcaption>
 </figure>
 
-## Stereo Approaches (Fast Jet Aircraft)
+## Local Procedures
+### Stereo Approaches (Fast Jet Aircraft)
 Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When requested, or advised via ATIS, the stereo approach may be utilised to facilitate aircraft recovery.
 
 !!! tip
@@ -54,10 +53,6 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
-
-## Charts
-!!! abstract "Reference"
-    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}
 
 ## Flow
 ### Local Knowledge
@@ -167,3 +162,7 @@ Voiceless coordination is in place from WLM TCU to WLM ADC for arrivals cleared 
 !!! phraseology
     <span class="hotline">**WLM TCU** -> **WLM ADC**</span>: "via WLM, ZULU, Close formation of 5, do you have any restrictions or requirements?"  
     <span class="hotline">**WLM ADC** -> **WLM TCU**</span>: "ZULU, no restrictions or requirements, A040"  
+
+## Charts
+!!! abstract "Reference"
+    Additional charts to the AIP may be found in the RAAF TERMA document, available towards the bottom of [RAAF AIP page](https://ais-af.airforce.gov.au/australian-aip){target=new}

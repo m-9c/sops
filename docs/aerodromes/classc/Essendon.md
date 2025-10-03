@@ -5,11 +5,11 @@
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Name               | Callsign       | Frequency        | Login ID                         |
-| ------------------ | -------------- | ---------------- | ---------------------------------------- |
-| **Essendon ADC**      | **Essendon Tower**   | **125.100**         | **EN_TWR**                                   |
-| **Essendon SMC**      | **Essendon Ground**  | **121.900**         | **EN_GND**                                   |
-| **Essendon ATIS**     |                  | **119.800**         | **YMEN_ATIS**                                |
+| Name              | Callsign              | Frequency   | Login ID      |
+| ----------------- | --------------------- | ----------- | ------------- |
+| **Essendon ADC**  | **Essendon Tower**    | **125.100** | **EN_TWR**    |
+| **Essendon SMC**  | **Essendon Ground**   | **121.900** | **EN_GND**    |
+| **Essendon ATIS** |                       | **119.800** | **YMEN_ATIS** |
 
 ## Airspace
 EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
@@ -18,12 +18,37 @@ EN ADC is responsible for the Class C airspace shown below, `SFC` to `A020`.
 ![EN ADC Airspace](img/enadc.png){ width="700" }
 </figure>
 
-## Runway Selection
-Consideration of the Melbourne duty runway(s) should be made when nominating runways. The effect of Melbourne traffic on a runway selection takes priority over compliance with DAP Noise Abatement Procedures.
+## Separation
+EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MOSVO-SHEED track, and all potential arrivals, departures, and missed approach paths.  
+Some important points to note are that:  
+- Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
+- Aircraft operating on or east of the 17/35 Centreline are **only** visually separated with YMML 16/34 Traffic in **Day VMC**  
+- Aircraft conducting the ILS 26 Published Missed Approach are **only** visually separated with YMML 16/34 Traffic in **Day VMC**
 
-The 26A17D runway mode is most optimal for facilitating separation with YMML traffic.
+EN ADC must assume that **any runway** at YMML may be used for arrival, departure, or a missed approach, **at any time**.  
+When the cloud base is below **A020**, or the Visibility is below **5000m**, all aircraft operating within **3nm** of the 09/27 or 16/34 extended centreline must be [boundary coordinated](../../../controller-skills/coordination/#boundary) to ML ADC, as prescribed in [Coordination](#ml-adc)
 
-## Departures
+If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
+
+## Local Procedures
+### SSR Assignment
+Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
+
+### Melbourne City Orbits
+EN ADC is responsible for facilitating aircraft requesting city orbits. They shall be conducted at an altitude of:  
+
+- `A015` by day  
+- `A022` by night
+
+!!! phraseology
+    **EOG**: "Essendon Tower, EOG, approaching WMS, A015, Requesting 1 left-hand city orbit, in receipt of L"  
+    **EN ADC**: "EOG, Essendon Tower, cleared 1 left-hand city orbit A015"  
+    **EOG**: "Cleared 1 left-hand city orbit A015, EOG"  
+    *When orbit is complete and aircraft is leaving CTA laterally:*  
+    **EN ADC**: "EOG, control services terminated, frequency change approved"  
+    **EOG**: "EOG"
+
+### IFR Departures
 IFR flights shall be cleared via:  
     a) When cloud base and visibility exceeds `A020` and 5 KM, visual departure;  
     b) otherwise; EN (RADAR) SID.  
@@ -32,10 +57,8 @@ Start clearance is required for:
     a) Flights to ML;  
     b) Flights to MB and AV planned above `A020` (i.e. via ML TCU Class C).  
 
-## Arrivals
-
-### IFR
-ML TCU shall clear aircraft for approach via the appropriate arrival gate: 
+### IFR Arrivals 
+ML TCU shall clear aircraft for approach via the appropriate arrival gate:.
 
 | Runway | Arrival Gate |
 | ------ | ----------|
@@ -47,7 +70,8 @@ ML TCU shall clear aircraft for approach via the appropriate arrival gate:
 !!! Note
     EN ADC must not permit aircraft to depart from the RWY 26 extended centreline until passed LUY and within the vertical limits of EN airspace.
 
-### VFR
+## VFR Operations 
+### Departures
 VFR departures to Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Outbound Point |
@@ -63,6 +87,7 @@ VFR departures to Class G shall be cleared (at not above `A015`) via:
 !!! Note
     ^ Departures to the north and west are generally not available due to YMML traffic. Where YMML taffic permits, departures to these direction may be available [pending coordination](#smc-to-ml-tcu) with ML TCU.
 
+### Arrivals
 VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 
 | Direction | VFR Approach Point | RWY 17, 26 | RWY 35 |
@@ -75,6 +100,19 @@ VFR arrivals from Class G shall be cleared (at not above `A015`) via:
 | South West | WES   | MVC | DCT |
 | North West | [Sunbury Corridor](#sunbury-corridor) | DCT | DCT |
 
+## Helicopter Operations
+There are multiple helipads at YMEN:
+
+- The **Emergency Apron** adjacent taxiway **T**
+- The **Tower Pad** at taxiway **J**
+- The **INT PAD** just north of taxiway **B**
+- The **H81** pad on the Southern Apron
+
+ADC shall inform SMC of any inbound helicopters so that they may prevent other aircraft from taxiing on the HLS.
+
+### Departures
+VFR helicopters are generally processed via one of Essendon's VFR [Departure Gates](#departures). IFR helicopters should conform to fixed wing ops and be processed via the **EN (RADAR) SID** from an appropriate runway, unless a visual departure is acceptable.
+
 #### Sunbury Corridor
 Day VFR Helicopters may request clearance via the Sunbury Corridor. It is defined as the corridor 1nm either side of a track from SWT - PWLC - 16/27 Intersection at YMML.
 
@@ -84,7 +122,42 @@ Boundary Coordination must be completed to ML TCU for clearances in this airspac
     <span class="hotline">**EN ADC** -> **ML TCU**</span>: "HM3 requests clearance via Sunbury Corridor, not above `A020`."   
     <span class="hotline">**ML TCU** -> **EN ADC**</span>: "HM3, clearance approved"  
 
-### Circuit Direction
+### Arrivals 
+VFR helicopters are generally processed via by one of Essendon's VFR [Arrival Gates](#arrivals). IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+
+### Eastern Grass
+Helicopters may perform airwork below 100FT AGL within the '**Eastern Grass**', defined as an area between the glide path antenna, the BoM anemometer, Taxiway N, and Runway 08/26.
+
+<figure markdown>
+![Eastern Grass](img/en_eastern_grass.png){ width="700" }
+<figcaption>Eastern Grass</figcaption>
+</figure>
+
+Helicopters requesting clearance to operate in the Eastern Grass shall be cleared to air transit to, and then operate within, the area by ADC.
+
+!!! phraseology
+    **ZXY**: "Essendon Tower, helicopter ZXY, Southern Apron, for the Eastern Grass."   
+    **EN ADC**: "ZXY, Essendon Tower, air transit Eastern Grass, cross runway 17. Report established."
+	**ZXY**: "Air transit Eastern Grass, cross runway 17, ZXY" 
+	
+	**ZXY**: "Essendon Tower, ZXY, established Eastern Grass."   
+    **EN ADC**: "ZXY, cleared to operate Eastern Grass, not above 100ft."
+	
+## Runway Modes
+### Preferred Runway Modes
+Runway selection at Essendon requires consideration of winds, the runway mode in use at YMML, and local noise abatement procedures. 
+
+Melbourne has priority when determining duty runways, and Essendon runways are selected, pending wind limitations (Crosswind <20kts, Tailwind <5kts), to minimise potential conflicts.
+
+!!! tip 
+    For example, when Runway 34 is in use for arrivals at Melbourne, aircraft departing Runway 26 at Essendon would almost immediately cause a breakdown in separation. 
+
+This often results in Essendon using runways with large crosswind components, as the more favourable headwind direction is "reserved" for Melbourne traffic. The 26A17D runway mode, which concentrates traffic on the side of Essendon *away* from Melbourne, is generally the best configuration for avoiding conflicts with Melbourne traffic.
+
+### Circuits
+Circuits are to be flown at `A015`.
+
+#### Circuit Direction
 | Runway | Direction |
 | ------ | ----------|
 | 35     | Right  |
@@ -92,38 +165,8 @@ Boundary Coordination must be completed to ML TCU for clearances in this airspac
 | 17     | Left |
 | 08     | Right |
 
-### Circuit Altitude
-Circuits are to be flown at `A015`
-
-## Separation
-EN ADC is responsible for **all separation** with YMML Traffic, including arrivals to RWY34 via the MOSVO-SHEED track, and all potential arrivals, departures, and missed approach paths.  
-Some important points to note are that:  
-- Aircraft operating on or south of the 08/26 Centreline are separated with YMML 09/27 Traffic at all times  
-- Aircraft operating on or east of the 17/35 Centreline are **only** visually separated with YMML 16/34 Traffic in **Day VMC**  
-- Aircraft conducting the ILS 26 Published Missed Approach are **only** visually separated with YMML 16/34 Traffic in **Day VMC**
-
-EN ADC must assume that **any runway** at YMML may be used for arrival, departure, or a missed approach, **at any time**.  
-When the cloud base is below **A020**, or the Visibility is below **5000m**, all aircraft operating within **3nm** of the 09/27 or 16/34 extended centreline must be [boundary coordinated](../../../controller-skills/coordination/#boundary) to ML ADC, as prescribed in [Coordination](#ml-adc)
-
-If ML ADC nominates a restriction, and EN ADC determines they **cannot** maintain visual or lateral separation with the YMML traffic, EN ADC must delay the aircraft in their airspace until the separation can be assured. 
-
-## Miscellaneous
-Traffic in EN ADC airspace shall squawk 0100 unless a discrete code is required.
-
-### Melbourne City Orbits
-EN ADC is responsible for facilitating aircraft requesting city orbits. They shall be conducted at an altitude of:  
-`A015` by day  
-`A022` by night
-
-!!! phraseology
-    **EOG**: "Essendon Tower, EOG, approaching WMS, A015, Requesting 1 left-hand city orbit, in receipt of L"  
-    **EN ADC**: "EOG, Essendon Tower, cleared 1 left-hand city orbit A015"  
-    **EOG**: "Cleared 1 left-hand city orbit A015, EOG"  
-    *When orbit is complete and aircraft is leaving CTA laterally:*  
-    **EN ADC**: "EOG, control services terminated, frequency change approved"  
-    **EOG**: "EOG"
-
 ## ATIS
+### ATIS Identifier
 YMEN ATIS identifiers only uses letters `A` through to `M`, due to nearby YMML using letters `N` through `Y` 
 
 ## Coordination

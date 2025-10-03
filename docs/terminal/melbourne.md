@@ -39,7 +39,7 @@ See also: [AV ADC Offline](#av-adc-offline).
 MAV is responsible for the Class D and E airspace in the AV CTR, `SFC`-`A045`.  
 They are responsible for the same portion of airspace when it is [reclassified](#av-ctr) due to AV ADC being offline.
 
-MAV extends south outside of **30nm ML**, in to YWE(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and YWE(WON) is responsible for the airspace **above and below** it.
+MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern portion of this extension (shown below) is Class E `A015`-`A045`, and HUO(WON) is responsible for the airspace **above and below** it.
 
 <figure markdown>
 ![MAV Airspace Side Profile](img/mavairspace1.png){ width="700" }
@@ -52,42 +52,43 @@ The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** cha
 !!! note
     The following diagrams do not include non ML TCU areas of responsibility such as MB ADC or EN ADC
 
-#### 09
-<figure markdown>
-![09 TCU Structure](img/ml09.png){ width="700" }
-  <figcaption>09 TCU Structure</figcaption>
-</figure>
+=== "09AD"
+	<figure markdown>
+	![09 TCU Structure](img/ml09.png){ width="700" }
+	  <figcaption>09 TCU Structure</figcaption>
+	</figure>
 
-#### 09A16D
-<figure markdown>
-![09A16D TCU Structure](img/ml09a16d.png){ width="700" }
-  <figcaption>09A16D TCU Structure</figcaption>
-</figure>
+=== "09A16D"
+	<figure markdown>
+	![09A16D TCU Structure](img/ml09a16d.png){ width="700" }
+	  <figcaption>09A16D TCU Structure</figcaption>
+	</figure>
 
-#### 16 / 16A27D
-<figure markdown>
-![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
-  <figcaption>16 / 16A27D TCU Structure</figcaption>
-</figure>
+=== "16AD & 16A27D"
+	<figure markdown>
+	![16 / 16A27D TCU Structure](img/ml16.png){ width="700" }
+	  <figcaption>16 / 16A27D TCU Structure</figcaption>
+	</figure>
 
-#### 27 / 27AD34D
-<figure markdown>
-![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
-  <figcaption>27 / 27AD34D TCU Structure</figcaption>
-</figure>
+=== "27AD & 27AD34D"
+	<figure markdown>
+	![27 / 27AD34D TCU Structure](img/ml27.png){ width="700" }
+	  <figcaption>27 / 27AD34D TCU Structure</figcaption>
+	</figure>
 
-#### 34
-<figure markdown>
-![34 TCU Structure](img/ml34.png){ width="700" }
-  <figcaption>34 TCU Structure</figcaption>
-</figure>
+=== "34AD"
+	<figure markdown>
+	![34 TCU Structure](img/ml34.png){ width="700" }
+	  <figcaption>34 TCU Structure</figcaption>
+	</figure>
 
-## Departure Procedures
-### ML (RADAR) SID
+## Departure and Arrival Procedures
+### Departure Procedures
+#### ML (RADAR) SID
 The **ML (RADAR) SID** is used for all non-jet IFR departures (and certain jet aircraft) from YMML. Unlike at other aerodromes, **ML ADC** does *not* need to coordinate these departures with a 'Next' call, provided they are assigned the standard assignable level and a [Standard Assignable Heading](#standard-assignable-departure-headings).
 
-## Arrival Procedures
-### Level Assignment
+### Arrival Procedures
+#### Level Assignment
 When assigning levels on descent to aircraft, remember that you will not receive "Next" Coordination on aircraft assigned Standard Assignable Levels (`A050` for most aircraft), meaning an aircraft could depart at any time without prior warning and climb to `A050`. To maintain separation assurance between arrivals and departures, do not assign below `A060` to arriving aircraft until they are clear of the active runway's departure path.
 
 !!! example
@@ -110,12 +111,6 @@ VFR YMEN Arrivals from ML TCU shall be cleared via any of the following arrival 
 - APL 
 - SNP
 - WES
-
-### LAHSO
-!!! warning "Important"
-    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
-
-Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## Offline Towers
 ### EN ADC Offline
@@ -204,6 +199,13 @@ Due to the low level of CTA surrounding YMMB, it is best practice to give airway
     **AAC:** "AAC, ready runway 35L"  
     **ML TCU:** "AAC, cleared to YBLT via SAMIG, flight planned route, climb to A040"  
     **AAC:** "Cleared to YBLT via SAMIG, flight planned route, climb to A040, AAC"
+
+## Runway Modes
+### LAHSO
+!!! warning "Important"
+    Due to its operational complexity, LAHSO **must be authorised by a senior VATPAC staff member or a nominated event coordinator**.
+
+Detailed procedures exist to ensure that controllers are aware of their responsibilities when performing LAHSO. See [Controller Skills](../controller-skills/runwaymanagement.md#lahso) for more information.
 
 ## Flow
 ### Local Knowledge
