@@ -68,7 +68,7 @@ Aircraft wishing to conduct a scenic flight over the Perth CBD should be cleared
     **PHA:** "CYF, cleared Victor 65, maintain A015, QNH 1012"  
     **VH-CYF:** "Cleared Victor 65, maintain A015, QNH 1012, CYF"
 
-Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#airways-clearances).
+Aircraft departing YPPH and intending to conduct the Victor 65 route will be coordinated by **PH ACD**. See [Airways Clearances](#acd-to-tcu).
 
 ## Offline Towers
 ### JT/PEA ADC Offline
@@ -233,7 +233,7 @@ The Standard Assignable level from PH ADC to PH TCU is:
 | -------- | ----- |
 | All | The lower of `A050` and `RFL` |
 
-#### Airways Clearances
+#### ACD to TCU
 The controller assuming responsibility of ACD shall give [heads-up](../controller-skills/coordination.md#airways-clearance) coordination to the relevant PH TCU controller prior to the issue of the following clearances:  
 
 - VFR departures into PH TCU CTA

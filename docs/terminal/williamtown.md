@@ -24,7 +24,7 @@ When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the ai
 
 
 <figure markdown>
-![WLM TCU Airspace](img/wlmtcu.png){ width="700" }
+![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
   <figcaption>WLM TCU Airspace</figcaption>
 </figure>
 
