@@ -8,7 +8,7 @@
 *[DGA]: DME or GNSS Arrival
 *[ANR]: Air Navigation Register   
 *[ATS]: Air Traffic Services
-*[TMA]: Terminal Maneuvering Area
+*[TMA]: Terminal Manoeuvring Area
 *[FIR]: Flight Information Region
 *[SSR]: Secondary Surveillance Radar
 *[LL]: Lower Level
@@ -63,19 +63,24 @@
 *[SDC]: Standard Departure Clearance
 *[AAW]: Adelaide Approach West
 *[AAE]: Adelaide Approach East
+*[AMA]: Amberley Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
 *[BDN]: Brisbane Departures North
 *[BDS]: Brisbane Departures South
+*[CS1]: Cairns Approach 1
+*[CS2]: Cairns Approach 2
 *[CSA]: Cairns Approach
 *[CSD]: Cairns Departures
 *[CBW]: Canberra Approach West
 *[CBE]: Canberra Approach East
+*[CIA]: Curtin Approach
 *[DAW]: Darwin Approach West
 *[DAE]: Darwin Approach East
 *[ESA]: Sale Approach
 *[HBA]: Hobart Approach
+*[LMA]: Learmonth Approach
 *[LTA]: Launceston Approach
 *[MKA]: Mackay Approach
 *[RKA]: Rockhampton Approach
@@ -83,6 +88,7 @@
 *[MDN]: Melbourne Departures North
 *[MDS]: Melbourne Departures South
 *[MAV]: Melbourne (Avalon) Approach
+*[OKA]: Oakey Approach
 *[PHA]: Perth Approach
 *[PHD]: Perth Departures
 *[SAN]: Sydney Approach North
@@ -92,6 +98,10 @@
 *[SFW]: Sydney Director West
 *[SFE]: Sydney Director East
 *[SRI]: Sydney Radar
+*[SGA]: Scherger Approach
+*[TNA]: Tindal Approach
+*[WAH]: Williamtown Approach (High)
+*[WAL]: Williamtown Approach (Low)
 *[ARL]: Brisbane (Armidale) Centre
 *[INL]: Brisbane (Inverell) Centre
 *[ISA]: Brisbane (Mt Isa) Centre
@@ -357,4 +367,10 @@
 *[EPPG]: Epping
 *[ROK]: Rockbank
 *[FWO]: Freeway Overpass
-
+*[A-CDM]: Airport Collaborative Decision Making
+*[EOBT]: Estimated Off Blocks Time
+*[TOBT]: Tactical Off Blocks Time
+*[TSAT]: Tactical Start Approved Time
+*[AOBT]: Actual Off Blocks Time
+*[CTOT]: Calculated Take Off TIme
+*[ATOT]: Actual Off Blocks Time

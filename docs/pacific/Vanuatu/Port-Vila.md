@@ -27,7 +27,7 @@ Refer to [Class D Tower Separation Standards](../../../separation-standards/clas
 !!! warning "Important"
     NVVV ADC's airspace exceeds the default visibilty range for the TWR position in VatSys. When logging on to this position, ensure your visibility range is set to **50nm**.
 
-<!---## Maneuvering Area Responsibility
+<!---## Manoeuvring Area Responsibility
 ## Standard Taxi Routes
 ## Taxiway Restrictions
 #--->
@@ -91,7 +91,7 @@ In all other situations:
 ### Departures
 [Next](../../controller-skills/coordination.md#next) coordination is required from NVVV ADC to NVVVA for all aircraft **entering NVVV CTA**.
 
-The Standard Assignable level from **NVVV ADC** to **NVVV_CTR** is:
+The Standard Assignable level from **NVVV ADC** to **NVVVA** is:
 
 | Aircraft | Level |
 | -------- | ----- |
