@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | ---- | ------ | --------- | -------- |
-| **Nadi Oceanic Control** | **NFFF** | **Nadi Radio** | **8.846 (123.600)** | **NFFF_FSS**  |
+| Name                     | ID       | Callsign             | Frequency           | Login ID       |
+| ------------------------ | -------- | -------------------- | ------------------- | -------------- |
+| **Nadi Oceanic Control** | **NFFF** | **Nadi Radio**       | **123.600 (8.846)** | **NFFF_FSS**   |
 
 ## Airspace
 <figure markdown>
@@ -102,7 +102,7 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 ### Pacific Oceanic (TSN/NZZO/KZAK)
-As per [Standard coordination procedures](../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
+As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.
 
 
 <!---## Charts--->

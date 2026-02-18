@@ -82,7 +82,7 @@ VFR aircraft often transit the CG CTR via the coast. This conflicts with arrival
 
 ### Arrivals
 #### From the North
-Aircraft approaching from the north will generally contact ADC at Q1 or ROT for clearance. They should be instructed to track coastal southbound, then join final runway 14 or downwind runway 32.
+Aircraft approaching from the north will generally contact ADC at Q1 or ROTC for clearance. They should be instructed to track coastal southbound, then join final runway 14 or downwind runway 32.
 
 !!! phraseology
     **OMU:** "Gold Coast Tower, Cessna 172 OMU, abeam Q1, recieved F, inbound, request clearance"  
@@ -142,7 +142,7 @@ Where insufficient spacing exists with IFR aircraft, instruct VFR aircraft to re
     **CG ADC:** "LKU, follow the 737, maintain own separation, join final runway 32, cleared visual approach"  
     **LKU:** "Follow the 737, maintain own separation, join final runway 32, cleared visual approach, LKU"
 
-### Helicopter Operations
+## Helicopter Operations
 The HLS (Helipad) is located between the GA Apron and Taxiway Golf. The Helipad is part of the manoeuvring area and is controlled by CG ADC. Any helicopter taking off or landing on the helipad requires a specific takeoff or landing clearance from ADC.
 
 !!! phraseology 

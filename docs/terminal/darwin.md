@@ -16,7 +16,7 @@
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
 ## Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`FL180`.
+DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`-`F180`.
 
 ### Airspace Division
 When both DN TCU positions are opened, DN TCU is split east and west along the runway 18/36 extended centreline. DAW owns the airspace to the west of the line and DAE owns the airspace to the east of the line  
@@ -51,10 +51,23 @@ Other than in an emergency, the designated fuel jettison area is:
 - `A060` or above  
 
 ### Robertson Barracks
-Darwin TCU is not responsible for traffic or separation services within the A005 step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks (YRBK) without the need for communication with Darwin TCU.
+Darwin TCU is not responsible for traffic or separation services within the `A005` step to the east of Darwin. This step is designed for low-level VFR MIL helos to transit in/out of Robertson Barracks (YRBK) without the need for communication with Darwin TCU.
 
-### YPDN VFR Departures
-VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC.
+### VFR Arrivals/Departures
+VFR aircraft generally track via designated VFR routes, as shown on the Darwin VTC. Inbound aircraft tracking via the DN CTA shall be cleared for a VFR route based on their inbound direction.
+
+| Inbound Radial | Route | Waypoints | 
+| --------------- | ----- | ------------ |
+| 270-044 | VFR Route 1 | `CGR JAC LPT`  |
+| 045-104 | VFR Route 2 | `ADRM JAC LPT` |
+| 105-133 | VFR Route 3 | `ADB LAD CHI`  |
+| 134-179 | VFR Route 4 | `MTD LAD CHI`  |
+| 180-269 | VFR Route 5 | `BYNO CHI`     |
+
+!!! phraseology
+    **DN TCU**: "LKU, cleared to YPDN via VFR Route 3, maintain `A035`"
+
+VFR fixed wing aircraft entering the CTR directly from Class G and helicopters tracking via the Talc Head coded clearance shall contact **DN ADC** for clearance.
 
 ## Runway Modes
 ### LAHSO

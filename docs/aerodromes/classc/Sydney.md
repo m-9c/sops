@@ -182,7 +182,8 @@ Refer to [Parallel Runway Separation Standards](../../../separation-standards/pa
 
 #### Go-arounds / Missed Approaches
 When operating under PROPS, go around headings shall diverge from the extended centreline of the parallel runway by at least 30°. Aircraft cleared the ILS or IVA may follow the published missed approach in order to meet this requirement.  
-Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure.
+
+Go arounds / missed approaches shall be coordinated with the SY TCU as per the standard procedure. Following a go around, [coordination](#auto-release) is required prior to the next departure from that runway.
 
 ## Workload Management
 ### Sydney Coordinator
@@ -545,7 +546,7 @@ Aircraft that have been cleared the **SY (RADAR) SID** must receive an assigned 
 | Runway     | Jet         | Non-Jet                                        |
 | ---------- | :---------: | :--------------------------------------------: |
 | RWY 07     | H070        | H020, H110                                     |
-| RWY 16L    | H125        | H125 (RWY 25 in use), H090 (RWY 25 not in use) |
+| RWY 16L    | H125        | H090 *(RWY 25 not in use)*<br>H125 *(RWY 25 in use)* |
 | RWY 16R    | H170        | H210                                           |
 | RWY 25     | H300, H240  | H020, H210, H240                               |
 | RWY 34L    | H290        | H230                                           |

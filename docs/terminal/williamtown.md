@@ -8,8 +8,8 @@
 
 | Name                          | ID      | Callsign                | Frequency   | Login ID      |
 | ----------------------------- | ------- | ----------------------- | ----------- | ------------- |
-| **Williamtown Approach (High)**| **WAH** |**Willy Approach**      | **133.300** | **WLM_APP**   |
-| <span class="indented">Williamtown Approach (Low) :material-information-outline:{ title="Non-standard position"} | WAL | Willy Approach | 135.700 | WLM-L_APP |
+| **Williamtown Approach**      | **WAL** | **Willy Approach**      | **135.700** | **WLM_APP**   |
+| <span class="indented">Williamtown Approach (High) :material-information-outline:{ title="Non-standard position"} | WAH | Willy Approach | 133.300 | WLM-H_APP |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -25,14 +25,9 @@ WLM TCU owns the airspace within the WLM MIL CTR `SFC` to `F125`.
 
 ## Airspace Division
 ### Williamtown High and Low
-When WLM TCU is active above `F125` by ad-hoc release or NOTAM, **WLM-L_APP** owns the airspace `SFC` to `F125`, while **WLM APP** owns the rest of WLM TCU airspace above `F125`. This may be adjusted as required with coordination.
+**WLM APP** owns the WLM TCU airspace `SFC` to `F125`.
 
-When WLM TCU is active above `F125` by ad-hoc release, **WLM-L_APP** owns the airspace from `SFC` to `F125`, while **WLM_APP** owns the rest of WLM TMA above `F125`.
-
-<figure markdown>
-![WLM TCU Airspace](img/wlm_tcu.png){ width="700" }
-  <figcaption>WLM TCU Airspace</figcaption>
-</figure>
+**WLM-H_APP** owns the airspace above  `F125` when activated by ad-hoc release or NOTAM.
 
 !!! note
     It is the responsibility of the WLM TCU controller(s) to negotiate any airspace releases with ARL.
@@ -52,10 +47,10 @@ Fast jet aircraft typically transit from M550 to YWLM via Gate 6 at `F125`. When
 !!! tip
     See [Controller Skills](../controller-skills/military.md#stereo-approaches) for more details about stereo approaches.
 
-!!! Example
-**MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12" 
-**WAL**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
-**MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
+!!! phraseology
+    **MAPL45**: "Willy Approach, MAPL45, RTBing via G6, runway 12"  
+    **WAL**: "MAPL45, Willy Approach, cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`"  
+    **MAPL45**: "Cleared stereo approach runway 12, via G6, once 9DME north of the TACAN, descend not below `A050`, MAPL45"
 
 !!! note
     Stereo approach charts are available in the [RAAF TERMA](https://ais-af.airforce.gov.au/australian-aip){target=new}.
