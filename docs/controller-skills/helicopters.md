@@ -50,7 +50,7 @@ Helicopters operating IFR should be processed just as a fixed-wing aircraft. The
     **RDBK5:** "Cleared to YSHW via LIMLO flight planned route, runway 12, WLM4 departure, climb via SID to `A030`, squawk 2070, departures 135.7, RDBK5"
 
 #### Coded Clearances
-Aerodromes that see significant helicopter traffic, such as [Sydney](../../aerodromes/classc/Sydney#helicopter-operations) may implement local procedures that specify coded clearances that can be issued to helicopters.
+Aerodromes that see significant helicopter traffic, such as [Sydney](../../aerodromes/classc/sydney#helicopter-operations) may implement local procedures that specify coded clearances that can be issued to helicopters.
 
 !!! phraseology
     **YOE:** "Sydney Delivery, helicopter YOE, for the Harbour Bridge 5 outbound, request clearance"  
@@ -91,7 +91,7 @@ Air transit allows helicopters to proceed directly between two points on the aer
 	
 	**AS ADC**: "SVY801, air transit to the southern airpark, cross runway 12."
 	
-Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination#air-transit).
+Before an SMC gives an air transit instruction to a helicopter, they must [coordinate with ADC](../coordination/#helicopter-air-transit).
 
 !!! tip 
     Where air transit will be prolonged or conflicts with other traffic are likely, consider issuing a takeoff/landing clearance instead.
@@ -112,9 +112,9 @@ Light aircraft that are operating within three times the rotor diameter of helic
 Any takeoff or landing on any part of the manoeuvring area requires a specific takeoff or landing clearance from ADC. You should specify the location when issuing your clearance.
 
 !!! phraseology 
-    **SY ADC**: "RSCU209, runway 16L, cleared to land"
-
-    **LT ADC**: "YOE, taxiway E, cleared for takeoff"
+    **SY ADC**: "RSCU209, runway 16L, cleared to land"   
+      
+    **LT ADC**: "YOE, taxiway E, cleared for takeoff"  
 
 #### Other Locations
 Helicopters do not necessarily need to use a runway, taxiway, or helipad to takeoff or land. Helicopters often operate from aprons, paved areas, and even flat grassed areas next to hangars.
@@ -123,14 +123,14 @@ Helicopters operating from points outside the controlled manoeuvring area do not
 
 !!! phraseology 
     **MB ADC**: "RJB, southern apron, report on the ground"  
-
-    **CFS ADC**: "WP3, report airborne"
+       
+    **CFS ADC**: "WP3, report airborne"   
 	
 This also applies to helicopters departing helipads away from the aerodrome but within the CTR.
 
 !!! phraseology 
     *RSCU203 is a VFR AW139 helicopter inbound from the southwest for Southcare Base (YXSB), within the CB CTR*  
-    **RSCU203**: "Canberra Tower, gday, RSCU203"
+    **RSCU203**: "Canberra Tower, gday, RSCU203"  
     **CB ADC**: "RSCU203, Canberra Tower, report on the ground"
 	
 #### Visual Holds
@@ -141,7 +141,7 @@ Most commonly issued by ADC's that own local airspace, these instructions involv
 !!! phraseology 
     **HWD:** "Sydney Tower, helicopter HWD, Hotel 7, ready"  
     **SY ADC:** "HWD, Sydney Tower. Track to and hold over the tower not above `A005`, traffic landing 34L. Report airborne"  
-    **HWD:** "Track to and hold over the tower not above `A005`, HWD"
+    **HWD:** "Track to and hold over the tower not above `A005`, HWD"   
 	
 !!! phraseology 
     **RSCU510:** "Brisbane Tower, helicopter RSCU510, Taxiway H2, ready"  
@@ -157,17 +157,17 @@ When not visual, IFR helicopters may request to fly an instrument approach and, 
     *HM1 is an IFR helicopter inbound to YMAY*  
     **AY ADC**: "HM1, cleared RNP-Z approach runway 07"  
     **HM1**: "Cleared RNP-Z approach runway 07, HM1"  
-
+       
 	**HM1**: "HM1 visual, request the Western Helipad"  
 	**AY ADC**: "HM1, track to the Western Helipad, cleared visual approach, report on the ground"  
-	**HM1**: "Track to the Western Helipad, cleared visual approach, HM1"
+	**HM1**: "Track to the Western Helipad, cleared visual approach, HM1"   
 
 !!! phraseology  
     *RSCU206 is an IFR helicopter inbound to YXNS, cleared via the YSSY RWY 16L ILS approach due to low cloud*  
     **RSCU206**: "Sydney Tower, RSCU206"  
 	**SY ADC**: "RSCU206, Sydney Tower, report visual"  
-    **RSCU206**: "Wilco, RSCU206" 
-    
+    **RSCU206**: "Wilco, RSCU206"  
+       
     **RSCU206**: "RSCU206, visual"  
 	**SY ADC**: "RSCU206, track to YXNS, cleared visual approach, report on the ground"  
 	**RSCU206**: "Track to YXNS, cleared visual approach, RSCU206"

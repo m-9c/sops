@@ -164,9 +164,9 @@ Voiceless for all aircraft:
 - Assigned the lower of `F180` or the `RFL`
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to KEN CTA must be **Heads-up** Coordinated by CS TCU prior to the boundary.
+All other aircraft going to KEN(All) CTA must be **Heads-up** coordinated by CS TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**CS2** -> **KEN**</span>: "JST789, with your concurrence, will be assigned F160, for my separation with ANZ12"  
@@ -177,11 +177,11 @@ Voiceless for all aircraft:
 
 - With ADES **YBCS**; and  
 - Assigned a STAR; and  
-- Assigned the Standard Assignable level of:  
+- Assigned the standard assignable level of:  
   - Radials 055° clockwise through to 355°: `A070`  
   - Radials 355° clockwise to 055°: `A090`
 
-All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TCU.
+All other aircraft coming from KEN(All) CTA will be **Heads-up** coordinated to CS TCU.
 
 ### CS ADC
 #### Airspace
@@ -196,7 +196,7 @@ All other aircraft coming from KEN CTA will be **Heads-up** Coordinated to CS TC
 
 All other aircraft require a 'Next' call to CS TCU.
 
-The Standard Assignable level from CS ADC to CS TCU is:
+The standard assignable level from CS ADC to CS TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |

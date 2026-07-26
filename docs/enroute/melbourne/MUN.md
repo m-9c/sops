@@ -16,9 +16,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for MUN is Voice. [CPDLC](../../../client/cpdlc) may be used in lieu when applicable. The CPDLC Station Code is `YMUN`.
-
 ## Airspace
 
 <figure markdown>
@@ -98,9 +95,10 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | OXL | BLA | YSCB | |
 | GTH | GUN | YSSY | Non-Jets only |
 | OXL | GTH | YSSY | Jets only |
+| GTH | KAT | YSWS | |
 
 !!! tip
-    To help facilitate sequencing, MUN should aim to handoff aircraft to GUN **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
+    To help facilitate sequencing, MUN should aim to handoff aircraft to GUN/KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Terminal Handover Frequencies
 Aircraft being transferred from enroute to a TCU with multiple frequencies shall be given the frequency for the revelant TCU position.

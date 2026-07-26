@@ -19,9 +19,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YASP`.
-
 ## Airspace
 
 <figure markdown>
@@ -37,16 +34,13 @@ The Primary Communication Method for ASP is [CPDLC](../../../client/cpdlc). Voic
 
 ### Reclassifications
 === "AS CTR"
-	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/Alice) if they wish.
+	When **AS ADC** is offline, AS CTR (Class D and C `SFC` to `F125`) within 80 DME AS reverts to Class G, and AS CTA (Class C `F125` to `F245`) within 80 DME AS reverts to Class E, and both are administered by ASP. Alternatively, ASP may provide a [top-down procedural service](../../../aerodromes/procedural/alice/) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "WR CTR"
-	When **WR TCU** is offline, WR MIL CTR and associated restricted airspace reverts to Class G, and is administered by WRA.
-	
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YPWR is classified as Class G by default, and is only reclassified as controlled airspace when **WR ADC** is online. When **WR ADC** is offline, the area remains Class G, and is administered by WRA.
 
 ## Surveillance Coverage
 Limited surveillance coverage exists in the FOR sector greater than **250nm** from ADSB stations. [Procedural Standards](../../../separation-standards/procedural/) must be implemented **prior** to losing surveillance coverage
@@ -67,9 +61,37 @@ All sequencing is performed by ASP.
 ### YPWR
 WRA is responsibile for facilitating operations in and out of YPWR.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Special Use Airspace
+There are multiple volumes of [SUA](../../../controller-skills/sua/) within ASP airspace, mostly associated with military operations in and out of YPWR.
+
+<figure markdown>
+![Notable SUA in ASP Airspace](../img/asp_sua.png){ width="700" }
+  <figcaption>Notable SUA in ASP Airspace</figcaption>
+</figure>
+
+When **WR ADC** is online, **R222F** Restricted Area is activated `SFC` to `F120` by default. WR ADC must [give heads up coordination](../../../aerodromes/procedural/woomera/#sua-in-enroute-airspace) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "On the ground YPWR, BFLO11, requests activation of R222C `SFC-F290`, from 0100 until 0300."  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "BFLO11, expect activation of R222C `SFC-F290` at 0100 until 0300."  
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "BFLO11.    
+
+Non-participating aircraft intenting to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### Woomera SUA
+There are multiple restricted areas associated with military operations at [YPWR](../../../aerodromes/procedural/woomera): R222A-L, R237, R246A-C, R273, R281, and R287A-C. All restricted areas are located with the WRA subsector; R222I and R222J extend into FOR airspace, and R222K and R222L extend across ASP, ASW, WAR, and OLW(MZI, LEO).
+
+These restricted areas directly adjoin the jurisdiction of WR ADC, and when WR ADC is online aircraft will be transferred directly to/from the MOAs.
+
+##### Affected Civil Operations
+When activated these restricted areas disrupt traffic on the **J141**, **J251**, **T20**, **T21** and **T29** high airways, which connect YPAD to the Northern Territory and are often used by transcontinental flights to and from the east coast. Activation also significantly distrupts traffic on the **W238**, **W274**, **W617**, **W764** low airways and traffic around YCBP and YOLD.
+
+Aircraft transiting the area should be rerouted via the **Z90**, **Z91**, **Z92**, and **Z93** as required.
+
+!!! note
+	 Aircraft tracking via a recommended rerouting must still be [separated from the SUA](../../../controller-skills/sua/#separation-from-sua) laterally and vertically. After amending flight plans for the purposes of rerouting around SUA, controllers should ensure the route is displayed visually and the BRL is used to measure for [>2.5nm](../../../controller-skills/sua/#controlled-airspace) clearance with all parts of the SUA.
+
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -79,8 +101,12 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | FOR, WRA, BKE | TBD(AUG) | YPAD, YPED | Jets only |
 | BKE | TBD | YPAD, YPED | |
-| ESP | HYD | YPPH, YPEA | Jets only |
 | BKE | GUN(KAT), MUN(GTH) | YSSY | |
+| BKE | GUN(KAT)           | YSWS |
+| ESP | HYD | YPPH, YPEA | Jets only |
+
+!!! tip
+    To help facilitate sequencing, BKE should aim to handoff aircraft to KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Coordination
 ### Enroute
@@ -96,9 +122,9 @@ AS ADC is responsible for the Class D airspace `SFC` to `A045`, as well as the C
 Refer to [Reclassifications](#reclassifications) for operations when AS ADC is offline.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from AS ADC to ASP for all aircraft **entering ASP CTA**.
 
-The Standard Assignable level from **AS ADC** to **ASP** is:
+The standard assignable level from **AS ADC** to **ASP** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -111,12 +137,31 @@ YBAS arrivals and overfliers shall be heads-up coordinated to **AS ADC** from AS
     <span class="hotline">**ASP** -> **AS ADC**</span>: "Via SADEL, QFA1956”  
     <span class="hotline">**AS ADC** -> **ASP**</span>: "QFA1956"  
 
-The Standard Assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
+The standard assignable level from ASP to **AS ADC** is `A080`, any other level must be prior coordinated.
 
 ### WR ADC
-By default, WR ADC owns the **R222F** Restricted Area. This airspace has vertical limits of `SFC` to `F120`. When WR ADC is active, this airspace is classified as Class D.
+#### Airspace
+WR ADC is responsible for the Class D airspace `SFC` to `F120` within the R222F [restricted area](../../../controller-skills/sua/#restricted-areas).
 
-Coordination is not required between ASP(WRA) and WR ADC. Aircraft entering WR ADC airspace shall be handed off, and instructed to contact WR ADC for onwards clearance.
+Refer to [Reclassifications](#reclassifications) for operations when WR ADC is offline.
+
+### Departures
+Next coordination is not required from WR ADC to ASP(WRA). 
+
+Aircraft leaving WR ADC airspace both **laterally** and **vertically** will enter ASP(WRA) uncontrolled airspace. However, it is good practice for WR ADC to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft leaving WR ADC airspace **vertically** to help facilitate an uninterrupted climb.
+
+!!! phraseology
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "via WR 180 bearing outbound, LYBD11.”  
+    <span class="hotline">**WRA** -> **WR ADC**</span>: "LYBD11, `F240`, no reported IFR traffic."   
+    <span class="hotline">**WR ADC** -> **WRA**</span>: "`F240`, LYBD11."  
+
+    **WR ADC**: "LYBD11, leave and re-enter controlled airspace on climb to `F240`, no reported IFR traffic"  
+    **LYBD11**: "Leave and re-enter controlled airspace on climb to `F240`, LYBD11" 
+ 
+### Arrivals/Overfliers
+As with departures, there is no inherent requirement for ASP(WRA) to coordinate arrivals or overfliers with WR ADC. However, it is good practice for ASP(WRA) to provide [heads-up](../../../controller-skills/coordination/#heads-up) coordination for aircraft arriving into directly into WR ADC airspace. 
+
+Arriving aircraft shall be instructed to leave CTA descending (if appropriate) and to contact WR ADC for clearance.
 
 ### IND(INS) (Oceanic)
 As per [Standard coordination procedures](../../../controller-skills/coordination/#pacific-units), Voiceless, no changes to route or CFL within **15 mins** to boundary.

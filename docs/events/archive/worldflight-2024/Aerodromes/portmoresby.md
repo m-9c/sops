@@ -12,7 +12,7 @@ An additional Non-Standard position for AYPY ACD will be used
 | Port Moresby Delivery       | AYPY ACD | Jacksons Delivery             | 124.400 | AYPY_DEL                              |
 
 ## Workload Management
-Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow).
+Due to the extreme workload expected for all positions, the use of the OzStrips plugin for managing aerodrome positions is **mandatory**. Controllers should familiarise themselves with the plugin and the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow).
 
 ## Airways Clearance Delivery (ACD)
 ### Flight Plan Compliance
@@ -31,7 +31,7 @@ If an aircraft has filed an *incorrect* route and you need to give an amended cl
 [WorldFlight Teams](../../#official-team-callsigns) shall have `STS/STATE` added to their remarks, and `WF TEAM` added to their Global Ops Field, to ensure they receive priority.
 
 !!! tip
-    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it, or alternatively, use the [Plugin Manager](https://github.com/badvectors/PluginManager){target=new}
+    The [vatSys Events Plugin](https://github.com/badvectors/EventsPlugin){target=new} will also highlight WF Teams, as shown below. Click on the link to install it.
 
     <figure markdown>
     ![WF Team Highlight with Events Plugin](../img/wfteam.png){ width="400" }
@@ -82,7 +82,7 @@ SMC will be responsible for delaying aircraft's pushback requests, in order to a
 If there are more than **5** aircraft in the queue at the Holding Point for the departure runway, do not approve any more pushback requests.
 
 #### OzStrips
-All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../client/towerstrips/#recommended-workflow) for OzStrips.
+All aerodrome controllers must be familiar with the VATPAC [recommended workflow](../../../../../client/towerstrips/#workflow) for OzStrips.
 
 Ensure the Queue function is used to actively to keep track of the order of requests.
 
@@ -99,9 +99,9 @@ Runway 14R/32L will be used for taxiing. The Runway is released to SMC by defaul
 Ensure that a minimum of **90 second** spacing is applied between subsequent departures from the same runway.
 
 ### Wake Turbulence Separation
-Due to the tight sequence, there are times that [Wake Turbulence Separation](../../../../separation-standards/waketurb/#runways) cannot practically be applied.
+Due to the tight sequence, there are times that Wake Turbulence Separation cannot practically be applied.
 
-When a following aircraft is of a *lighter* [Wake Turbulence Category](../../../../separation-standards/waketurb/#categories) than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
+When a following aircraft is of a *lighter* Wake Turbulence Category than the preceding aircraft, a traffic statement and wake turbulence **caution** shall be issued.
 
 !!! phraseology
     **AYPY ADC:** "ANG3, 747 has just departed. Caution Wake Turbulence. Runway 32L, Cleared for Takeoff"  

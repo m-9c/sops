@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | ID | Callsign | Frequency | Login ID |
-| ---- | ---- | ------ | --------- | -------- |
-| **Nadzab Approach** | **AYNZA** | **Nadzab Approach** | **118.600** | **AYNZ_APP** | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Nadzab Approach**           | **AYNZA** | **Nadzab Approach**     | **118.600** | **AYNZ_APP**  | 
 
 ## Airspace
 AYNZA is responsible for the Class C Airspace within the AYNZ TMA `A060` to `F245`.
@@ -55,7 +55,7 @@ AYPM will **heads-up** coordinate all arrivals/overfliers to AYNZA.
     <span class="hotline">**AYPM** -> **AYNZA**</span>: "Via WESTERN GPS Arrival, TOK8409.”  
     <span class="hotline">**AYNZA** -> **AYPM**</span>: "TOK8409."
 	
-The Standard Assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
+The standard assignable level from AYPM to AYNZA is `F250`. Any other level must be prior coordinated.
 	
 ### AYNZ ADC
 #### Airspace

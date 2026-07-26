@@ -103,7 +103,7 @@ MAV extends south outside of **30nm ML**, in to HUO(WON) airspace. The Southern 
 </figure>
 
 #### Melbourne Radar (MAW)
-MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by MAV but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-maw-and-tcu) exist between MAW and other TCU positions.  
+MAW is responsible for the provision of FIS in Class G airspace within the ML TMA. It is a role normally performed by MAV but can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-maw-and-tcu) exist between MAW and other TCU positions.  
 
 !!! tip
     It is **not recommended** that the MAV and MAW positions are held by 2 separate controllers, due to the low traffic levels at Avalon. MAV should be opened in preference to MAW, unless traffic levels at Avalon require the role to be split.
@@ -326,9 +326,9 @@ Voiceless to all surrounding Enroute sectors for all aircraft:
     - **AV**
 
 !!! note
-    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
+    Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**.
 
-All other aircraft going to Enroute CTA must be **Heads-up** Coordinated by ML TCU prior to the boundary.
+All other aircraft going to Enroute CTA must be **Heads-up** coordinated by ML TCU prior to the boundary.
 
 !!! phraseology
     <span class="hotline">**ML TCU** -> **YWE**</span>: "QFA420, with your concurrence, will be assigned F190, for my separation with QLK52D"  
@@ -341,7 +341,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to ML TCU.
+All other aircraft coming from Enroute CTA will be **Heads-up** coordinated to ML TCU.
 
 ### ML ADC
 #### Auto Release
@@ -364,7 +364,7 @@ All other aircraft coming from Enroute CTA will be **Heads-up** Coordinated to M
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **ML ADC** to **ML TCU** is:
+The standard assignable level from **ML ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -373,16 +373,16 @@ The Standard Assignable level from **ML ADC** to **ML TCU** is:
 ##### Standard Assignable Departure Headings
 The following Standard Assignable Headings may be used for aircraft assigned the ML (RADAR) SID, depending on their direction of travel.
 
-| Runway | W | NE | SE | S |
-| ---- | :----: | :----: | :----: | :----: |
-| RWY 09* | - | - | - | - |
-| RWY 16** | H290 | H290 | H160 | H260 |
-| RWY 27 | H320 | H290 | H260 | H260 |
-| RWY 34 | H340 | H340 | H340 | H260 |
+| Runway   | W    | NW   | NE   | SE   | S/SW |
+| -------- | :--: | :--: | :--: | :--: | :--: |
+| RWY 09   | ---- | ---- | ---- | ---- | ---- |
+| RWY 16<br><small>(16AD)</small>  | H160 | H290 | H290 | H160 | H160 |
+| RWY 16<br><small>(09A16D)</small>  | H160 | H160 | H160 | H160 | H160 |
+| RWY 27   | H260 | H320 | H290 | H260 | H260 |
+| RWY 34   | H260 | H340 | H340 | H340 | H260 |
 
-*When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
-
-**When Runway 09 is in use for arrivals, all Runway 16 departures shall be assigned heading 160.
+!!! note
+    When Runway 09 is in use for departures, ML TCU shall nominate a heading to ML ADC for use as a standard assignable heading.
 
 ### ML TCU Internal
 #### APP / DEP
@@ -440,7 +440,7 @@ When a clearance cannot be given (for example, due to conflicting traffic at YMM
 #### Departures
 [Next](../controller-skills/coordination.md#next) coordination is required from EN ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from EN ADC to ML TCU is:
+The standard assignable level from EN ADC to ML TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -469,7 +469,7 @@ When "The Coffin" is released, ML TCU is required to coordinate any use of Runwa
 
 All other aircraft require a 'Next' call to ML TCU.
 
-The Standard Assignable level from **AV ADC** to **ML TCU** is:
+The standard assignable level from **AV ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | -------| 
@@ -489,7 +489,7 @@ Refer to [Reclassifications](#mb-ctr) for operations when MB ADC is offline.
 
 [Next](../controller-skills/coordination.md#next) coordination is required from MB ADC to ML TCU for all aircraft **entering ML TCU CTA**.
 
-The Standard Assignable level from **MB ADC** to **ML TCU** is:
+The standard assignable level from **MB ADC** to **ML TCU** is:
 
 | Aircraft | Level |
 | ----- | ---- |

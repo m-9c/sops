@@ -49,7 +49,7 @@ The divisions of the airspace between **PHA**, and **PHD** change based on the R
 	</figure>
 	
 #### Perth Radar (PHR)
-PHR is responsible for the provision of FIS in Class G airspace within the PH TMA. The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordation requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
+PHR is responsible for the provision of FIS in Class G airspace, as well as Class E services above F125 in the south of the PH TMA The role can be delegated to any TMA controller. The position is designed to reduce the workload of other TMA positions by obtaining a pilot's request, identifying them, performing any necessary coordination, then handing them to the relevant controller who will issue clearance if appropriate. [Explicit coordination requirements](#between-phr-and-tcu) exist between PHR and other TCU positions.  
 
 !!! example
     During a busy event, PHA is experiencing a high workload and wishes to delegate the PHR role to another controller who isn't as busy. PHD has a low workload and elects to perform the role.
@@ -58,7 +58,7 @@ PHR is responsible for the provision of FIS in Class G airspace within the PH TM
 When **PEA TCU** is online, they assume responsibility for the airspace in R155A and R155B from `SFC` to `F160`.
 
 <figure markdown>
-![PE TCU Restricted Areas](img/pe_restricted_areas.png){ width="700" }
+![PE TCU Restricted Areas](img/pe_sua.png){ width="700" }
   <figcaption>PE TCU Restricted Areas</figcaption>
 </figure>
 
@@ -148,6 +148,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "DH8D"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -165,6 +166,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 11^    | 12     | 14     | 12^    |
     | **SOLUS V**    | 10^    | 11^    | -      | -      |
     | **SOLUS X**    | 10^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>9\^ | <br>10\^ | <br>13 | <br>14 |
 
 === "Non-Jets"
     | STAR       | RWY 03 | RWY 06 | RWY 21 | RWY 24 |
@@ -182,6 +184,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     | **SOLUS A**    | 12^    | 14     | 16     | 14^    |
     | **SOLUS V**    | 12^    | 13^    | -      | -      |
     | **SOLUS X**    | 11^    | -      | -      | -      |
+    | **No STAR - Vectors to IAF**<br>*Feeder Fix: OLMAM* | <br>11\^ | <br>12\^ | <br>14 | <br>16 |
 
 #### Corrections
 
@@ -196,6 +199,7 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
     - The feeder fix for the IPMOR STAR is **KAGMI**
 - Aircraft on the SOLUS STAR to RWY 21/24 will be vectored from MOCUR to the IAF for ILS
 - Aircraft on the IPMOR STAR to RWY 24 will be vectored from WOOFY to the IAF for the ILS
+- Aircraft for RWY 21 via the OLMAM feeder fix will be processed via **WOOFY** for the ILS (via the 9nm arc)
 
 ### Calculator
 <script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
@@ -218,11 +222,11 @@ Voiceless for all aircraft:
 !!! note
     <sup>‡</sup> In contrast to many other TCUs, aircraft are *required* to be tracking via the **SID procedure**. Aircraft simply tracking via any of the terminus waypoints (including aircraft given track shortening) **is not** sufficient to meet the criteria for voiceless coordination.
 
-All other aircraft going to HYD(PIY) CTA must be **Heads-up** Coordinated by PH TCU prior to the boundary.
+All other aircraft going to HYD(All) CTA must be **Heads-up** coordinated by PH TCU prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**PH TCU** -> **HYD(PIY)**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
-    <span class="hotline">**HYD(PIY)** -> **PH TCU**</span>: "PFY9916, concur F130"  
+    <span class="hotline">**PH TCU** -> **PIY**</span>: "PFY9916, with your concurrence, will be assigned F130, for my separation with JTE654"  
+    <span class="hotline">**PIY** -> **PH TCU**</span>: "PFY9916, concur F130"  
 
 #### Arrivals
 Voiceless for all aircraft:
@@ -231,7 +235,7 @@ Voiceless for all aircraft:
 - Assigned a STAR; and  
 - Assigned `A090`
 
-All other aircraft coming from HYD(PIY) CTA will be **Heads-up** Coordinated to PH TCU.
+All other aircraft coming from HYD(All) CTA will be **Heads-up** coordinated to PH TCU.
 
 ### PH ADC
 #### Auto Release
@@ -243,7 +247,7 @@ All other aircraft coming from HYD(PIY) CTA will be **Heads-up** Coordinated to 
 
 All other aircraft require a 'Next' call to PH TCU.
 
-The Standard Assignable level from PH ADC to PH TCU is:
+The standard assignable level from PH ADC to PH TCU is:
 
 | Aircraft | Level |
 | -------- | ----- |
@@ -291,7 +295,7 @@ When the aircraft is ready for departure, JT ADC will coordinate with the releva
     <span class="hotline">**PH TCU** -> **JT ADC**</span>: "FD420, Unrestricted"  
     <span class="hotline">**JT ADC** -> **PH TCU**</span>: "FD420"  
 
-The Standard Assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
+The standard assignable level from JT ADC to PH TCU is the lower of `A030` or the `RFL`, any other level must be prior coordinated.
 
 #### Arrivals/Overfliers
 PH TCU will heads-up coordinate arrivals/overfliers from Class C to JT ADC prior to **5 mins** from the boundary.  

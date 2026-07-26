@@ -5,52 +5,12 @@ title: Procedural
 --8<-- "includes/abbreviations.md"
 
 <details markdown="1">
-<summary>Departures</summary>
-
-## Departures
-### 2 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) The aircraft are climbing to vertically separated levels;<br>b) Both aircraft report reaching the cruising level;<br>c) If the following aircraft is climbing to a lower level than the preceding aircraft, and reaches that level first, apply another form of separation immediately; and<br>d) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
-![2 min Departure Standard Diagram](img/dep2min.png){ width="600" }
-</figure> |
-
-### 5 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches that level first, apply another form of separation immediately; and<br>c) climb and cruising IAS of the following aircraft is at least **10 kt slower** and not more than **90%** of the climb and cruising IAS or Mach number of the leading aircraft. | <figure markdown>
-![5 min Departure Standard Diagram](img/dep5min.png){ width="600" }
-</figure> |
-
-### 10 min
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft report reaching the cruising level;<br>b) If the following aircraft reaches cruising level first, apply another form of separation immediately; and<br>c) climb IAS of the following aircraft is less than or equal to the climb IAS of the leading aircraft. | <figure markdown>
-![10 min Departure Standard Diagram](img/dep10min.png){ width="600" }
-</figure> |
-
-</details>
-
-<details markdown="1">
-<summary>Arrivals</summary>
-
-## Arrivals
-### 10nm
-| Conditions | |
-| ------------- | ------------------ |
-| a) Both aircraft are **inbound**, and the leading aircraft is within **20nm** of a controlled aerodrome; and<br>b) The aircraft are assigned vertically separated levels. | <figure markdown>
-![10nm Arrival Standard Diagram](img/arr10nm.png){ width="600" }
-</figure> |
-
-</details>
-
-<details markdown="1">
 <summary>Longitudinal</summary>
 
 ## Longitudinal
 
 <figure markdown>
-![Oceanic](../oceanic/assets/Oceanic.png)
+![Oceanic](../oceanic/img/Oceanic.png)
 </figure>
 
 Longitudinal separation shall only be applied between aircraft on same or reciprocal tracks.
@@ -65,13 +25,13 @@ Longitudinal time separation must be established by using pilot estimates and en
 #### Same Track
 Aircraft that are on the same track, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **10 minutes**
 <figure markdown>
-![10min](../oceanic/assets/10min.png)
+![10min](../oceanic/img/10min.png)
 </figure>
 
 #### Reciprocal Track
 Aircraft flying on reciprocal tracks may only be separated vertically. Such separation must exist **at least 10 minutes** prior to the estimated time of passing
 <figure markdown>
-![ETP](../oceanic/assets/ETP.png)
+![ETP](../oceanic/img/ETP.png)
 </figure>
 
 After the estimated time of passing, aircraft may not climb or descend through the level of the opposite direction aircraft until **10 minutes** after the estimated time of passing. It is possible to reduce this requirement if definite passing has been achieved, and this will be explained later in this section.
@@ -132,19 +92,19 @@ Distance checks must be conducted as per the following table:
 ### Time-based crossing track
 Aircraft that are on crossing tracks, including situations where one aircraft is climbing or descending through the level of another, are to be separated by **15 minutes** at the point of intersection
 <figure markdown>
-![15min](../oceanic/assets/15min.png)
+![15min](../oceanic/img/15min.png)
 </figure>
 
 Where a difference 15 minutes does not exist at the crossing point, vertical separation shall be applied from the time at which the second aircraft is 15 minutes from the crossing point until the first aircraft is 15 minutes past the crossing point.
 <figure markdown>
-![Both](../oceanic/assets/Both.png)
+![Both](../oceanic/img/Both.png)
 </figure>
 
 <details markdown="1">
 <summary>Conflict Area</summary>
 
 ### Conflict Area
-The Quickest and easiest way to assess lateral conflict scenarios is with the *Conflict Area tool*. Unfortunately, whilst its quick and easy to *use*, it's fairly complex and long to understand the rules and concepts.  
+The quickest and easiest way to assess lateral conflict scenarios is with the *Conflict Area tool*. Unfortunately, whilst its quick and easy to *use*, it's fairly complex and long to understand the rules and concepts.  
 The first thing to note, is that there are many different unusual remarks and equipment codes that pilots file on VATSIM, primarily because not everyone knows what they mean. A little bit of background knowledge is required to understand these concepts.
 
 #### NAVCAPs
@@ -160,12 +120,12 @@ All aircraft have a NAVCAP, associated with a ***Circular Error of Position***. 
 | Z | None | 30nm |
 
 <figure markdown>
-![NAVCAP Z Example](../oceanic/assets/navcapZ.png){ width="300" }
+![NAVCAP Z Example](../oceanic/img/navcapZ.png){ width="300" }
   <figcaption>NAVCAP Z Example</figcaption>
 </figure>
 
 <figure markdown>
-![NAVCAP 2 Example](../oceanic/assets/navcap2.png){ width="300" }
+![NAVCAP 2 Example](../oceanic/img/navcap2.png){ width="300" }
   <figcaption>NAVCAP 2 Example</figcaption>
 </figure>
 
@@ -187,7 +147,7 @@ The minimum number you must select when using the tool, is equal to: **Aircraft 
 #### Working with Conflict Area
 
 <figure markdown>
-![Conflict Area Example 1](../oceanic/assets/conflictarea.png){ width="300" }
+![Conflict Area Example 1](../oceanic/img/conflictarea.png){ width="300" }
   <figcaption>Conflict Area Example 1</figcaption>
 </figure>
 
@@ -200,7 +160,7 @@ Once you've established the Conflict area, you now know the area in which the ai
 Using the time standard, aircraft are considered to have entered the conflict area **5 minutes prior** to the estimate shown, and to have left the conflict area **5 minutes after** the estimate shown.
 
 <figure markdown>
-![Conflict Area Example 2](../oceanic/assets/conflictarea2.png){ width="600" }
+![Conflict Area Example 2](../oceanic/img/conflictarea2.png){ width="600" }
 <figcaption>Conflict Area Example 2</figcaption>
 </figure>
 

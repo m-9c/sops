@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Name | Callsign | Frequency | Login ID |
-| ---- | -------- | --------- | -------- |
-| **Nadi Approach** | **Nadi Approach** | **119.100** | **NFFN_APP** | 
+| Name                          | ID        | Callsign                | Frequency   | Login ID      |
+| ----------------------------- | --------- | ----------------------- | ----------- | ------------- |
+| **Nadi Approach**             | **NFFNA** | **Nadi Approach**       | **119.100** | **NFFN_APP**  | 
 
 ## Airspace
 The vertical limits of the NFFN TCU are `SFC` to `F250`. **NFFN ADC** is responsible for the airspace within the NFFN CTR from `SFC` to `A025`.
@@ -17,6 +17,10 @@ The vertical limits of the NFFN TCU are `SFC` to `F250`. **NFFN ADC** is respons
 ![NFFN TCU Structure](../img/nffn_tcu.png){ width="700" }
   <figcaption>NFFN TCU Structure</figcaption>
 </figure>
+
+### Extending
+NFFNA may extend to NFNAA and vice versa. See [Controller Skills](../../../controller-skills/extending.md) for details.
+
 <!---## Separation --->
 ## Local Procedures
 ### Tiliva Training Area
@@ -90,11 +94,11 @@ Voiceless for all aircraft:
 !!! note
     Aircraft are *not required* to be tracking via the **SID procedure**, simply tracking via any of the terminus waypoints (Regardless of *departure airport* or *assigned SID*) is sufficient to meet the criteria for **voiceless coordination**
 
-All other aircraft going to NFFN_CTR CTA must be **Heads-up** Coordinated by NFFNA prior to the boundary.
+All other aircraft going to NFFJ CTA must be **Heads-up** Coordinated by NFFNA prior to the boundary.
 
 !!! phraseology
-    <span class="hotline">**NFFNA** -> **NFFN_CTR**</span>: "via GUSOS, RON18"  
-    <span class="hotline">**NFFN_CTR** -> **NFFNA**</span>: "RON18, F240"  
+    <span class="hotline">**NFFNA** -> **NFFJ**</span>: "via GUSOS, RON18"  
+    <span class="hotline">**NFFJ** -> **NFFNA**</span>: "RON18, F240"  
 
 #### Arrivals
 Voiceless for all aircraft:

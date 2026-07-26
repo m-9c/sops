@@ -53,11 +53,11 @@ MKA may extend to RKA and vice versa, callsigns remain the same. See [Controller
 Voiceless for all aircraft:
 
 - With ADEP **YBMK**  
-  - Tracking via **CLIFT** or **MUNAR**; and  
-  - Assigned the lower of `F150` or the `RFL`  
+    - Tracking via **CLIFT** or **MUNAR**; and  
+    - Assigned the lower of `F150` or the `RFL`  
 - With ADEP **YBRK**  
-  - Tracking via **BUDGI** or **TARES**; and  
-  - Assigned the lower of `F150` or the `RFL`
+    - Tracking via **BUDGI** or **TARES**; and  
+    - Assigned the lower of `F150` or the `RFL`
 
 All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/RKA.
 
@@ -69,11 +69,11 @@ All other aircraft going to SWY/KPL CTA must be **Heads-up** Coordinated by MKA/
 Voiceless for all aircraft:
 
 - With ADES **YBMK**    
-  - Assigned the **DAGSI** or **WELKE** STAR; and  
-  - Assigned `A090`  
+    - Assigned the **DAGSI** or **WELKE** STAR; and  
+    - Assigned `A090`  
 - With ADES **YBRK**; and  
-  - Assigned the **ABVAS** or **DADBO** STAR; and  
-  - Assigned `A090`
+    - Assigned the **ABVAS** or **DADBO** STAR; and  
+    - Assigned `A090`
 
 All other aircraft coming from SWY/KPL CTA will be **Heads-up** Coordinated to MKA/RKA.
 
@@ -91,7 +91,7 @@ RK ADC is responsible for the Class D airspace in the RK CTR `SFC` to `A010`.
 - Assigned a **Procedural** SID; or  
 - Not entering MKA/RKA CTA
 
-The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
+The standard assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
 | Aircraft | Level |
 | ------ | ----- |
@@ -104,7 +104,7 @@ The Standard Assignable level from **MK/RK ADC** to **MKA/RKA** is:
 
 The TCU controller can suspend/resume Auto Release at any time, with the concurrence of **ADC**.
 
-The Standard Assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
+The standard assignable level from MK/RK ADC to MKA/RKA is the lower of `A060` or the `RFL`.
 
 #### SMC to TCU
 The controller assuming responsibility of **SMC** shall give [Heads-up](../controller-skills/coordination.md#heads-up) coordination to TCU controller prior to the issue of the following clearances:  

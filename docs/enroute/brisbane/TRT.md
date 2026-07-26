@@ -16,10 +16,6 @@
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
     Approval must be sought from the **bolded parent position** prior to opening a Non-Standard Position, unless [NOTAMs](https://vatpac.org/publications/notam){target=new} indicate otherwise (eg, for events).
 
-### CPDLC
-The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc). Voice may be used in lieu when applicable. The CPDLC Station Code is `YTRT`.
-
-
 ## Airspace
 
 <figure markdown>
@@ -27,7 +23,7 @@ The Primary Communication Method for TRT is [CPDLC](../../../client/cpdlc). Voic
   <figcaption>Territory Airspace</figcaption>
 </figure>
 
-TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.  
+TRT is responsible for **TRS**, **ASH**, and **KIY** when they are offline.  
 
 #### Extending
 !!! warning "Important"
@@ -35,16 +31,13 @@ TRT is responsible for **TRS**, **ASH**, and **KIY**,  when they are offline.
 
 ### Reclassifications
 === "BRM CTR"
-	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/Broome) if they wish.
+	When **BRM ADC** is offline, BRM CTR (Class D/E `SFC` to `A055`) reverts to Class G, and is administered by ASH. Alternatively, ASH may provide a [top-down procedural service](../../../aerodromes/procedural/broome) if they wish.
 
 	!!! tip
 		If choosing *not* to provide a top down service, consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
 
 === "CIN TCU"
-	When **TN TCU** is offline the CIN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by ASH.
-
-	!!! tip
-        Consider publishing a pre-formatted **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification.
+	The restricted airspace around YCIN is classified as Class G by default, and is only reclassified as controlled airspace when **CIA** is online. When **CIA** is offline, the area remains Class G, and is administered by ASH.
 
 === "TN TCU"
 	When **TN TCU** is offline the TN MIL CTR and associated restricted airspace is deactivated, and the airspace is administered by TRS.
@@ -82,9 +75,94 @@ In accordance with the authorisation requirements above, YPDN may utilise LAHSO 
 #### Sequencing
 All sequencing is performed by TRS.
 
-<!-- ## Special Use Airspace 
-### Restricted Areas
--->
+## Local Procedures
+### Special Use Airspace
+
+There are multiple volumes of [SUA](../../../controller-skills/sua) within TRT airspace associated with military operations in and out of YCIN, YPDN, and YPTN.
+
+<figure markdown>
+![Notable SUA in TRT Airspace](../img/trt_sua.png){ width="700" }
+  <figcaption>Notable SUA in TRT Airspace</figcaption>
+</figure>
+
+Each TCU must [give heads up coordination](../../../controller-skills/coordination/#airways-clearance) with the relevant enroute controllers **prior** to any departures intending to operate in a currently inactive SUA.
+
+!!! phraseology
+    <span class="hotline">**TNA** -> **TRS**</span>: "On the groud YPTN, CLAS35, requests activation of R225D `A095-F600`, from 0300 until 0500.”  
+    <span class="hotline">**TRS** -> **TNA**</span>: "CLAS35, expect activation of R225D `A095-F600` at 0300 until 0500."   
+    <span class="hotline">**TNA** -> **TRS**</span>: "CLAS35."   
+
+Non-participating aircraft intending to transit an activated SUA should be rerouted, where possible, [subject to the VATSIM Code of Conduct](../../../controller-skills/sua/#ad-hoc-activations).
+
+#### Bradshaw Field Training Area SUA
+The Bradshaw Field Training Area is contained within three volumes of SUA: R268 Koolendong, R269 Angalarri North, and R270 Angalarri South; all `SFC-NOTAM`. The area is used for extensive army training and operations based at Nackaroo Airfield (YNKR). R269 and R270 are wholly located in the TRS subsector, while R268 extends slightly into KIY.
+
+When all three restricted areas are activated, they are referred to collectively as *'Bradshaw'*. Aircraft intending to operate in adjoining SUA should be notified *'[Bradshaw Active](../../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
+
+#### Delamere Air Weapons Range SUA
+The Delamere Air Weapons Range is contained within three volumes of SUA: 
+
+- R211 Delamere (`SFC-A095`)
+- R212 Delamere (`SFC-A095`)
+- R232 Delamere (`SFC-NOTAM`)
+
+The range is used for a variety of bombing and live-firing training exercises, and is wholly located within the TRS subsector.
+
+When all three restricted areas are activated, they are referred to collectively as *'Delamere'*. Aircraft intending to operate in adjoining SUA should be notified *'[Delamere Active](../../../terminal/tindal/#bradshaw-delamere-active)'* with their clearance.
+
+#### M821-M824 Curtin
+The M821-M824 Curtin [MOAs](../../../controller-skills/sua/#military-operating-areas) are located over YCIN, `F200-F600`, located entirely in ASH airspace. 
+
+The MOAs directly adjoin the CIN TMA and when CIA is online aircraft will be transferred directly to/from the MOAs. When [CIA is offline](#reclassifications), aircraft will contact ASH for transit through the surrounding civilian airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/curtin/#military-gates).
+
+##### Affected Civil Operations
+When activated, the restricted areas disrupt traffic on the busy **A339**, **A576**,  **T20**, and **T29** high altitude airways which are used by aircraft travelling between Australia and south-east Asia.
+
+Activation also significantly disrupts traffic travelling in and out of YBRM. Aircraft may be given an additional requirement to climb above, or descend below the vertical limits of the activation, or rerouted manually to avoid the area.
+
+#### M277A-H Darwin
+The M277A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located southwest of YPDN, `NOTAM-NOTAM`. M277A and M277E are entirely within DN TCU airspace, while M277B-D and M277F-H are in TRT airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
+##### Affected Civil Operations
+Activation of the MOA disrupts traffic on the **J151** high altitude airway, and aircraft departing via the HELLI SID. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+#### M278A-H Darwin
+The M278A-H Darwin [MOAs](../../controller-skills/sua/#military-operating-areas) are located northeast of YPDN, `NOTAM-NOTAM`. M278A and M278E are entirely within DN TCU airspace, while M278B-D and M278F-H are in TRT and TRS airspace.
+
+Aircraft will generally enter and exit the MOA via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
+#### R225A-F and R250 Tindal
+The R225A-F and R250 Tindal restricted areas form the western part of the Tindal Flying Training Area, and are located entirely within the TRS subsector. The areas are used for a variety of training purposes, including supersonic flight.
+
+The restricted areas directly adjoin the TN TMA, and aircraft will generally enter and exit the areas via the appropriate [military gate](../../../terminal/tindal/#military-gates)
+
+##### Affected Civil Operations
+When activated, the restricted areas disrupt traffic on the **A461** high altitude airway which connects YPDN and YBAS. Aircraft may be given an additional requirement to climb above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+#### R226A-B Tindal
+The R226A-B restricted areas are the easternmost segments of the Tindal Flying Training Area, entirely within the TRS subsector.
+
+These areas are rarely activated, with nearly all operations being preferentially conducted in the western [R225A-F and R250 Tindal](#r225a-f-and-r250-tindal) restricted areas.
+
+#### R276B-D Darwin
+The R276B-D Darwin [restricted areas](../../controller-skills/sua/#restricted-areas) are located southwest of YPDN, `NOTAM-NOTAM`, in TRT airspace
+
+Aircraft will generally enter and exit the restricted areas via the appropriate [military gate](../../../terminal/darwin/#military-gates).
+
+##### Affected Civil Operations
+Activation of the restricted areas disrupts traffic on the **J72** high altitude airway, and aircraft arriving via the WANGI STAR. Aircraft may be given an additional requirement to remain above the vertical limits of the activation, or rerouted manually to avoid the area.
+
+!!! phraseology
+	*QFA848 has been assigned the WANGI STAR for Runway 11 into YPDN, and is approaching their top of descent. The R276B-C restricted area has been activated `SFC-F150`.*   
+    **TRT**: "QFA848, descend via STAR to `F160`, cancel level restriction at KIGOS."   
+    **QFA848**: "Descend via STAR to `F160`, cancel level restriction at KIGOS, QFA848."  
+
+!!! warning "Important"
+    Before cancelling a STAR level restriction, coordinate with **DN TCU** to ensure no additional conflicts are inadvertently created.
 
 ## STAR Clearance Expectation
 ### Handoff
@@ -122,20 +200,18 @@ As per [Standard coordination procedures](../../../controller-skills/coordinatio
 
 ### DN TCU
 #### Airspace
-DN TCU owns the airspace within a 40NM radius of the DN DME from `SFC`–`F180`  
-
-DN TCU is also responsible for Active Restricted Area R264 A-K and R230 A-F  
-
-DAW may request DN TCU (`SFC`–`F240`) from TRT to facilitate military transits to/from R264 A-K and R230 A-F  
-
-Refer to [Darwin TCU Airspace Division](../../../terminal/darwin/#airspace-division) for information on airspace divisions when **DAW** is online.
+#### Airspace
+DN TCU owns the Class C and G airspace within 40 DME DN from `SFC` to `F180`.
 
 #### Arrivals/Overfliers
 Voiceless for all aircraft:
 
 - With ADES **YPDN**; and  
 - Assigned a STAR; and  
-- Assigned `A100`
+- Assigned `F120`
+
+!!! note
+    When QNH falls below 980 hPa, **DN TCU** and **TRT**  shall coordinate a suitable level as `F120` is unavailable.
 
 All other aircraft coming from TRT CTA must be **Heads-up** Coordinated to DN TCU prior to **20nm** from the boundary.
 
@@ -152,9 +228,9 @@ All other aircraft going to TRT CTA will be **Heads-up** Coordinated by DN TCU.
 BRM ADC is responsible for the Class D airspace `SFC` to `A055`, as well as the Class E airspace `1200ft AGL` to `A055`, within the BRM CTR.
 
 #### Departures
-[Next](../../controller-skills/coordination.md#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
+[Next](../../../controller-skills/coordination/#next) coordination is required from BRM ADC to TRT(ASH) for all aircraft **entering TRT(ASH) CTA**.
 
-The Standard Assignable level from **BRM ADC** to **TRT(ASH)** is:
+The standard assignable level from **BRM ADC** to **TRT(ASH)** is:
 
 | Aircraft | Level |
 | ---- | ---- |
@@ -167,7 +243,7 @@ YBRM arrivals and overfliers shall be heads-up coordinated to **BRM ADC** from T
     <span class="hotline">**TRT** -> **BRM ADC**</span>: "Via SAFIR, FD621”  
     <span class="hotline">**BRM ADC** -> **TRT**</span>: "FD621"  
 
-The Standard Assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
+The standard assignable level from TRT(ASH) to BRM ADC is `A060`, any other level must be prior coordinated.
 
 ### CIN TCU
 #### Airspace
@@ -179,7 +255,7 @@ The Standard assignable level from ASH to CIN TCU is `F130`, tracking via CIN VO
 All other aircraft must be voice coordinated to CIN TCU prior to **20nm** from the boundary.
 
 #### Departures
-The Standard Assignable level from CIN TCU to ASH is `F190`, and tracking via their planned route.
+The standard assignable level from CIN TCU to ASH is `F190`, and tracking via their planned route.
 
 #### CIN ADC
 When CIN TCU is offline, coordination is not required between ASH and CIN ADC. Aircraft entering CIN ADC airspace shall be handed off, and instructed to contact CIN ADC for onwards clearance.
