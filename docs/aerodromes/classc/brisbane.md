@@ -233,7 +233,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | To the SOUTH or EAST | 01R/19L |
 
 ## SID Selection
-Jet Aircraft planned via **BIXAD**^^, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID. .
+Jet Aircraft planned via **BIXAD**^^, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
 
 !!! example
     Jet Aircraft planned via **SCOTT**, assigned runway 19L, shall be assigned the SCOTT SID.
