@@ -129,7 +129,7 @@ These standard runway assignments may be modified strategically by the BAS or BF
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
 ##### SODPROPS
-When operating the SODPROPS Runway Mode, all aircraft shall be assigned the Alpha STAR. This deconflicts aircraft on the departing RWY 01R.
+When operating the SODPROPS Runway Mode, all aircraft shall be assigned the Alpha STAR. This deconflicts with aircraft departing RWY 01R.
 
 !!! tip
     The **ISPON** STAR may be assigned to reduce track miles; this should be coordinated with **BAS**.
