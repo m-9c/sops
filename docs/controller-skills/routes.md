@@ -94,6 +94,8 @@ This includes:
 
     ACD controllers must ensure they continue to [check each route](#validating-routes) for errors regardless of strip error status.
 
+    Where a valid route has been flagged as invalid, the warning can be removed by [middle clicking](../client/towerstrips.md#flight-plan-errors).
+
 Where a route is not compliant, an [amended route](#route-amendments) should be issued.
 
 !!! note
