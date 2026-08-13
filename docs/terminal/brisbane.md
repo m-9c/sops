@@ -286,7 +286,7 @@ Once the aircraft exits the CTA, cancel their identification and control service
 - Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
 - Aircraft inbound to YBBN may be issued the appropriate **X-ray** STAR to reduce track miles
 - Non-jet aircraft inbound to YBBN may be issued the appropiate **Victor** STAR, to continue for a visual approach, when conditions permit.
-- Aircraft inbound to YBBN from the north for RWY 01R may be issued the **Mike** STAR to reduce track miles. This should not be assigned when RWY 01L is in use for arrivals or 19R is in use for departures.
+- Aircraft inbound to YBBN from the north for RWY 01R may be issued the **Mike** STAR to reduce track miles. This should only be assigned during 01RA01LD segregated operations.
 - Aircraft inbound to YBCG may be assigned the **Yankee** or **Victor** STAR to reduce track miles
 
 ### Flow Tables
