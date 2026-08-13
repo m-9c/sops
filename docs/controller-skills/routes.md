@@ -11,8 +11,8 @@ In real-life, route selection for air traffic is a complex exercise, involving m
 
 On VATSIM, we can use a variety of online tools and control techniques to simulate realistic and efficient operations through accurate route selection.
 
-!!! tip  
-   This page provides guidance to controllers when validating routes as part of their airways clearance. The VATPAC [Pilot Procedures page](https://pilots.vatpac.org/flight-planning/routeselection/) contains a useful guide to route selection, designed for pilots.
+!!! tip
+    This page provides guidance to controllers when validating routes as part of their airways clearance. The VATPAC [Pilot Procedures page](https://pilots.vatpac.org/flight-planning/routeselection/) contains a useful guide to route selection, designed for pilots.
 
 ## Airways
 The Australian and Pacific FIRs all contain an extensive network of **airways**: designated routes between navigation points used by aircraft during their flight. Airways are designated for use within particular flight level bands, based on their classification.
@@ -100,19 +100,21 @@ Where a route is not compliant, an [amended route](#route-amendments) should be 
     In the real world, flight plans are reviewed by specialists, and flight plans for RPT traffic are almost always compliant by the time they reach ATC. In the online environment, validating routes can be a challenging and time-consuming exercise. Pilots are unlikely to be aware of the complete set of route requirements or have outdated AIRAC data, and may have difficulty adjusting to a reroute on short notice.
     
    Controllers should work with pilots patiently to maximise route compliance. Where a pilot is unable to comply with a reroute controllers should, workload permitting, try to find an alternative route that minimises conflict with other traffic.
-    
-    In all cases, controllers should display professional behaviour to other controllers and pilots when validating routes and providing amended routes.
+   
+   In all cases, controllers should display professional behaviour to other controllers and pilots when validating routes and providing amended routes.
    
     
 ### Route Amendments
 When an aircraft is being cleared via an amended route, the controller must communicate the amendment to the pilot, ending with either the destination, or the point where the amended route rejoins the pilot's filed route, followed by FLIGHT PLANNED ROUTE.
 
 !!! phraseology
-    *VOZ845 has filed a non-compliant route for their YMML-YSSY flight: `DCT ML DCT TESAT DCT`. ML ACD wishes to amend their flightplan to follow the recommended route, DOSEL Y59 TESAT DCT*.  
+    *VOZ845 has filed a non-compliant route for their YMML-YSSY flight: `DCT ML DCT TESAT DCT`. ML ACD wishes to amend their flightplan to follow the recommended route, DOSEL Y59 TESAT DCT.*  
+             
     **ML ACD**: "VOZ845, cleared to *Kingsford Smith* via amended DOSEL Y59 TESAT..."  
     
 !!! phraseology
-    *QFA454 has also filed a non-compliant route for their YMML-YSSY flight: `DCT ML H50 MNG DCT CULIN Y59 TESAT DCT`. ML ACD only needs to amend the non-compliant segment of their route, which ends at CULIN*.  
+    *QFA454 has also filed a non-compliant route for their YMML-YSSY flight: `DCT ML H50 MNG DCT CULIN Y59 TESAT DCT`. ML ACD only needs to amend the non-compliant segment of their route.* 
+         
     **ML ACD**: "QFA454, cleared to *Kingsford Smith* via amended DOSEL Y59 CULIN, thence flight planned route..."
     
 
