@@ -11,7 +11,7 @@ In real-life, route selection for air traffic is a complex exercise, involving m
 
 On VATSIM, we can use a variety of online tools and control techniques to simulate realistic and efficient operations through accurate route selection.
 
-!!! tip
+!!! tip  
    This page provides guidance to controllers when validating routes as part of their airways clearance. The VATPAC [Pilot Procedures page](https://pilots.vatpac.org/flight-planning/routeselection/) contains a useful guide to route selection, designed for pilots.
 
 ## Airways
@@ -35,7 +35,7 @@ The ERSA also includes a collection of route planning options for aircraft trave
 
 Separate route options for jet aircraft and non-jet aircraft may be listed, in addition to alternate routes available during times of [SUA activation](../sua/#activation-of-sua).
 
-!!! example
+!!! example  
     The recommended route for jet aircraft travelling from YMML to YSSY is `DCT ML H129 DOSEL Y59 TESAT DCT`.
     
     The recommended route for non-jet aircraft travelling from YMML to YSSY is `DCT ML H129 DOSEL W569 AY W817 ANNKY W113 ANKUB TESAT DCT`
@@ -56,7 +56,7 @@ Aircraft should not include SIDs and STARs on their flight plans in Australia as
 <figure markdown>
 ![Example of a UPR vs published route between YPPH and YSSY](./img/upr-vs-route.png){ width="600" }
     <figcaption>Example of realworld UPRs vs published route between YPPH and YSSY. Long-distance flights gain the most benefit from UPRs as they seek to avoid harsh headwinds or exploit strong tailwinds.</figcaption>
-</figure
+</figure>
 
 The real-world list of requirements for UPRs are documented in the [Off Air Routes Planning (OARP) Manual](https://www.airservicesaustralia.com/industry-info/flight-briefing/off-air-route-flight-planning-options/), which contains a comprehensive list of conditions, and areas where UPRs are not permitted (called [UPR Exclusion Zones](#upr-exclusion-zones).
 
@@ -82,10 +82,10 @@ Aircraft travelling in these zones must adhere to stricter planning requirements
 Before issuing an airways clearance, controllers should ensure the aircraft's filed route complies with all applicable flight plan requirements.
 
 This includes:
-    
-    - Comparing the filed route to the [recommended route](#recommended-routes);
-    - Checking [UPR](#user-preferred-routing) segments are outside any [UPR Exclusion Zones](#upr-exclusion-zones)
-    - Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements);
+
+- Comparing the filed route to the [recommended route](#recommended-routes);
+- Checking [UPR](#user-preferred-routing) segments are outside any [UPR Exclusion Zones](#upr-exclusion-zones)
+- Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements);
     
 !!! tip
      OzStrips can help controllers [detect potential route errors](../../client-towerstrips/#flight-plan-errors) by highlighting routes that don't match recommended routes listed in the ERSA, however it is not infallible.
