@@ -460,17 +460,14 @@ The standard assignable level from BN ADC to BN TCU is:
 | Non-Jets | The lower of `A040` and `RFL` |
 
 #### Standard Assignable Departure Headings
-Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS, RRO, and Segregated operations) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Assigned Heading |
 | ---- | -------------- |
 | 01L | H340 |
-| 01R | H120^ |
+| 01R | H120 |
 | 19L | H110 |
 | 19R | H270 |
-
-!!! exception
-    ^Aircraft departing via **BIXAD** , departing RWY 01R, will be assigned runway heading (excluding during SODPROPS).
 
 !!! tip
     If strong winds are present at altitude, ADC/DEP should discuss slight changes to these headings (+/- 5 degrees) to compensate for large crosswind components.
