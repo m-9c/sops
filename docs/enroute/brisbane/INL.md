@@ -128,12 +128,8 @@ These standard runway assignments may be modified strategically by the BAS or BF
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
 
-##### SODPROPS
-When operating the SODPROPS Runway Mode, all aircraft shall be assigned the Alpha STAR. This deconflicts with aircraft departing RWY 01R.
-
-!!! tip
-    The **ISPON** STAR may be assigned to reduce track miles; this should be coordinated with **BAS**.
-
+##### ISPON STAR
+When Runway 19L is in use for arrivals, and an aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, or **UGTUG** is being assigned Runway 19R for arrival (such as during the 19RA19LD [Segregated runway mode](../../../aerodromes/classc/brisbane/#preferred-runway-modes), or [during busy events](../../terminal/brisbane/#star-and-runway-assignment)) they must be assigned the **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures.
 
 #### Sequencing
 Sequencing arrivals into YBBN is a joint responsibility of the subsectors of INL. Initial sequencing actions should be performed by all sectors, with fine tuning and any holding required issued by GOL/BUR. 

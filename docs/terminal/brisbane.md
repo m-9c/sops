@@ -134,13 +134,19 @@ AMA (or INL on their behalf) will coordinate the activation of these SUA **prior
 ### STAR and Runway Assignment
 Sequencing of arrivals into YBBN is the responsibility of INL, with input from BN TCU.
 
-Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller.
+Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller. 
 
 !!! example
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times. Arrivals via 19R should be monitored for conflict with **GUMKI** or **SCOTT** departures. 
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times. 
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+    
+!!! note
+    When aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, and **UGTUG** are being assigned Runway 19R instead of runway 19L in this manner, they should be **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures. 
+    
+#### 19RA19LD
+When the 19RA19LD [Segregated runway mode](../../aerodromes/classc/brisbane/#preferred-runway-modes) is in use, aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, and **UGTUG** will be assigned the **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures. 
 
 ### Gold Coast Arrivals
 Visual approaches are preferred into YBCG. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with CG ADC may be required.
@@ -210,40 +216,8 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 | From the NORTH and WEST | 01L/19R |
 | From the SOUTH and EAST | 01R/19L |
 	
-### Noise Preferred Runway Operations
-#### SODPROPS
+### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
-
-!!! note
-    All arrivals shall be assigned the **ALPHA** STAR to RWY 19R. This deconflicts aircraft on the departing RWY 01R.
-
-    Additionally, all departures via BIXAD should only be given track shortening when there exists no conflict to arrivals. 
-
-!!! tip
-    The **ISPON** STAR may be assigned to reduce track miles, but this should be closely monitored with RWY 01R departures as to avoid conflict.
-
-
-#### 19RA19LD
-
-Aircraft arriving into YBBN shall be assigned the following STARs when the 19RA19LD mode is in use. 
-
-| Aircraft tracking | STAR |
-| --------- | ------- |
-| via BLAKA | **ISPON** |
-| via GOMOL | **ISPON** |
-| via UGTUG | **ISPON** |
-| via TEBOT | Alpha |
-| via MORBI | Alpha |
-| via SMOKA | Alpha |
-| via WOODY | Alpha |
-| via ENLIP | **ISPON** |
-
-!!! note
-    The **ISPON** STAR is designed to vertically and laterally separate arrivals to RWY 19R from RWY 19L departures. No other STARs to RWY 19R may be used for these arrivals.
-
-#### 01RA01D
-
-All aircraft arriving into YBBN shall be assigned the **ALPHA** STAR.
 
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
