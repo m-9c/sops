@@ -20,7 +20,7 @@ The Australian and Pacific FIRs all contain an extensive network of **airways**:
 - **Low Altitude Airways** are designated for aircraft planned AT OR BLW `F200`.
 - **High Altitude Airways** are designated for aircraft planned AT OR ABV `F200`.
 
-Many airways are designated as **both** high altitude and low altitude airways, and can be planned at all levels. Airways can be further restricted as either "one-way" or "two-way". Two-way airways are used extensively throughout the Australian airway network to separate departure and arrivals at major aerodromes into separate segregated streams of traffic.
+Many airways are designated as **both** high altitude and low altitude airways, and can be planned at all levels. Airways can be further restricted as either "one-way" or "two-way". One-way airways are used extensively throughout the Australian airway network to separate departure and arrivals at major aerodromes into separate segregated streams of traffic.
 
 !!! abstract "Reference"
     Airways are published on the ERC High and ERC Low charts available on the [Airservices Australia](https://www.airservicesaustralia.com/aip/aip.asp).
