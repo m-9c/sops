@@ -135,20 +135,20 @@ Refer to [Helicopter Operations](./helicopters.md).
 
 ## LAHSO
 !!! warning "Important"
-    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers should ensure they are competent on it's use prior to accepting it as a runway mode.
+    LAHSO is a complex runway mode requiring close attention by aerodrome, TCU, and enroute controllers. Controllers should ensure they are competent on its use prior to accepting it as a runway mode.
 
     LAHSO is best run with a flow controller online.
 
-LAHSO is the independent operation of two crossing runways for arrivals and departures. Whilst arrivals to each runway are considered independent, they will still be flowed to provide some degree of lateral segregation. ADC must maintain a visual separation standard between both aircraft during their approach and in the event of a go around.
+LAHSO is the independent operation of two crossing runways for arrivals and departures. Whilst arrivals to each runway are considered independent, they will still be sequenced to provide some degree of lateral segregation. ADC must maintain a visual separation standard between both aircraft during their approach and in the event of a go around.
 
-In addition to the procedure being authorised for use, specific criteria must be met to enable LAHSO, which is detailed on the page of each participating aerodrome.
+Whilst LAHSO is ideal for aerodrome efficiency, it can only be run during specific weather conditions. LAHSO must only be used in visual conditions without any recent windshear reports. Each LAHSO-authorised aerodrome has local restrictions governing the operation of LAHSO; these can be found within the aerodrome's SOPs.
 
 !!! note
     LAHSO is only permitted at [YMML](../aerodromes/classc/melbourne.md#lahso) and [YPDN](../aerodromes/classc/darwin.md#lahso).
 
-The **active** aircraft is the landing aircraft issued with a hold short instruction, prohibiting them from rolling out on their assigned runway beyond the intersection with the crossing runway.
+The **active** aircraft is the landing aircraft issued with a hold short instruction, prohibiting them from rolling beyond the intersection of the crossing runway.
 
-The **passive** aircraft is the landing or departing aircraft which has full use of their assigned runway.
+The **passive** aircraft is not required to hold short of another runway.
 
 <figure markdown>
 ![LAHSO Diagram](img/lahso.png){ width="600" }
@@ -156,9 +156,9 @@ The **passive** aircraft is the landing or departing aircraft which has full use
 </figure>
 
 ### ADC
-ADC is responsible for maintaining a visual separation standard between the active and passive aircraft during their final approach and in the event of a go around. The flight paths of both aircraft must be monitored and speed adjustments provided to arriving aircraft to ensure that in the event of a go around, both aircraft remain clear of each other. 
+ADC is responsible for maintaining a visual separation standard between the active and passive aircraft during their final approach and in the event of a go-around. The flight paths of both aircraft must be monitored and speed adjustments provided to arriving aircraft to ensure that in the event of a go around, both aircraft remain clear of each other. 
 
-ADC must provide traffic information to both aircraft where a LAHSO standard has been applied between them. Additionally, the active LAHSO aircraft must be explicitely instructed to hold short of the crossing runway. Passive aircraft must be informed that the active aircraft will hold short.
+When a LAHSO standard is applied between two aircraft, ADC must provide traffic information to both. The active LAHSO aircraft must be explicitly instructed to hold short of the crossing runway, and the passive aircraft must be advised that the active aircraft will do so.
 
 !!! phraseology
     **ML ADC:** "RXA3866, traffic is a 737 departing on the crossing runway, **hold short runway 27**, **cleared to land runway 34**."  
@@ -185,25 +185,25 @@ Where a go around creates the risk of a collision, ADC must take **immediate act
 - Instructing a departing aircraft to reject their takeoff
 
 !!! phraseology
-    Aircraft not yet rolling: *"VOZ742, hold position, cancel takeoff clearance"*  
-    Aircraft rolling: *"QFA864, stop immediately, QFA864, stop immediately*
+    Aircraft not yet rolling: *"VOZ742, hold position, cancel, I say again, cancel takeoff"*  
+    Aircraft rolling: *"QFA864 stop immediately, QFA864 stop immediately"*
 
 - Providing an uncoordinated vector to an airborne aircraft
 
 !!! phraseology
-    *"RXA3268, turn left heading 210, climb to `A040`"*  
+    *"RXA3268, turn left immediately heading 210, climb to `A040`"*  
 
     ADC can issue any instruction as deemed necessary to avoid a collision. They must coordinate the instruction with the overlying controller as soon as practical.
 
 ### TCU
-With LAHSO in use, ADC will visually separate all relevant aircraft during their final approach and in the event of a go around. TCU controllers shall ensure that simultaneous arrivals are laterally segregated where possible, so that their flightpaths do not conflict in the event of a go around. 
+With LAHSO in use, ADC will visually separate all relevant aircraft during their final approach and in the event of a go around. TCU controllers shall ensure that simultaneous arrivals are laterally segregated where possible, so that their flight paths do not conflict in the event of a go around. 
 
 This is best achieved by sequencing simultaneous arrivals with a **one minute stagger** between runways.
 
 ### Enroute
-Enroute controllers should assertain whether each aircraft is capable of participating in LAHSO as soon as possible, and advise Flow of any aircraft who are unable.
+Enroute controllers should ascertain whether each aircraft is capable of participating in LAHSO as soon as possible, and advise Flow of any aircraft who are unable.
 
-In the real world, LAHSO participation is complicated but, generally, most Australian operators participate. On VATSIM, pilot competency may preclude an understanding of the procedure. If in doubt, assume an aircraft is **passive LAHSO** only.
+In the real world, LAHSO participation is complicated, but generally most Australian operators participate. On VATSIM, pilot competency may preclude an understanding of the procedure. If in doubt, assume an aircraft is **passive LAHSO** only.
 
 Aircraft who require the full length of the active runway are to be considered **negative LAHSO** and will not participate in LAHSO in any capacity. They must have `XX` added to their label and Flow, if online, must be informed.
 
