@@ -164,27 +164,20 @@ Both taxiway **H2** and **F4** are inside the manoeuvring area and treated like 
 ### Preferred Runway Modes
 Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-=== "Day (06:00 - 21:00 Local)"
+| Priority - Mode   | Arrivals  | Departures |
+| ----------------- | --------- | ---------- |
+| 1 - 19 PROPS      | 19L & 19R | 19L & 19R  |
+| 2 - 01 PROPS      | 01L & 01R | 01L & 01R  |
+| 3 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
+| 4 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
+| ‡[SODPROPS](#sodrops) | 19R       | 01R        |
+| *‡RRO              | 19L       | 01R        |
+| ‡19 Night [Segregated](#segregated-operations) | 19R | 19L |
 
-    | Priority - Mode   | Arrivals  | Departures |
-    | ----------------- | --------- | ---------- |
-    | 1 - 19 PROPS      | 19L & 19R | 19L & 19R  |
-    | 2 - 01 PROPS      | 01L & 01R | 01L & 01R  |
-    | 3 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
-    | 4 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
+‡ Preferred between the hours of 2200 and 0600 Local. * Permitted only between the hours of 2200 and 0600 Local. 
 
-=== "Night (21:00 - 06:00 Local)"
-
-    | Priority - Mode   | Arrivals  | Departures |
-    | ----------------- | --------- | ---------- |
-    | 1 - SODPROPS      | 19R       | 01R        |
-    | 2 - RRO           | 19L       | 01R        |
-    | 3 - 19 [Segregated](#segregated-operations) | 19R | 19L |
-    | 4 - 19L           | 19L       | 19L        |
-    | 5 - 01 [Segregated](#segregated-operations) | 01L *or* 01R | 01R |
-
-    !!! note
-        The SODPROPS, RRO, and segregated operation modes are most suitable for noise abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+!!! note
+    The SODPROPS, RRO, and segregated operation modes are most suitable for noise abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 #### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
