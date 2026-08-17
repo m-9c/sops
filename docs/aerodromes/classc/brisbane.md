@@ -221,7 +221,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | via BIXAD | 01L/19R |
 | via BUGNU | 01L/19R |
 | via ITIDE | 01L/19R |
-| via SAMVI | 01L/19R |
+| via SAMVI | **01R**/19R |
 | via WACKO | **01R**/19R |
 | via LAGOB | 01R/19L |
 | via GUMKI | 01R/19L |
