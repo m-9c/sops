@@ -77,7 +77,6 @@ Aircraft travelling in these zones must adhere to stricter planning requirements
     
     An aircraft flying between YBRM and YPDN, entirely outside the exclusion zone, would not be required to use a recommended route, but would still be required to adhere to any other planning requirements relevant to their origin and destination.
 
-
 ## Validating Routes
 Before issuing an airways clearance, controllers should ensure the aircraft's filed route complies with all applicable flight plan requirements.
 
@@ -90,7 +89,7 @@ This includes:
 !!! tip
      OzStrips can help controllers [detect potential route errors](../../client-towerstrips/#flight-plan-errors) by highlighting routes that don't match recommended routes listed in the ERSA, however it is not infallible.
     
-    Some **valid routes may flag** where the route deviates from FPR guidance. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
+    Some **valid routes may be flagged as invalid** where the route deviates from FPR guidance. Some **invalid routes may not flag as invalid** where no FPR guidance exists for that aerodrome pairing.
 
     ACD controllers must ensure they continue to [check each route](#validating-routes) for errors regardless of strip error status.
 
