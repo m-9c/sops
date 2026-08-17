@@ -179,12 +179,12 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
     | ----------------- | --------- | ---------- |
     | 1 - SODPROPS      | 19R       | 01R        |
     | 2 - RRO           | 19L       | 01R        |
-    | 3 - 19 Segregated | 19R       | 19L        |
+    | 3 - 19 [Segregated](#segregated-operations) | 19R | 19L |
     | 4 - 19L           | 19L       | 19L        |
-    | 5 - 01 [Segregated](#segregated-operations) | 01R | 01L *or* 01R |
+    | 5 - 01 [Segregated](#segregated-operations) | 01L *or* 01R | 01R |
 
-!!! note
-    The SODPROPS, RRO, and segregated operation modes are most suitable for noise abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    !!! note
+        The SODPROPS, RRO, and segregated operation modes are most suitable for noise abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 #### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
