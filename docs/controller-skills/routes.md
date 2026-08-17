@@ -61,7 +61,7 @@ Aircraft should not include SIDs and STARs on their flight plans in Australia as
 The real-world list of requirements for UPRs are documented in the [Off Air Routes Planning (OARP) Manual](https://www.airservicesaustralia.com/industry-info/flight-briefing/off-air-route-flight-planning-options/), which contains a comprehensive list of conditions, and areas where UPRs are not permitted (called [UPR Exclusion Zones](#upr-exclusion-zones).
 
 #### UPR Exclusion Zones
-**UPR Exclusion Zones** are areas where aircraft are not permitted to use UPRs. These zones exist predominantly on the 'J-curve', and exist to ensure the orderly flow of traffic in congested and complex airspace.
+These zones exist predominantly in the congested and complex airspace of the 'J-curve', and enhance the predictability of traffic in these areas. These zones exist predominantly on the 'J-curve', and exist to ensure the orderly flow of traffic in congested and complex airspace.
 
 <figure markdown>
 ![UPR Exclusion Areas](./img/upr.png){ width="600" }
