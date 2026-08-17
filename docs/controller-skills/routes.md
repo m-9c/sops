@@ -112,6 +112,8 @@ When an aircraft is being cleared via an amended route, the controller must comm
     *VOZ845 has filed a non-compliant route for their YMML-YSSY flight: `DCT ML DCT TESAT DCT`. ML ACD wishes to amend their flightplan to follow the recommended route, DOSEL Y59 TESAT DCT.*  
              
     **ML ACD**: "VOZ845, cleared to *Kingsford Smith* via amended DOSEL Y59 TESAT..."  
+       
+    *The phrase 'flight planned route' is not included as the entire route has been amended.*   
     
 !!! phraseology
     *QFA454 has also filed a non-compliant route for their YMML-YSSY flight: `DCT ML H50 MNG DCT CULIN Y59 TESAT DCT`. ML ACD only needs to amend the non-compliant segment of their route.* 
