@@ -82,9 +82,9 @@ Before issuing an airways clearance, controllers should ensure the aircraft's fi
 
 This includes:
 
-- Comparing the filed route to the [recommended route](#recommended-routes);
+- Comparing the filed route to the [recommended route](#recommended-routes)
 - Checking [UPR](#user-preferred-routing) segments are outside any [UPR Exclusion Zones](#upr-exclusion-zones)
-- Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements);
+- Ensuring filed flight plans are compliant with [route segment requirements](#flight-plan-requirements).
     
 !!! tip
      OzStrips can help controllers [detect potential route errors](../../client-towerstrips/#flight-plan-errors) by highlighting routes that don't match recommended routes listed in the ERSA, however it is not infallible.
