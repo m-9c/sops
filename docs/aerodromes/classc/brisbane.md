@@ -239,7 +239,7 @@ Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
 ### Segregated Mode Departures
-During [segregated operations](#segregated-operations), aircraft departing Runway 01R  via **BIXAD**, may be assigned the **Radar SID** to reduce track miles
+During [segregated operations](#segregated-operations), aircraft departing Runway 01R via **BIXAD** may be assigned the **Radar SID** to reduce track miles.
 	
 ### Climb Gradient Requirements
 Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
