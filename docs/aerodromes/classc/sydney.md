@@ -373,7 +373,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 5 - 25          | 25        | 25         |
 | *Curfew         | 34L       | 16R        |
 
-*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
+\* <small>*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.*</small>
 
 !!! note
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
