@@ -110,6 +110,7 @@
 *[TORA]: Takeoff Run Available
 *[TRA]: Temporary Reserved Airspace
 *[TSAT]: Tactical Start Approved Time
+*[UPR]: User Preferred Routes
 *[VFR]: Visual Flight Rules
 *[VOR]: VHF Omni-directional Range
 *[VPT]: Visual Manoeuvre with Prescribed Track

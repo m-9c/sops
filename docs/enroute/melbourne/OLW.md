@@ -85,6 +85,9 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 | ---- | -------- | --------- | --------- |
 | MEK, MTK, MZI | HYD(DAL) | YPPH, YPEA | Jets only |
 
+!!! tip
+   To help facilitate sequencing, OLW(All) should aim to handoff aircraft to HYD(All) **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
+
 ## Coordination
 
 ### Enroute
