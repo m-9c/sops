@@ -166,14 +166,19 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 
 | Priority - Mode   | Arrivals  | Departures |
 | ----------------- | --------- | ---------- |
-| 1 - SODPROPS      | 19R       | 01R        |
-| 2 - 19 PROPS      | 19L & 19R | 19L & 19R  |
-| 3 - 01 PROPS      | 01L & 01R | 01L & 01R  |
-| 4 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
-| 5 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
+| 1 - 19 PROPS      | 19L & 19R | 19L & 19R  |
+| 2 - 01 PROPS      | 01L & 01R | 01L & 01R  |
+| 3 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
+| 4 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
+| ‡[SODPROPS](#sodrops) | 19R       | 01R        |
+| *‡RRO              | 19L       | 01R        |
+| ‡19 Night [Segregated](#segregated-operations) | 19R | 19L |
+
+‡ <small>*Preferred between the hours of 2200 and 0600 Local.*</small>  
+\* <small>*Permitted only between the hours of 2200 and 0600 Local.*</small> 
 
 !!! note
-    The SODPROPS and segregated ops modes are most suitable for Noise Abatement. The PROPS modes is most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
+    The SODPROPS, RRO, and segregated operation modes are most suitable for noise abatement and generally utilised at night in the real world. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Panic Stations.
 
 #### SODPROPS
 When using the SODPROPS mode, pass traffic information to aircraft that are departing and landing at the same time
@@ -194,13 +199,12 @@ Brisbane uses **segregated** operating modes during times of low traffic to "sha
 
 There are four possible configurations of segregated operations.
 
-| Arrivals  | Departures |
-| --------- | ---------- |
-| 19L | 19R |
+| Arrivals  | Departures | Notes |
+| --------- | ---------- | ----- |
+| 19L | 19R | Not available between 21:00 - 06:00 Local |
 | 19R | 19L |
-| 01L | 01R |
+| 01L | 01R | Not available between 21:00 - 06:00 Local |
 | 01R | 01L |
-
 
 ### Runway Selection
 When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
@@ -211,7 +215,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | via BIXAD | 01L/19R |
 | via BUGNU | 01L/19R |
 | via ITIDE | 01L/19R |
-| via SAMVI | 01L/19R |
+| via SAMVI | **01R**/19R |
 | via WACKO | **01R**/19R |
 | via LAGOB | 01R/19L |
 | via GUMKI | 01R/19L |
@@ -222,18 +226,14 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | To the SOUTH or EAST | 01R/19L |
 
 ## SID Selection
-Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
+Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-!!! example
-    Jet Aircraft planned via SCOTT, assigned runway 19L, shall be assigned the SCOTT SID.
-
-!!! exception
-    ^Jet Aircraft with ADES **YBSU** may plan via **ITIDE**, and be assigned the **Radar SID**. Amended routing is *not required*.
+Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Other jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
-!!! example
-    Non-Jet Aircraft planned via WACKO, assigned runway 01R, shall be assigned the BN (RADAR) SID.
+### Segregated Mode Departures
+During [segregated operations](#segregated-operations), aircraft departing Runway 01R via **BIXAD** may be assigned the **Radar SID** to reduce track miles.
 	
 ### Climb Gradient Requirements
 Climb gradient requirements apply to all Procedural SIDs. It is the pilot's responsibility to advise if they are unable to meet these requirements. Pilots that advise this shall be assigned the **RADAR** SID instead, regardless of aircraft type.
@@ -245,12 +245,13 @@ The ATIS shall always have `EXP INST APCH` as the approach type.
 Visual Approaches are permitted on request, as long as a separation standard exists between the aircraft and any aircraft arriving on the parallel runway during PROPS, or departing from the parallel runway during SODPROPS.
 
 ### Runway Mode
-| Mode     | ATIS Runway information      |
-| -------- | ---------------------------- |
-| 01 PROPS | `01L AND R FOR ARRS AND DEPS` |
-| 19 PROPS | `19L AND R FOR ARRS AND DEPS` |
-| SODPROPS  | `19R FOR ARRS, RWY 01R FOR DEPS` |
-| Segregated Runway Operations | *As appropriate for chosen duty runway* |
+| Mode     | ATIS Runway information        |
+| -------- | ------------------------------ |
+| 01 PROPS | `01L AND R FOR ARRS AND DEPS`  |
+| 19 PROPS | `19L AND R FOR ARRS AND DEPS`  |
+| SODPROPS | `19R FOR ARR. RWY 01R FOR DEP` |
+| RRO      | `19L FOR ARR. RWY 01R FOR DEP` |
+| Segregated Runway Operations | *As appropriate for chosen duty runway combination* |
 
 ### Operational Info
 The Operational Information field should be updated based on the runway mode in use, as per the table below:
@@ -309,10 +310,10 @@ When a TCU controller is online, aircraft shall be issued with a departure frequ
     | 01R | All | 118.45 (BDS) |
 
 ### Standard Assignable Departure Headings
-Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS, RRO, and Segregated operations) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Assigned Heading |
-| ------ | -------------- |
+| ------ | ---------------- |
 | 01L | H340 |
 | 01R | H120 |
 | 19L | H110 |

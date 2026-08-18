@@ -134,13 +134,19 @@ AMA (or INL on their behalf) will coordinate the activation of these SUA **prior
 ### STAR and Runway Assignment
 Sequencing of arrivals into YBBN is the responsibility of INL, with input from BN TCU.
 
-Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller.
+Aircraft from the north/west are assigned 01L/19R and aircraft from the south/east assigned 01R/19L. These standard runway assignments may be modified strategically by the BAS or BFL controller. 
 
 !!! example
-    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times.
+    If during an event, the vast majority of traffic is coming from **BLAKA** and **GOMOL** feeder fixes, BAS/BFL may elect to assign 19L to **BLAKA** arrivals and 19R to **GOMOL** arrivals, to keep them separated at all times. 
 
     <span class="hotline">**BFL** -> **INL**</span>: "All arrivals via GOMOL to be assigned 19R until further notice"  
     <span class="hotline">**INL** -> **BFL**</span>: "Roger, Arrivals via GOMOL to be assigned 19R" 
+    
+!!! note
+    When aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, and **UGTUG** are being assigned Runway 19R instead of runway 19L in this manner, they should be **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures. 
+    
+#### 19RA19LD
+When the 19RA19LD [Segregated runway mode](../../aerodromes/classc/brisbane/#preferred-runway-modes) is in use, aircraft arriving via **BLAKA**, **ENLIP**, **GOMOL**, and **UGTUG** will be assigned the **ISPON** STAR. The **ISPON** STAR is ensures separation from between those arrivals and Runway 19L departures. 
 
 ### Gold Coast Arrivals
 Visual approaches are preferred into YBCG. If due to operational requirements, an aircraft is unable to accept a visual approach, coordination with CG ADC may be required.
@@ -213,9 +219,6 @@ Unless operationally required, aircraft arriving YBBN shall be assigned the foll
 ### SODPROPS
 Arriving aircraft must be established on final and transferred to the tower frequency no later than 10NM from touchdown.
 
-!!! note
-    Arrivals from the south and east shall be assigned the **ISPON** STAR to RWY 19R by Enroute. Aircraft not assigned this procedure should be closely monitored for conflict with aircraft departing RWY 01R.
-
 ## Helicopter Operations
 In VMC, helicopters inbound to or outbound from YBBN shall be processed via two visual waypoints (outlined below) positioned north and south of the field. Where VMC does not exist, IFR helicopters will conform to fixed wing ops.
 
@@ -281,9 +284,10 @@ Once the aircraft exits the CTA, cancel their identification and control service
 ## Flow
 ### Local Knowledge
 - Aircraft inbound to YBBN from the south may be split between the GOMOL/BLAKA and ENLIP STARs, and assigned different runways, to reduce overall delay (most effective during 01 PROPS)
-- Aircraft inbound to YBBN may be issued the appropriate Xray or Victor STAR to reduce track miles
-- Aircraft inbound to YBBN from the north for RWY 01R may be issued the SMOKA M STAR to reduce track miles
-- Aircraft inbound to YBCG may be assigned the Yankee or Victor STAR to reduce track miles
+- Aircraft inbound to YBBN may be issued the appropriate **X-ray** STAR to reduce track miles
+- Non-jet aircraft inbound to YBBN may be issued the appropiate **Victor** STAR, to continue for a visual approach, when conditions permit.
+- Aircraft inbound to YBBN from the north may be issued the **Mike** STAR to reduce track miles. As this approach involves aircraft crossing the extended centreline for the parallel runway, this should only be assigned when there is no potential for conflict.
+- Aircraft inbound to YBCG may be assigned the **Yankee** or **Victor** STAR to reduce track miles
 
 ### Flow Tables
 #### YBBN
@@ -489,7 +493,7 @@ The standard assignable level from BN ADC to BN TCU is:
 | Non-Jets | The lower of `A040` and `RFL` |
 
 #### Standard Assignable Departure Headings
-Aircraft that have been cleared the **BN (RADAR) SID** will receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS) from the BN ADC controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
+Aircraft that have been cleared the **BN (RADAR) SID** must receive an assigned heading with their line up or takeoff clearance. 'Next' coordination is not required (excluding during SODPROPS, RRO, and Segregated operations) to the BN TCU controller when the departing aircraft has been assigned the standard assignable level and assigned one of the headings listed below:
 
 | Runway | Assigned Heading |
 | ---- | -------------- |
