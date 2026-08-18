@@ -80,7 +80,7 @@ Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5k
 | 6 - 30 Only     | 30        | 30 |
 | *Curfew (RRO)   | 05        | 23 |
 
-*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
+\* <small>*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.*</small>
 
 ## SID Selection
 Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
