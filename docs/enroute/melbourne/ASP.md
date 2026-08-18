@@ -107,6 +107,8 @@ Aircraft being transferred to the following sectors shall be told to Expect STAR
 
 !!! tip
     To help facilitate sequencing, BKE should aim to handoff aircraft to KAT **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
+    
+    Similarly, ESP should aim to handoff aircraft to HYD **as soon as possible**, ie, **>50nm** to the boundary if there are no restrictions.
 
 ## Coordination
 ### Enroute
