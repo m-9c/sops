@@ -170,7 +170,7 @@ Both taxiway **H2** and **F4** are inside the manoeuvring area and treated like 
 | 3 | 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
 | 4 | 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
 | | <sup>‡</sup>[SODPROPS](#sodrops) | 19R       | 01R        |
-| | *<sup>‡</sup>RRO              | 19L       | 01R        |
+| | \*<sup>‡</sup>RRO              | 19L       | 01R        |
 | | <sup>‡</sup>19 Night [Segregated](#segregated-operations) | 19R | 19L |
 
 <sup>‡</sup> <small>*Preferred between the hours of 2200 and 0600 Local.*</small>  

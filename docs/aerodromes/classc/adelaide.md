@@ -77,7 +77,7 @@ Once the aircraft is clear of potential conflict with YPAD (i.e. north of HNLY o
 | 4 | 05 Only     | 05        | 05         |
 | 5 | 12 Only     | 12        | 12         |
 | 6 | 30 Only     | 30        | 30         |
-| \* | Curfew (RRO) | 05      | 23         |
+|   | \*Curfew (RRO) | 05      | 23         |
 
 \* <small>*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 
