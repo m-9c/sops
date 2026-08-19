@@ -370,7 +370,7 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 | 2 | 16D/25A     | 25        | 16L & 16R  |
 | 3 | 07          | 07        | 07         |
 | 3 | 25          | 25        | 25         |
-| \* | Curfew     | 34L       | 16R        |
+|   | \*Curfew    | 34L       | 16R        |
 
 \* <small>*Permitted only between the hours of 2300 and 0600 Local. Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 

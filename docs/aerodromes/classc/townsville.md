@@ -317,12 +317,12 @@ Helicopters intending to operate in any part of Town Common should request clear
 
 | Priority | Mode | Arrivals  | Departures |
 | ---- | -------- | --------- | ---------- |
-| =1 | 01AD/07AD | 01 & 07 | 01 & 07 |
-| =1 | 19AD/25AD | 19 & 25 | 19 & 25 |
-| =2 | 01 Only   | 01 | 01 |
-| =2 | 19 Only   | 19 | 19 |
-| =3 | 07 Only   | 07 | 07 |
-| =3 | 25 Only   | 25 | 25 |
+| 1 | 01AD/07AD | 01 & 07 | 01 & 07 |
+| 1 | 19AD/25AD | 19 & 25 | 19 & 25 |
+| 2 | 01 Only   | 01 | 01 |
+| 2 | 19 Only   | 19 | 19 |
+| 3 | 07 Only   | 07 | 07 |
+| 3 | 25 Only   | 25 | 25 |
 
 ### Circuits
 The circuit height is `A015`.
