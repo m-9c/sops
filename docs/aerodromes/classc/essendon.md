@@ -147,7 +147,7 @@ Helicopters requesting clearance to operate in the Eastern Grass shall be cleare
 ### Preferred Runway Modes
 Runway selection at Essendon requires consideration of winds, the runway mode in use at YMML, and local noise abatement procedures. 
 
-Melbourne has priority when determining duty runways, and Essendon runways are selected, pending wind limitations (Crosswind <20kts, Tailwind <5kts), to minimise potential conflicts.
+Melbourne has priority when determining duty runways, and Essendon runways are selected to minimise potential conflicts.
 
 !!! tip 
     For example, when Runway 34 is in use for arrivals at Melbourne, aircraft departing Runway 26 at Essendon would almost immediately cause a breakdown in separation. 

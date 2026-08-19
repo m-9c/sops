@@ -74,7 +74,6 @@ There are no helipad facilities at YPPH. Helicopters should be issued an airways
 
 ## Runway Modes
 ### Preferred Runway Modes
-If winds are too great, single runway operations may be necessary (eg, Runway 21 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
 | Mode | Arrivals  | Departures |
 | ---------------- | --------- | ---------- |
