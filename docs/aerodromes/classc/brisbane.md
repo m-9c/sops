@@ -228,7 +228,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 ## SID Selection
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Other jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
+Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Other jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 
