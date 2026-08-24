@@ -105,14 +105,10 @@ Helicopters requesting clearance to operate in these areas shall be cleared to a
 ## Runway Modes
 ### Preferred Runway Modes
 
-| Priority | Mode | Arrivals  | Departures |
-| ---- | -------- | --------- | ---------- |
-| 1  | 21AD08/26C | 21       | 21         | 08 or 26 |
-| 1  | 03AD08/26C | 03       | 03         | 08 or 26 |
-| 2  | 21 Only    | 21 | 21 | 21 |
-| 2  | 03 Only    | 03 | 03 | 03 |
-| 2  | 26 Only    | 26 | 26 | 26 |
-| 2  | 08 Only    | 08 | 08 | 08 |
+| Mode | Arrivals  | Departures | Circuits |
+| ---- | --------- | ---------- | -------- |
+| 21AD08/26C | 21  | 21         | 08 or 26 |
+| 03AD08/26C | 03  | 03         | 08 or 26 |
 
 ### Circuits
 The circuit height is `A020` for fixed wing aircraft, and `A012` for rotary wing aircraft.
