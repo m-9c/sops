@@ -40,13 +40,12 @@ When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests
 -->
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - 23          | 23        | 23         |
-| 2 - 05          | 05        | 05         |
-| * RRO           | 05        | 23         |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1    | 23       | 23        | 23         |
+| 2    | 05       | 05        | 05         |
+| \*   | RRO      | 05        | 23         |
 
 \* <small>*Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../sydney/#preferred-runway-modes) are in use.*</small>
 

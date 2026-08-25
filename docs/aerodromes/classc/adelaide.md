@@ -68,19 +68,18 @@ Once the aircraft is clear of potential conflict with YPAD (i.e. north of HNLY o
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - 2312A23D    | 23 & 12   | 23 |
-| 2 - 0512A05D    | 05 & 12   | 05 |
-| 3 - 23 Only     | 23        | 23 |
-| 4 - 05 Only     | 05        | 05 |
-| 5 - 12 Only     | 12        | 12 |
-| 6 - 30 Only     | 30        | 30 |
-| *Curfew (RRO)   | 05        | 23 |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1 | 2312A23D    | 23 & 12   | 23         |
+| 2 | 0512A05D    | 05 & 12   | 05         |
+| 3 | 23 Only     | 23        | 23         |
+| 4 | 05 Only     | 05        | 05         |
+| 5 | 12 Only     | 12        | 12         |
+| 6 | 30 Only     | 30        | 30         |
+|   | \*Curfew (RRO) | 05      | 23         |
 
-\* <small>*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.*</small>
+\* <small>*Permitted between the hours of 2300 and 0600 Local (1330-2030 UTC/1230-1930 UTC HDS). Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 
 ## SID Selection
 Jet Aircraft planned via **AVDEN**, **BENDO**, **GILES**, **AREPA**, **ORBUN**. or **UPROT**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint. Jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
