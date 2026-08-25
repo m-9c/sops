@@ -121,6 +121,13 @@ The ATIS must indicate runway configuration in the format below:
 | 06/24 PROPS | Single ADC  | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |
 | 06/24 PROPS | Dual ADC    | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
 
+#### Runway 06L Night Operations
+When Runway 06L is in use for all operations due to [night operational restrictions](#night-operational-restrictions), the runway configuration should be formatted as follows:
+
+| Mode        | Condition | ATIS Runway information |
+| ----------- | --------- | ----------------------- |
+| 06L         | At Night  | `06L RIGHT CCT`         |
+
 ### Operational Info
 When YPPH RWY 03 is in use, the `OPR INFO` shall include:  
 `DUE YPPH DUTY RWY 03, CAUTION WAKE TURB`
