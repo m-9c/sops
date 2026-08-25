@@ -12,7 +12,7 @@
 | <span class="indented">Melbourne Departures North :material-information-outline:{ title="Non-standard position"}  | MDN | Melbourne Departures | 118.900 | ML_DEP   |
 | <span class="indented">Melbourne Departures South :material-information-outline:{ title="Non-standard position"}  | MDS | Melbourne Departures | 129.400 | ML-S_DEP |
 | <span class="indented">Melbourne (Avalon) Approach :material-information-outline:{ title="Non-standard position"} | MAV | Avalon Approach      | 133.550 | AV_APP   |
-| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}             | MAW | Melbourne Centre     | 135.700 | ML-R_DEP  |
+| <span class="indented">Melbourne Radar :material-information-outline:{ title="Non-standard position"}             | MAW | Melbourne Centre     | 135.700 | ML-R_APP  |
 | <span class="indented">Melbourne Flow :material-information-outline:{ title="Non-standard position"}              | MFL |                      |         | ML_FMP   |
 
 !!! abstract "Non-Standard Positions"
@@ -34,7 +34,7 @@ AV CTR Class D `SFC` to `A007` reverts to Class G and `A007` to `A025` to Class 
 See also: [AV ADC Offline](#av-adc-offline).
 
 !!! tip
-    When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. The *More ATIS* plugin has a formatted Zulu ATIS message.
+    When AV ADC is not online, consider publishing an **ATIS Zulu** for the aerodrome, to inform pilots about the airspace reclassification. 
 
 ### Airspace Division
 The divisions of the airspace between **MAE**, **MDN**, **MDS**, and **MAV** change based on the Runway Mode.
