@@ -359,33 +359,29 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L (& 34L if operationally required) |
-| 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
-| 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
-| 3 - 16D/07A     | 07        | 16L & 16R  |
-| 3 - 25D/34A     | 34L & 34R | 25         |
-| 4 - 16D/25A     | 25        | 16L & 16R  |
-| 5 - 07          | 07        | 07         |
-| 5 - 25          | 25        | 25         |
-| *Curfew         | 34L       | 16R        |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | ---------| --------- | ---------- |
+| 1 | SODPROPS    | 34L       | 16L (& 34L if operationally required) |
+| 2 | 34 PROPS    | 34L & 34R | 34L & 34R  |
+| 2 | 16 PROPS    | 16L & 16R | 16L & 16R  |
+| 2 | 16D/07A     | 07        | 16L & 16R  |
+| 2 | 25D/34A     | 34L & 34R | 25         |
+| 2 | 16D/25A     | 25        | 16L & 16R  |
+| 3 | 07          | 07        | 07         |
+| 3 | 25          | 25        | 25         |
+|   | \*Curfew    | 34L       | 16R        |
 
-\* <small>*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.*</small>
+\* <small>*Permitted only between the hours of 2300 and 0600 Local. Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 
 !!! note
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
-
-!!! tip
-    Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
 ### Runway Selection
 When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
 
 | Aircraft tracking | Runway  |
-| ----------------| --------- |
+| ----------------- | ------- |
 | via KADOM   | 16R/34L      |
 | Jets via WOL | 16R/**34R** |
 | Non-Jets via WOL | 16R/34L |
@@ -395,7 +391,8 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
-Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
+!!! tip
+    Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 #### SODPROPS
 During SODPROPS, all departures shall be assigned RWY 16L, except:
