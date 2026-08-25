@@ -113,24 +113,23 @@ The tables below give an estimated time **in minutes** from the **Feeder Fix** t
 === "RWY 15"
     | STAR       | Jets & DH8D | Non-Jets |
     | ---------- | :------: | :------: |
-    | **CODIE A**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>14<br>12<br>13<br>13<br>14<br>14     | <br>15<br>14<br>14<br>14<br>16<br>15     |
+    | **CODIE A/S/X/Z**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>14<br>12<br>13<br>13<br>14<br>14     | <br>15<br>14<br>14<br>14<br>16<br>15     |
     | **KASPI B/V**<br>*ANDOP transition*<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*ZANEY transition*    | <br>15<br>13<br>12<br>14<br>15<br>12     | <br>17<br>15<br>14<br>15<br>17<br>14     |
     | **NONUM A**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>9^<br>15<br>18 | <br>11^<br>17<br>20 |
     | **NONUM V**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>12^<br>17<br>20 | <br>13^<br>19<br>23 |
-    | **NONUM W**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>9^<br>14<br>17 | <br>10^<br>16<br>19 |
+    | **NONUM U/W**<br>*Feeder Fix: NONUM*<br>*Feeder Fix: MUSEY*<br>*Feeder Fix: NORMA*    | <br>9^<br>14<br>17 | <br>10^<br>16<br>19 |
     | **UPOLO A**<br>*Feeder Fix: BARIA*    | <br>16 | <br>18 |
-    | **UPOLO V**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
-    | **UPOLO W**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
+    | **UPOLO V/X**<br>*Feeder Fix: BARIA*    | <br>15 | <br>17 |
 
 === "RWY 33"
     | STAR       | Jets & DH8D | Non-Jets |
     | ---------- | :------: | :------: |
-    | **HENDO A**<br>*ANDOP transition*<br>*BARIA transition*<br>*ISNER transition*<br>*NORMA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>21<br>12^<br>12<br>14<br>22<br>20<br>24     | <br>24<br>14^<br>14<br>15<br>25<br>23<br>27     |
+    | **HENDO A/Q/Y**<br>*ANDOP transition*<br>*BARIA transition*<br>*ISNER transition*<br>*NORMA transition*<br>*OVLET transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>21<br>12^<br>12<br>14<br>22<br>20<br>24     | <br>24<br>14^<br>14<br>15<br>25<br>23<br>27     |
     | **KEEWI A**<br>*AVDAN transition*<br>*LOCKA transition*<br>*ZANEY transition*    | <br>23<br>22<br>22     | <br>26<br>26<br>25     |
     | **KEEWI V**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*ZANEY transition*    | <br>16<br>15<br>16<br>14     | <br>18<br>17<br>18<br>16     |
-    | **KEEWI X**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*ZANEY transition*    | <br>18<br>17<br>19<br>17     | <br>21<br>20<br>21<br>19     |
-    | **KEEWI Y**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*    | <br>22<br>22<br>21     | <br>25<br>25<br>24     |
-    | **TOTTY W**<br>*ANDOP transition*<br>*ISNER transition*<br>*NORMA transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>19<br>13<br>13<br>19<br>22     | <br>22<br>15<br>15<br>21<br>25     |
+    | **KEEWI S/X**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*<br>*ZANEY transition*    | <br>18<br>17<br>19<br>17     | <br>21<br>20<br>21<br>19     |
+    | **KEEWI Q/Y**<br>*AVDAN transition*<br>*LOCKA transition*<br>*OVLET transition*    | <br>22<br>22<br>21     | <br>25<br>25<br>24     |
+    | **TOTTY U/W**<br>*ANDOP transition*<br>*ISNER transition*<br>*NORMA transition*<br>*PUNIT transition*<br>*VEKBI transition*    | <br>19<br>13<br>13<br>19<br>22     | <br>22<br>15<br>15<br>21<br>25     |
 
 #### Corrections
 
