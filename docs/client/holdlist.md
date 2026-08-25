@@ -27,11 +27,15 @@ The waypoint name can be shortened to as little as three characters (e.g. `H\RIV
 
 An exit time can be specified by appending it to the holding point name, e.g. `H\RIVET\29` to depart `RIVET` at 29-minutes past the hour.
 
-The exit time can be adjusted directly from the list or by modifying the label.
+The exit time can be adjusted directly from the list or by modifying the label, and can be cleared by middle-clicking it in the list.
 
-When the exit time is set, the ETO for all subsequent waypoints are adjusted to reflect the hold exit time.
+!!! note
+    The exit time is optional and informational only.
+    Due to limitations in the vatSys SDK, the plugin does not modify the flight plan or the estimates of subsequent waypoints.
 
-The hold can be cancelled by removing the details from the Label Data, or by rerouting the flight past the holding point.
+## Terminating a Hold
+
+The hold can be cancelled by middle-clicking the ACID in the hold list, or by removing the details from the Label Data.
 
 ## Hold Lists
 
@@ -41,7 +45,7 @@ When a block clearance has been issued, the CFL is displayed as `xxxByyy`, where
 
 An `X` will be displayed if the aircraft is non-RVSM.
 
-The hold exit time is displayed in the label and can be adjusted by clicking on it to select a new exit time.
+The hold entry and exit times are displayed in the label. The exit can be adjusted by clicking on it to select a new exit time, or cleared by middle-clicking it.
 
 The `OP_DATA` can also be viewed and edited from the hold label.
 
