@@ -317,6 +317,9 @@ Coordinate with relevant units and advise them of the expected delay and landing
     Advise pilots of the expected delay and landing time prior to departure to allow them to absorb the delay on the ground rather than in the air.
     The remaining delay does not update until they depart and are correlated to a radar track.
 
+!!! note
+    When a pending flight departs from a nearby aerodrome with an active tower position (for example, Coffs Harbour, Canberra, or Albury), Flow may arrange coordination with the relevant tower during periods of high traffic, so that Flow is advised when the aircraft commences taxi. This allows Flow to activate the flight at the correct time and advise of any delay that can be absorbed on the ground.
+
 ### Arrivals from within the TMA
 
 Aircraft departing from aerodromes within the TMA that will **not** track via a feeder fix cannot be automatically sequenced by Maestro.
@@ -324,6 +327,9 @@ These flights must be inserted directly onto the ladder using the `Insert Flight
 
 !!! warning "Important"
     When inserting a TMA departure using `Insert Flight`, the flight is placed at the time you select. Maestro will not calculate a sequence position or delay.
+
+!!! note
+    When an aerodrome within the TMA has an active tower position (for example, Bankstown, Camden, Moorabbin, Essendon, Archerfield, or Jandakot), Flow may arrange coordination with the relevant tower during periods of high traffic, so that Flow is advised when the aircraft commences taxi. This allows Flow to insert the flight onto the ladder at an appropriate time and advise the landing time.
 
 ### Slots
 
