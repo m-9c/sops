@@ -75,14 +75,13 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures | Circuits |
-| ----------------| --------- | ---------- | -------- |
-| =1 - 06 PROPS | 06L | 06R (DEPS VIA SHOP) & 06L (ALL OTHER DEPS) | 06R |
-| =1 - 24 PROPS | 24R | 24L (DEPS VIA SHOP) & 24R (ALL OTHER DEPS) | 24L |
-| =2 - 12 only | 12 | 12 | 12 |
-| =2 - 30 only | 30 | 30 | 30 |
+| Priority | Mode | Arrivals  | Departures | Circuits |
+| -------- | ---- | --------- | ---------- | -------- |
+| 1 | 06 PROPS | 06L | 06R (DEPS VIA SHOP) & 06L (ALL OTHER DEPS) | 06R |
+| 1 | 24 PROPS | 24R | 24L (DEPS VIA SHOP) & 24R (ALL OTHER DEPS) | 24L |
+| 2 | 12 only | 12 | 12 | 12 |
+| 2 | 30 only | 30 | 30 | 30 |
 
 The [ATIS](#runway-mode-formatting) shall be updated to reflect the use of each runway.
 

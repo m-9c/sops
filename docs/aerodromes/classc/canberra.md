@@ -112,17 +112,16 @@ Helicopters requesting clearance to operate in the Eastern Grass shall be cleare
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals | Departures |
-| ----------------| -------- | ---------- |
-| 1 - 3530A35D | 35 & 30 | 35 |
-| 2 - 1712A17D | 17 & 12 | 17 |
-| 3 - 17A35D (RRO) | 17 | 35 |
-| 4 - 35 Only | 35 | 35 |
-| 4 - 17 Only | 17 | 17 |
-| 5 - 30 Only | 30 | 30 |
-| 6 - 12 Only | 12 | 12 |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1 | 3530A35D    | 35 & 30 | 35 |
+| 2 | 1712A17D    | 17 & 12 | 17 |
+| 3 | 17A35D (RRO) | 17 | 35 |
+| 4 | 35 Only     | 35 | 35 |
+| 4 | 17 Only     | 17 | 17 |
+| 5 | 30 Only     | 30 | 30 |
+| 6 | 12 Only     | 12 | 12 |
 
 !!! note
     The RRO mode is most suitable for Noise Abatement. Since this is not a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity modes during busy times.

@@ -132,7 +132,6 @@ There is also a much smaller helipad located adjacent the car dealership on Term
 
 ## Runway Modes
 ### Preferred Runway Modes
-If winds are too great, single runway operations may be necessary (eg, Runway 16 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used
 
 | Mode     | Arrivals | Departures |
 | -------- | -------- | ---------- |
@@ -140,9 +139,6 @@ If winds are too great, single runway operations may be necessary (eg, Runway 16
 | 16A/27D  | 16       | 27 |
 | 09A/16D  | 09       | 16 |
 | 34A/27AD | 34 & 27  | 27 |
-
-!!! info
-    When utilising the 27AD/34D runway mode, Heavy Aircraft may require Runway 34 for departure due to the shorter length of Runway 27. Assigning Runway 34 to aircraft from the southern apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 !!! note
     See [Runway Mode Formatting](#runway-mode-formatting) for details on how to format each runway mode in the ATIS.

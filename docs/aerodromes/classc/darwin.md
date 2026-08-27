@@ -164,7 +164,6 @@ Helicopters requesting clearance to operate in the Snake Pit shall be cleared to
 
 ## Runway Modes
 ### Preferred Runway Modes
-If winds are too great, single runway operations may be necessary (eg, Runway 11 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
 | Mode | Arrivals | Departures |
 | ---- | -------- | ---------- |

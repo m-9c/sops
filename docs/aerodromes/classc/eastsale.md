@@ -155,7 +155,7 @@ When Runway 09/27 is being used for fixed-wing circuit training, helicopters sho
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts). Only single runway operations are approved.
+Only single runway operations are approved.
 
 ### Circuits
 #### Circuit Direction
