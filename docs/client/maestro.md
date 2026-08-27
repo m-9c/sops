@@ -207,11 +207,6 @@ Ensure the `ETA_FF` is accurate at least 10 minutes prior to the feeder fix. If 
 
 Remove any PETOs (Pilot Estimated Time Over) that may affect the accuracy of the system estimates.
 
-!!! note
-    The Hold Plugin will set a PETO on the holding point, and the waypoint immediately after it. Do not clear these PETOs.
-    When MAESTRO is used in conjunction with the Hold Plugin, the `ETA_FF` will be calculated based on the hold exit time.
-    Verify the ETA_FF is accurate upon cancelling a hold, and re-routing the aircraft past the holding point.
-
 !!! tip
     If the ETA_FF is inaccurate, check the TAS in the flight plan is accurate.
 
