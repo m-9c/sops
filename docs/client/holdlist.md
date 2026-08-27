@@ -12,13 +12,6 @@ The Hold plugin replicates the Eurocat Hold window and functionality, helping En
 ![Hold Window](./img/hold-list.png){ width="600" }
 </figure>
 
-## Installation
-
-The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
-
-!!! warning "Important"
-    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
-
 ## Initiating a Hold
 
 To initiate a hold, enter the hold details into the Label Data.

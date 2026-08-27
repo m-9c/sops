@@ -13,12 +13,6 @@ The plugin is targeted towards Terminal and Enroute controllers.
 ![Traffic Info Delete](../controller-skills/img/dtioverview.png){ width="700" }
 </figure>
 
-## Installation
-The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
-
-!!! warning "Important"
-    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
-
 ## Usage
 Controllers should create a pairing between two aircraft requiring traffic information as early as possible. This can act as a visual cue to ensure that they don't forget to issue the traffic information to each pilot.
 
