@@ -696,6 +696,30 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YSWS"></div>
 
+### MAESTRO
+
+#### Feeder Fix selection
+
+`BOREE`, `YAKKA`, and `MARLN` feeder fixes have been configured to allocate arrivals to `16L` or `34R` during parallel operations.
+
+If an aircraft cannot accept this allocation, ENR may move them to `16R` or `34L` without coordinating with SFL.
+This should be done at least 30 mins prior to `ETA_FF` to avoid changing the stable sequence.
+
+#### Delay Strategy
+
+Enroute delay is prioritised over TMA delay.
+Arrivals should absorb as much of the required delay as possible before the feeder fix.
+MAESTRO may allocate 1 - 2 minutes of delay to the TMA in order to avoid holding.
+
+Delay can be absorbed within the TMA by extending the downwind legs of the approach.
+
+#### Views
+
+**FLO_RWY** uses a custom label layout displaying:
+- callsign and wake category coloured by feeder fix (**<span style="color: rgb(96, 0, 0); background-color: rgb(160, 170, 170);">ENLAD / AKMIR</span>**, **<span style="color: rgb(0, 105, 0); background-color: rgb(160, 170, 170);">BOREE / YAKKA</span>**, **<span style="color: rgb(0, 235, 235); background-color: rgb(160, 170, 170);">MARLN</span>**)
+- total required delay coloured by state
+- total remaining delay, coloured by state
+
 ## Coordination
 ### Enroute
 #### Departures
