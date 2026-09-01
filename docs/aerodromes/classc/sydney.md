@@ -281,7 +281,9 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
 ### Arrivals
-IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway. VFR helicopters are generally processed via by one of Sydney's Helicopter Routes.
+IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway. 
+
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes. Each route includes a clearance limit which helicopters should be instructed to hold at (if required due traffic) or cleared a visual approach (which inherently cancels the clearance limit).
 
 | Route                    | Waypoints | Clearance Limit |
 | ------------------------ | --------- | --------------- |
