@@ -74,12 +74,11 @@ There are no helipad facilities at YPPH. Helicopters should be issued an airways
 
 ## Runway Modes
 ### Preferred Runway Modes
-If winds are too great, single runway operations may be necessary (eg, Runway 21 for Arrivals and Departures). However, pending wind limitations (Crosswind <20kts, Tailwind <5kts), the following runway modes are to be used:
 
 | Mode | Arrivals  | Departures |
 | ---------------- | --------- | ---------- |
 | Southwest Plan (24A/21AD) | 21 & 24 | 21 |
-| Northeast Plan (03AD/06D) | 03 | 03 (via AVNEX, OTLED, OLMAM, SOLUS, and OPEGA), 06 (all other deps)  |
+| Northeast Plan (03AD/06D) | 03 | 03 (*via AVNEX, OTLED, OLMAM, SOLUS, and OPEGA*), 06 (*all other deps*)  |
 
 ### Circuit Training
 Circuit training traffic shall be issued SSR code and clearance to operate within circuit area not above `A015`. Circuit training is typically conducted on Runway 03/21.
@@ -112,7 +111,7 @@ When the [R155A and R155B Pearce](../../../terminal/pearce/#restricted-area-acti
 ### Approach Types
 | Runway Mode                     | Condition                                         | ATIS APCH field |
 | ------------------------------  | ------------------------------------------------- | --------------- |
-| [Southwest Plan](#runway-modes) | All                                               | `EXP ILS APCH`  |
+| [Southwest Plan](#runway-modes) | All                                               | `EXP ILS APCH RWY 21. EXP RNP APCH RWY 24.` |
 | [Northeast Plan](#runway-modes) | Cloud base at or below `A032`, **or**<br>By night | `EXP ILS APCH`  |
 
 ### Runway Mode Formatting

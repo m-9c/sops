@@ -75,14 +75,13 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures | Circuits |
-| ----------------| --------- | ---------- | -------- |
-| =1 - 06 PROPS | 06L | 06R (DEPS VIA SHOP) & 06L (ALL OTHER DEPS) | 06R |
-| =1 - 24 PROPS | 24R | 24L (DEPS VIA SHOP) & 24R (ALL OTHER DEPS) | 24L |
-| =2 - 12 only | 12 | 12 | 12 |
-| =2 - 30 only | 30 | 30 | 30 |
+| Priority | Mode | Arrivals  | Departures | Circuits |
+| -------- | ---- | --------- | ---------- | -------- |
+| 1 | 06 PROPS | 06L | 06R (DEPS VIA SHOP) & 06L (ALL OTHER DEPS) | 06R |
+| 1 | 24 PROPS | 24R | 24L (DEPS VIA SHOP) & 24R (ALL OTHER DEPS) | 24L |
+| 2 | 12 only | 12 | 12 | 12 |
+| 2 | 30 only | 30 | 30 | 30 |
 
 The [ATIS](#runway-mode-formatting) shall be updated to reflect the use of each runway.
 
@@ -121,6 +120,13 @@ The ATIS must indicate runway configuration in the format below:
 | ----------- | ----------- | ----------------------- |
 | 06/24 PROPS | Single ADC  | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS` |
 | 06/24 PROPS | Dual ADC    | `06R/24L FOR CCTS AND DEPS VIA ARMADALE SHOPS, FREQ 119.4. RWY 06L/24R FOR ARRS AND ALL OTHER DEPS, FREQ 118.1` |
+
+#### Runway 06L Night Operations
+When Runway 06L is in use for all operations due to [night operational restrictions](#night-operational-restrictions), the runway configuration should be formatted as follows:
+
+| Mode        | Condition | ATIS Runway information |
+| ----------- | --------- | ----------------------- |
+| 06L         | At Night  | `06L RIGHT CCT`         |
 
 ### Operational Info
 When YPPH RWY 03 is in use, the `OPR INFO` shall include:  

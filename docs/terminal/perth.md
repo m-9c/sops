@@ -211,6 +211,13 @@ The following calculator will generate a landing time from a feeder fix ETA, or 
 === "Feeder Fix Time"
     <div class="flowCalculatorFeederFixTime" data-aerodrome="YPPH"></div>
 
+### MAESTRO
+
+#### Delay Strategy
+
+Enroute delay is prioritised over TMA delay. Arrivals should absorb as much of the required delay as possible before the feeder fix.
+MAESTRO may allocate 1 - 2 minutes of delay to the TMA in order to avoid holding.
+
 ## Coordination
 ### Enroute
 #### Departures

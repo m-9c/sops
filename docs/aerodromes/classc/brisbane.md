@@ -162,19 +162,18 @@ Both taxiway **H2** and **F4** are inside the manoeuvring area and treated like 
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode   | Arrivals  | Departures |
-| ----------------- | --------- | ---------- |
-| 1 - 19 PROPS      | 19L & 19R | 19L & 19R  |
-| 2 - 01 PROPS      | 01L & 01R | 01L & 01R  |
-| 3 - 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
-| 4 - 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
-| ‡[SODPROPS](#sodrops) | 19R       | 01R        |
-| *‡RRO              | 19L       | 01R        |
-| ‡19 Night [Segregated](#segregated-operations) | 19R | 19L |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1 | 19 PROPS    | 19L & 19R | 19L & 19R  |
+| 2 | 01 PROPS    | 01L & 01R | 01L & 01R  |
+| 3 | 19 [Segregated](#segregated-operations) | 19R *or* 19L | 19L *or* 19R |
+| 4 | 01 [Segregated](#segregated-operations) | 01R *or* 01L | 01L *or* 01R |
+|   | <sup>‡</sup>[SODPROPS](#sodrops) | 19R       | 01R        |
+|   | \*<sup>‡</sup>RRO                | 19L       | 01R        |
+|   | <sup>‡</sup>19 Night [Segregated](#segregated-operations) | 19R | 19L |
 
-‡ <small>*Preferred between the hours of 2200 and 0600 Local.*</small>  
+<sup>‡</sup> <small>*Preferred between the hours of 2200 and 0600 Local.*</small>  
 \* <small>*Permitted only between the hours of 2200 and 0600 Local.*</small> 
 
 !!! note
@@ -228,7 +227,7 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 ## SID Selection
 Jet Aircraft planned via **BIXAD**, **GUMKI**, **SCOTT**, **SANEG**, or **WACKO**, shall be assigned the **Procedural SID** that terminates at the appropriate waypoint.
 
-Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Other jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus^, unless the pilot indicates they are unable to accept a Procedural SID.
+Jet Aircraft with ADES **YBSU** or **YBCG** may plan via **ITIDE** or **LAGOB** respectively, and be assigned the **Radar SID**. Other jet Aircraft **not** planned via any of these waypoints shall receive amended routing via the most appropriate SID terminus, unless the pilot indicates they are unable to accept a Procedural SID.
 
 Non-Jet aircraft, and aircraft that cannot accept a Procedural SID, shall be assigned the **Radar SID**.
 

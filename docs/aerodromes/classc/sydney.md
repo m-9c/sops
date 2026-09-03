@@ -281,7 +281,18 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
 ### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Helicopter Routes (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway. 
+
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes. Each route includes a clearance limit which helicopters should be instructed to hold at (if required due traffic) or cleared a visual approach (which inherently cancels the clearance limit).
+
+| Route                    | Waypoints | Clearance Limit |
+| ------------------------ | --------- | --------------- |
+| ROSEHILL 5 INBOUND       | `RSH RKWC CBY` | *Novotel (Sydney International Airport) Hotel* |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK APST` | `APST` |
+| BARRACKS 5 INBOUND       | `RCB MPSC` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| MAROUBRA 5 INBOUND       | `MRBR` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| CAPE BANKS 5 INBOUND     | `CAPS` | *Container Terminal* |
+| WANDA 5 INBOUND          | `YWAN DLPT` | *The Brighton Hotel* |
 
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  
 
@@ -295,6 +306,7 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **YZD:** "Cleared visual approach, wilco, YZD"
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
+
 !!! phraseology
     **SY ADC:** "YOE, hold at the clearance limit, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Hold at the clearance limit, traffic sighted, YOE"  
@@ -359,33 +371,29 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L (& 34L if operationally required) |
-| 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
-| 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
-| 3 - 16D/07A     | 07        | 16L & 16R  |
-| 3 - 25D/34A     | 34L & 34R | 25         |
-| 4 - 16D/25A     | 25        | 16L & 16R  |
-| 5 - 07          | 07        | 07         |
-| 5 - 25          | 25        | 25         |
-| *Curfew         | 34L       | 16R        |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | ---------| --------- | ---------- |
+| 1 | SODPROPS    | 34L       | 16L (& 34L if operationally required) |
+| 2 | 34 PROPS    | 34L & 34R | 34L & 34R  |
+| 2 | 16 PROPS    | 16L & 16R | 16L & 16R  |
+| 2 | 16D/07A     | 07        | 16L & 16R  |
+| 2 | 25D/34A     | 34L & 34R | 25         |
+| 2 | 16D/25A     | 25        | 16L & 16R  |
+| 3 | 07          | 07        | 07         |
+| 3 | 25          | 25        | 25         |
+|   | \*Curfew    | 34L       | 16R        |
 
-\* <small>*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.*</small>
+\* <small>*Permitted only between the hours of 2300 and 0600 Local. Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 
 !!! note
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
-
-!!! tip
-    Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
 
 ### Runway Selection
 When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
 
 | Aircraft tracking | Runway  |
-| ----------------| --------- |
+| ----------------- | ------- |
 | via KADOM   | 16R/34L      |
 | Jets via WOL | 16R/**34R** |
 | Non-Jets via WOL | 16R/34L |
@@ -395,7 +403,8 @@ When **PROPS** are in progress, aircraft shall be assigned the following runways
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
 
-Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
+!!! tip
+    Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 #### SODPROPS
 During SODPROPS, all departures shall be assigned RWY 16L, except:
