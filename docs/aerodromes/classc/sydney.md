@@ -281,7 +281,18 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
 ### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Helicopter Routes (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway. 
+
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes. Each route includes a clearance limit which helicopters should be instructed to hold at (if required due traffic) or cleared a visual approach (which inherently cancels the clearance limit).
+
+| Route                    | Waypoints | Clearance Limit |
+| ------------------------ | --------- | --------------- |
+| ROSEHILL 5 INBOUND       | `RSH RKWC CBY` | *Novotel (Sydney International Airport) Hotel* |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK APST` | `APST` |
+| BARRACKS 5 INBOUND       | `RCB MPSC` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| MAROUBRA 5 INBOUND       | `MRBR` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| CAPE BANKS 5 INBOUND     | `CAPS` | *Container Terminal* |
+| WANDA 5 INBOUND          | `YWAN DLPT` | *The Brighton Hotel* |
 
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  
 
@@ -295,6 +306,7 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **YZD:** "Cleared visual approach, wilco, YZD"
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
+
 !!! phraseology
     **SY ADC:** "YOE, hold at the clearance limit, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Hold at the clearance limit, traffic sighted, YOE"  

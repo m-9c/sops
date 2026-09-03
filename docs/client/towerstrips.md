@@ -6,20 +6,10 @@ title: Tower Strips
 
 In the real world, aerodrome controllers use strips to provide a visual representation of aerodrome activity, beyond what looking out the window or at a radar screen can provide.
 
-Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
+Within vatSys, this can be emulated using OzStrips. Strip state is shared between controllers operating at the same aerodrome.
 
 ## Setup
-### Installation
-The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
-
-!!! warning "Important"
-    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
-
-If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
-
-<figure markdown>
-![OzStrips Dropdown](./img/ozstripsdropdown.png){ width="700" }
-</figure>
+The OzStrips window can be opened through the top menu bar, by clicking **Windows** > **OzStrips**.
 
 ### Connecting
 OzStrips automatically manages the list of aerodromes available, depending on the position and sectors you have set. The desired aerodrome can be chosen from this list.
@@ -28,7 +18,7 @@ OzStrips automatically manages the list of aerodromes available, depending on th
 ![Select Aerodrome](./img/ozstripsaerodromeselect.png){ width="500" }
 </figure>
 
-A connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
+An automatic connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
 
 !!! tip
     Pressing `[` and `]` will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.

@@ -66,9 +66,12 @@ The real-world list of requirements for UPRs are documented in the [Off Air Rout
 **UPR Exclusion Zones** are areas where aircraft are not permitted to use UPRs. These zones exist predominantly in the congested and complex airspace of the 'J-curve', and enhance the predictability of traffic in these areas.
 
 <figure markdown>
-![UPR Exclusion Areas](./img/upr.png){ width="600" }
+![UPR Exclusion Zones](./img/upr.png){ width="600" }
     <figcaption>UPR Exclusion Zones (*in purple*)</figcaption>
 </figure>
+
+!!! tip
+    The UPR Exclusion Zones can be displayed in vatSys by selecting the `UPR_EXCL_ZONE` map.
 
 Aircraft travelling in these zones must adhere to stricter planning requirements and follow [recommended route options](#recommended-routes), where available.
 
@@ -106,6 +109,8 @@ Where a route is not compliant, an [amended route](#route-amendments) should be 
    Controllers should work with pilots patiently to maximise route compliance. Where a pilot is unable to comply with a reroute, and workload permits, controllers should attempt to find an alternative route that minimises conflict with other traffic.
    
    In all cases, controllers should display professional behaviour to other controllers and pilots when validating routes and providing amended routes.
+
+A non-compliant route will often comply with local [flight planning requirements](#flight-plan-requirements) but utilise [UPRs](#user-preferred-routing) once outside UPR Exclusion Zones. These routes are valid and the warning flag should be inhibited.
    
     
 ### Route Amendments
