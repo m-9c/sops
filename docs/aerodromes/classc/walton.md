@@ -40,15 +40,14 @@ When implementing the procedure the ATIS [OPR INFO field](#acd-pushback-requests
 -->
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - 23          | 23        | 23         |
-| 2 - 05          | 05        | 05         |
-| * RRO           | 05        | 23         |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1    | 23       | 23        | 23         |
+| 2    | 05       | 05        | 05         |
+| \*   | RRO      | 05        | 23         |
 
-*Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../sydney/#preferred-runway-modes) are in use.
+\* <small>*Permitted between the hours of 2300 and 0530 local when [YSSY Curfew Operations](../sydney/#preferred-runway-modes) are in use.*</small>
 
 #### Reciprocal Runway Operations
 During Reciprocal Runway Operations (RRO) aircraft will depart and arrive in opposite directions on the same runway.
@@ -158,6 +157,11 @@ YSWS uses four different SID designators to differentiate between different vari
 ## ATIS
 ### Approach Types
 The ATIS shall always have `EXP INST APCH` as the approach type.
+
+### Runway Mode
+| Mode     | ATIS Runway information      |
+| -------- | ---------------------------- |
+| RRO | `RECIPROCAL RWY OPS IN PROGRESS` |
 
 ### Operational Info
 The OPR INFO field should be updated to reflect the level of controlled airspace within the [SY CTA C10](../../../terminal/sydney/#sydney-cta-c10) airspace when it is lowered overnight.

@@ -17,7 +17,7 @@ Here is a complete list of standard annotations controllers should be entering i
 | ----------- | ----------------- | ------- |
 | Location indicator | Four-letter ICAO designator.<br />*Note: can be reduced if unlikely to cause confusion.* | YBBN<br /> BN |
 | Waypoint name | Five-letter designator<br />*Note: can be reduced if unlikely to cause confusion.* | RIVET<br />RIV |
-| Place-brearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
+| Place-bearing-distance locations | Position expressed as a bearing and distance from a datum.<br />(place)(bearing)(distance) | SY335045<br />*ie: SY DME, R335, 45 NM* |
 | Amended route | When assigned a route that differs to that planned | AR |
 | Assigned Heading | H(heading) | H350 |
 | Track Extended Centreline | | TEC |
@@ -28,8 +28,10 @@ Here is a complete list of standard annotations controllers should be entering i
 | ----------- | ----------------- | ------- |
 | Request | R(request) | R30L<br />R370 |
 | Unrestricted | Aircraft may climb to the standard assignable level | U |
+| No frequency requirements | Additional coordination must be done for any lateral or level changes | NFR |
 | No restrictions | Changes to both lateral and vertical clearances permitted without further coordination | NR |
-| No lateral restrictions | Changes to only lateral clearances permitted without further coordiantion | NLR |
+| No restrictions or requirements | Any and all lateral and level changes approved, and No Frequency Requirements | NRR |
+| No lateral restrictions | Changes to only lateral clearances permitted without further coordination | NLR |
 | No vertical restrictions | Changes to only vertical clearance permitted without further coordination | NVR |
 | No restrictions on descent | Aircraft may continue descent without further coordination | NRD |
 | No restrictions on climb | Aircraft may continue climb without further coordination | NRC |

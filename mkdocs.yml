@@ -92,7 +92,6 @@ plugins:
         'aerodromes/Sunshinecoast.md': 'aerodromes/procedural/sunshinecoast.md'
         'aerodromes/Tamworth.md': 'aerodromes/procedural/tamworth.md'
         'aerodromes/Woomera.md': 'aerodromes/procedural/woomera.md'
-        'controller-skills/annotations.md': 'client/annotations.md'
         'controller-skills/cpdlc.md': 'client/cpdlc.md'
         'controller-skills/maestro.md': 'client/maestro.md'
         'controller-skills/vatsys.md': 'client/vatsys.md'
@@ -155,3 +154,6 @@ extra_javascript:
 
 validation:
   unrecognized_links: ignore
+
+exclude_docs:
+  /events/archive/          # Don't build the archive folder, just keep the files here for future reference

@@ -104,16 +104,11 @@ Helicopters requesting clearance to operate in these areas shall be cleared to a
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals | Departures | Circuits |
-| --------------- | -------- | ---------- | -------- |
-| =1 - 21AD08/26C | 21       | 21         | 08 or 26 |
-| =1 - 03AD08/26C | 03       | 03         | 08 or 26 |
-| =2 - 21 Only    | 21 | 21 | 21 |
-| =2 - 03 Only    | 03 | 03 | 03 |
-| =2 - 26 Only    | 26 | 26 | 26 |
-| =2 - 08 Only    | 08 | 08 | 08 |
+| Mode | Arrivals  | Departures | Circuits |
+| ---- | --------- | ---------- | -------- |
+| 21AD08/26C | 21  | 21         | 08 or 26 |
+| 03AD08/26C | 03  | 03         | 08 or 26 |
 
 ### Circuits
 The circuit height is `A020` for fixed wing aircraft, and `A012` for rotary wing aircraft.
@@ -150,7 +145,7 @@ The standard assignable level from **NW ADC** to **NW TCU** is:
 | All      | The lower of `A100` and `RFL` | 
 
 #### ACD to NW TCU
-The controller assuming responsibility of **ACD** shall give [heads-up coordination](../../controller-skills/coordination/#airways-clearance) to NWA (or the enroute controller responsible for the NW TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
+The controller assuming responsibility of **ACD** shall give [heads-up coordination](../../../controller-skills/coordination/#airways-clearance) to NWA (or the enroute controller responsible for the NW TCU) prior to the issue of a clearance to an aircraft intending to operate in an SUA that **has not** been activated. 
 
 !!! phraseology
     <span class="hotline">**NW ACD** -> **NWA**</span>: "SWFH12 requests clearance to R420F”  

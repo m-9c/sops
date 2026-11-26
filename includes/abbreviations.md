@@ -110,6 +110,7 @@
 *[TORA]: Takeoff Run Available
 *[TRA]: Temporary Reserved Airspace
 *[TSAT]: Tactical Start Approved Time
+*[UPR]: User Preferred Routes
 *[VFR]: Visual Flight Rules
 *[VOR]: VHF Omni-directional Range
 *[VPT]: Visual Manoeuvre with Prescribed Track
@@ -214,7 +215,7 @@
 *[AAE]: Adelaide Approach East
 *[AAR]: Adelaide Radar
 *[AMA]: Amberley Approach
-*[BAA]: Ballina Approach
+*[BAB]: Ballina Approach
 *[BAC]: Brisbane (Gold Coast) Approach
 *[BAN]: Brisbane Approach North
 *[BAS]: Brisbane Approach South
@@ -430,6 +431,7 @@
 *[SITS]: Seven Hills Train Station
 *[SNP]: Station Pier
 *[SORL]: Sorell
+*[SPS]: Stanwell Power Station
 *[SSKP]: St Helens Skate Park
 *[STOT]: Stotts Island
 *[SUNZ]: Sun Zinc Refinery

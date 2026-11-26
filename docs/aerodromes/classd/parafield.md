@@ -52,22 +52,13 @@ Refer to the [ATIS section](#runway-mode-formatting) for information on ATIS for
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| =1     | 03L & 03R |
-| =1     | 21L & 21R |
-| =2     | 08L & 08R |
-| =2     | 26L & 26R |
-| 3     | Any Single Runway Operations |
-
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| =1 - 03 PROPS | 03L (WEST) & 03R (EAST) | 03L (WEST) & 03R (EAST) |
-| =1 - 21 PROPS | 21L (EAST) & 21R (WEST) | 21L (EAST) & 21R (WEST) |
-| =2 - 08 PROPS | 08L (WEST) & 08R (EAST) | 08L (WEST) & 08R (EAST) |
-| =2 - 26 PROPS | 26L (EAST) & 26R (WEST) | 26L (EAST) & 26R (WEST) |
+| Priority | Mode | Arrivals  | Departures |
+| -------- | ---- | --------- | ---------- |
+| 1 | 03 PROPS | 03L (WEST) & 03R (EAST) | 03L (WEST) & 03R (EAST) |
+| 1 | 21 PROPS | 21L (EAST) & 21R (WEST) | 21L (EAST) & 21R (WEST) |
+| 2 | 08 PROPS | 08L (WEST) & 08R (EAST) | 08L (WEST) & 08R (EAST) |
+| 2 | 26 PROPS | 26L (EAST) & 26R (WEST) | 26L (EAST) & 26R (WEST) |
 
 #### Night Operational Restrictions
 Runways 03R/21L, 08L/26R, and 08R/26L are unlit, and **cannot** be used at night.

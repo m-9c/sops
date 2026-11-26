@@ -4,7 +4,6 @@ title: Traffic Info
 
 --8<-- "includes/abbreviations.md"
 
-## Background
 The Traffic Info plugin replicates the Eurocat window of the same name, which helps real world controllers manage the issuance of traffic information to pilots. Traffic pairings can be created between two or more aircraft, providing a place for controllers to record when traffic information is provided to each pilot.
 
 The plugin is targeted towards Terminal and Enroute controllers.
@@ -12,12 +11,6 @@ The plugin is targeted towards Terminal and Enroute controllers.
 <figure markdown>
 ![Traffic Info Delete](../controller-skills/img/dtioverview.png){ width="700" }
 </figure>
-
-## Installation
-The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
-
-!!! warning "Important"
-    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
 
 ## Usage
 Controllers should create a pairing between two aircraft requiring traffic information as early as possible. This can act as a visual cue to ensure that they don't forget to issue the traffic information to each pilot.

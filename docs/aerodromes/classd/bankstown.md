@@ -207,12 +207,11 @@ Circuits are conducted within the lateral confines of the fixed-wing circuit at 
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures | Circuits |
-| ----------------| --------- | ---------- | -------- |
-| 1 - 29 PROPS | 29R (VFR) & 29C (IFR) | 29R (VFR) & 29C (IFR) | 29L |
-| 2 - 11 PROPS | 11L (VFR) & 11C (IFR) | 11L (VFR) & 11C (IFR) | 11R |
+| Priority | Mode | Arrivals & Departures | Circuits |
+| ---- | -------- | --------------------- | -------- |
+| 1 | 29 PROPS | 29R (VFR) & 29C (IFR) | 29L |
+| 2 | 11 PROPS | 11L (VFR) & 11C (IFR) | 11R |
 
 #### Night Operational Restrictions
 Runways 11L/29R & 11R/29L are unlit and **cannot** be used at night.

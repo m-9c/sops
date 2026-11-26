@@ -14,11 +14,10 @@
 | <span class="indented">Sydney Departures North :material-information-outline:{ title="Non-standard position"}    | SDN | Sydney Departures  | 123.000 | SY-N_DEP |
 | <span class="indented">Sydney Director West :material-information-outline:{ title="Non-standard position"}       | SFW | Sydney Director    | 126.100 | SY-D_APP |
 | <span class="indented">Sydney Director East :material-information-outline:{ title="Non-standard position"}       | SFE | Sydney Director    | 125.300 | SY-DE_APP|
-| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_DEP |
+| <span class="indented">Sydney Centre :material-information-outline:{ title="Non-standard position"}              | SYC | Sydney Centre      | 124.550 | SY-R_APP |
 | <span class="indented">Bankstown Approach :material-information-outline:{ title="Non-standard position"}         | SBA | Bankstown Approach | 125.800 | BK_APP   |
 | <span class="indented">Richmond Approach :material-information-outline:{ title="Non-standard position"}          | SRA | Richmond Approach  | 135.900 | RI_APP   |
 | <span class="indented">Nancy-Bird Walton Approach :material-information-outline:{ title="Non-standard position"} | SWA | Walton Approach    | 118.400 | WS_APP   |
-| <span class="indented">Sydney Flow :material-information-outline:{ title="Non-standard position"}                | SFL |                    |         | SY_FMP   |
 
 !!! abstract "Non-Standard Positions"
     :material-information-outline: Non-standard positions may only be used in accordance with [VATPAC Air Traffic Services Policy](https://vatpac.org/publications/policies){target=new}.  
@@ -167,7 +166,7 @@ Coded Clearances are used to provide standardised routing for VFR aircraft arriv
 
 Each coded clearance includes tracking instructions and height requirements that ensure aircraft remain within Class D airspace. Each coded clearance also includes instructions on when to change frequencies and control service termination advice.
 
-The routes are generally segregated, although the '*Penrith Outbound*' and '*Brooklyn Inbound*' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairpsace), **no separation** is provided for VFR aircraft. 
+The routes are generally segregated, although the '*Penrith Outbound*' and '*Brooklyn Inbound*' routes intersect within SBA CTA, west of SITS. Remember that in [Class D Airspace](../../controller-skills/classofairspace/), **no separation** is provided for VFR aircraft. 
 
 Traffic advisory statements should be given to aircraft where appropriate and, if necessary, SBA may pass an avoiding action advice to ensure aircraft do not collide.
 
@@ -224,7 +223,7 @@ Arrivals shall contact **SYC** for identification prior to entering CTA. SYC sha
 
  Each coded clearance includes a frequency transfer instruction to BK ADC. No explicit transfer instructions should be given to these aircraft.
 
- !!! tip
+!!! tip
     Whilst establishing two-way communication with a VFR aircraft constitutes a clearance to enter Class D airspace, it is generally preferred to issue an explicit airways clearance as in the examples above.
 
 #### Class D Transits
@@ -267,12 +266,26 @@ Pilots intending to track southbound via Victor One after completing the Harbour
 
 Pilots are required to reach `A005` prior to South Head and will report maintaining `A005`, when their control services may be terminated.
 
+### Training Areas
+The Sydney Training Area is located in the south west of the TMA, `SFC` - `BCTA`, entirely within the D426A-D Sydney [danger area](../../controller-skills/sua/#danger-areas).
+
+<figure markdown>
+![Sydney Basin Training Area](img/sy_training_area.png){ width="700" }
+  <figcaption>Sydney Basin Training Area</figcaption>
+</figure>
+
+The area is designed for flying training operations from aircraft based out of YSCN and YSBK. VFR aircraft are not required to contact SYC for entry, however should monitor the SYC frequency while operating in the area.
+
+SYC should monitor aircraft operating in the area and, if a conflict is imminent, pass safety alerts to aircraft even if prior contact has not been established and the aircraft are not in receipt of SIS. 
+
+!!! phraseology
+    **SYC**: "Safety alert, VFR aircraft 1nm south of SSKP tracking northeast `A013`, you will shortly be entering R555C restricted area, clearance not available, suggest immediate right turn to avoid."
+
 ### Special Use Airspace
 <figure markdown>
 ![SUA in the SY TMA](img/sy_sua.png){ width="700" }
   <figcaption>SUA in the SY TMA</figcaption>
 </figure>
-
 
 #### Richmond SUA
 There are multiple [restricted areas](../../controller-skills/sua/#restricted-areas) within the TMA associated with military operations at YSRI. The restricted areas are all located within **SRA** airspace.
@@ -280,7 +293,7 @@ There are multiple [restricted areas](../../controller-skills/sua/#restricted-ar
 **RI SMC** will coordinate the [activation of these SUAs](#smc-to-tcu) with SY TCU **prior** to any activity.
 
 ##### R481 COLO
-The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../airwork/#parachute-operations) or local flight testing, above `A045`.
+The **R481 COLO** [restricted area](../../controller-skills/sua/#restricted-areas) is used to facilitate higher-level military operations, such as [PJE](../../controller-skills/airwork/#parachute-operations) or local flight testing, above `A045`.
 
 Multiple YSSY and YSWS procedures transit the R481 COLO restricted area. When the area is activated, **SRA** must be extremely vigilant to ensure separation between PJE and transiting civil aircraft. Where possible, **SRA** should coordinate with neighbouring **SY TCU** sectors to assign additional requirements to climb above the vertical limits of the activation, or have the aircraft rerouted to avoid the area.
 
@@ -374,18 +387,42 @@ These aircraft will be assigned `A030` (unless otherwise coordinated) and should
     With high traffic levels during day VMC, it may be more efficient to process IFR departures via a [coded clearance](#bankstown-coded-clearances).
 
 #### Arrivals
-IFR aircraft inbound to YSBK will be cleared direct to the RNP IAF and [coordinated with SBA](#between-sba-and-tcu). They should be handed to SBA not below `A030`.
+IFR aircraft inbound to YSBK will generally follow the [recommended routing](../../controller-skills/routes/#recommended-routes) via the **Z97 airway** from the west, the **Z88 airway** from the north, or the **WHALE STAR** from the east. In all cases, **SBA** is responsible for issuing approach clearance to these aircraft.
 
 SBA will [coordinate with BK ADC](#bk-adc) and clear the aircraft for the approach.
 
 !!! note
-    By day VMC, IFR aircraft should be processed via a [coded clearance](#bankstown-coded-clearances).
+    By day VMC, IFR aircraft may be instructed to downgrade to VFR and processed via a [coded clearance](#bankstown-coded-clearances).
 
-Aircraft inbound from the south, west, and northwest should track via the **Z97 airway** and be processed via ESGID for the **RNP-Z** approach. This helps keep them clear of the YSWS SIDs/STARs and segregated (but not separated) from the YSSY STARs.
+Successive RNP approaches in IMC should only be authorised after the first aircraft lands at YSBK due to the conflict between the approach and published missed approach. In practice, this may translate to up to an 8 min sequence between arrivals.
 
-Aircraft inbound from the east should be processed via the STAR and be vectored in SWA airspace to facilitate descent. They should then be cleared via the **RNP-Y** approach.
+!!! tip
+    When traffic levels in the TMA are low, it may be possible to simplify the handling of aircraft inbound to YSBK through track shortening and/or providing descent inside CTA.
 
-Aircraft inbound from the north should track via the **Z88 airway** and be processed via NIXOD for the **RNP-N** approach. This approach is only available to the circling area and may not be suitable during periods of low cloud or reduced visibility.
+Aircraft shall be processed as per the instructions below:
+
+<figure markdown>
+![Recommended Arrival Routes into YSBK](img/bk_arrivals.png){ width="700" }
+  <figcaption>Recommended Arrival Routes into YSBK, with key waypoints shown.</figcaption>
+</figure>
+
+=== "From the West"
+    Aircraft from the west do not meet the criteria for voiceless [coordination by Enroute](#arrivals_6) and will be heads-up coordinated. A requirement to reach **A060 by WELSH** should be passed to Enroute to relay to these aircraft. This will help segregate them from aircraft on the AKMIR STAR, however there is no separation assurance provided by the AKMIR STAR past **MUBDI** unless the YSBK arrival is descended further.
+
+    Particular care should be exercised between aircraft inbound to YSBK on the Z97 airway and aircraft departing YSSY on the **ANKUB SID**. The interaction works best when the YSBK arrival is descended below the YSSY departure, although it may be necessary to provide vectors to maintain lateral separation between the pair until vertical separation assurance exists.
+
+    The Z97 airway includes ESGID, which is the IAF for the RNP-Z approach. IFR aircraft should either be cleared for this approach or instructed to downgrade to VFR (if conditions are suitable) and processed via a coded clearance. In either case, **SBA** is responsible for issuing approach clearance or VFR tracking instructions.
+
+=== "From the North"
+    Aircraft from the north do not meet the criteria for voiceless [coordination by Enroute](#arrivals_6) and will be heads-up coordinated. A requirement to reach **A070 by YAKKA** should be passed to Enroute to relay to these aircraft. This will establish the aircraft OCTA and keep the MEPIL STAR clear for aircraft inbound to YSSY.
+
+    These aircraft shall be instructed to reach **A020 by OMUVU** and transferred to SBA prior to that position. **SBA** will issue airways clearance into the Class D airspace commencing at OMUVU.
+
+    The Z88 airway includes NIXOD, which is the IAF for the RNP-N approach (which terminates in the circling area and is not associated with a specific runway). IFR aircraft should either be cleared for this approach or instructed to downgrade to VFR (if conditions are suitable) and processed via a coded clearance. In either case, **SBA** is responsible for issuing approach clearance or VFR tracking instructions.
+    
+=== "From the East via the STAR"
+    Aircraft via the STAR meet the criteria for voiceless coordination by Enroute and should be processed via the STAR, then provided with vectors or cleared direct to the IAF for the most appropriate approach. This may involve processing by **SWA**, however **SBA** is responsible for issuing approach clearance via the RNP-Y or RNP-Z. Alternatively, aircraft may be instructed to downgrade to VFR (if conditions are suitable) and processed via a VFR coded clearance.
+
 
 ### YSCN Operations
 #### Departures
@@ -577,111 +614,6 @@ Helicopters departing from a hospital in ADC's jurisdiction and intending to ent
     <span class="hotline">**SY TCU** -> **SY ADC**</span>: "RSCU209, A030"  
     <span class="hotline">**SY ADC** -> **SY TCU**</span>: "A030, RSCU209" 
 
-## Flow
-### Local Knowledge
-- Aircraft can be processed via the adjacent STAR for the parallel runway (e.g. jet aircraft via the AKMIR STAR for RWY 34R), to reduce overall delay where multiple aircraft approach from the same direction *(coordination required)*
-- Aircraft via AKMIR (to the west) and MARLN (to the east) often make large track direction changes prior to entering the TMA. Direct tracking onto the STAR may be offered to reduce track miles
-- Aircraft to YSWS via UNTAV may be assigned the **UNTAV B** STAR in lieu of the **UNTAV A** STAR, for track shortening or separation, **when the [R481 COLO restricted area](#r481-colo) is not activated**.
-- Aircraft to YSWS may be assigned the RNP X to reduce track miles on some STARs
-- Aircraft to YSWS may be tactically assigned the **GUDOK N** STAR in lieu of the REVKI N STAR by **SWA**, for track shortening or separation.
-
-### Flow Tables
-#### YSSY
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
-
-=== "Jets & DH8D"
-    | STAR                             | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
-    | -------------------------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-    | **AKMIR**                        | 10      | 16      | 14      | 14      | 14      | 16      |
-    | **BOREE A/P**                    | 11      | 8\^     | 7\^     | 11      | 14      | 14      |
-    | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>12  | <br>8\^ | <br>8\^ | <br>11  | <br>14  | <br>14  |
-    | **MARLN**                        | 12      | 13      | 13      | 8\^     | 14      | 11      |
-    | **RIVET**<br>*Feeder Fix: ENLAD* | <br>10  | <br>16  | <br>14  | <br>14  | <br>13  | <br>16  |
-
-=== "Non-Jets"
-    | STAR                             | RWY 07  | RWY 16L | RWY 16R | RWY 25  | RWY 34L | RWY 34R |
-    | -------------------------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
-    | **AKMIR**                        | 13      | 22      | 18      | 19      | 19      | 22      |
-    | **BOREE A/P**                    | 15      | 10\^    | 10\^    | 14      | 18      | 18      |
-    | **MEPIL**<br>*Feeder Fix: YAKKA* | <br>14  | <br>11\^| <br>11\^| <br>14  | <br>19  | <br>18  |
-    | **MARLN**                        | 14      | 17      | 18      | 11\^    | 19      | 15      |
-    | **RIVET**<br>*Feeder Fix: ENLAD* | <br>13  | <br>21  | <br>18  | <br>19  | <br>18  | <br>21  |
-
-##### Corrections
-
-| Situation | Correction |
-| ----- | ----- |
-| Assigned a reduced speed | +1 min, *except ^* | 
-| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
-
-##### Assumptions
-- Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
-    - The feeder fix for the MEPIL STAR is **YAKKA**
-    - The feeder fix for the RIVET STAR is **ENLAD**
-- Aircraft for the *opposite* parallel runway (eg, AKMIR to 16L/34R) will overfly the field, then vectored to a mid-field downwind  
-- All aircraft are tracking via the ILS Initial Approach fix
-
-#### YSWS
-The tables below give an estimated time **in minutes** from the **Feeder Fix** to the **Threshold**.
-
-=== "Jets & DH8D"
-    | STAR                               | RWY 05  | RWY 23  |
-    | ---------------------------------- | :-----: | :-----: |
-    | **BIKUS A**                        | 16      | 15      |
-    | **REVKI A/N**                      | 7\^     | 11      |
-    | **RIKNI N**<br>*Feeder Fix: MARLN* | <br>18  | <br>15  |
-    | **UNTAV A**                        | 14      | 7\^     |
-    | **UNTAV B**                        | 12      | -       |
-    | **UNTAV N**                        | 13      | -       |
-    | **UNTAV Q**                        | 14      | -       |
-    | **GODUK N**                        | -       | 5\^     |
-
-=== "Non-Jets"
-    | STAR                               | RWY 05  | RWY 23  |
-    | ---------------------------------- | :-----: | :-----: |
-    | **BIKUS A**                        | 21      | 19      |
-    | **REVKI A/N**                      | 10\^    | 14      |
-    | **RIKNI N**<br>*Feeder Fix: MARLN* | <br>24  | <br>20  |
-    | **UNTAV A**                        | 19      | 9\^     |
-    | **UNTAV B**                        | 16      | -       |
-    | **UNTAV N**                        | 17      | -       |
-    | **UNTAV Q**                        | 18      | -       |
-    | **GODUK N**                        | -       | 7\^     |
-
-##### Corrections
-
-| Situation | Correction |
-| ----- | ----- |
-| Assigned a reduced speed | +1 min, *except ^* | 
-| Over 40kt of head/tailwind component | +1 min for headwind<br>-1 min for tailwind |
-
-##### Assumptions
-- Nil wind
-- The feeder fix for all STARs is the waypoint coinciding with the title of the STAR, except:
-    - The feeder fix for the RIKNI STAR is **MARLN**
-- All aircraft are tracking via the ILS
-
-### YSSY Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSSY"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSSY"></div>
-
-### YSWS Calculator
-<script type="module" src="../../javascripts/flowCalculatorLogic.js" defer onerror="alert('Flow Calculator failed to load. Please refresh the page or submit a Helpdesk ticket.')"></script>
-The following calculator will generate a landing time from a feeder fix ETA, or the reverse.
-
-=== "Landing Time"
-    <div class="flowCalculatorLandingTime" data-aerodrome="YSWS"></div>
-
-=== "Feeder Fix Time"
-    <div class="flowCalculatorFeederFixTime" data-aerodrome="YSWS"></div>
-
 ## Coordination
 ### Enroute
 #### Departures
@@ -729,6 +661,9 @@ Voiceless for all aircraft:
     - Assigned `A080`
 
 All other aircraft coming from enroute CTA will be **Heads-up** coordinated to SY TCU prior to **20nm** from the boundary.
+
+!!! note
+    YSBK arrivals from the north or west may need [vertical restrictions](#ysbk-operations) communicated to Enroute during heads up coordination.
 
 ### SY TCU Internal
 #### SY / WS / RI

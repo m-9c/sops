@@ -113,10 +113,10 @@ VFR arrivals from other directions shall request clearance from an inbound repor
 ### Preferred Runway Modes
 Winds must always be considered for runway modes, however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures | Circuits |
-| --------------- | --------- | ---------- | -------- |
-| =1 - 12 PROPS   | 12R (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 12L (all other arrs) | 12R (via GST or GWT), 12L (all other deps) | 12R |
-| =1 - 30 PROPS   | 30L (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 30R (all other arrs)  | 30L (via GST or GWT), 30R (all other deps) | 30L |
+| Priority | Mode | Arrivals  | Departures | Circuits |
+| -------- | ---- | --------- | ---------- | -------- |
+| 1 | 12 PROPS   | 12R (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 12L (all other arrs) | 12R (via GST or GWT), 12L (all other deps) | 12R |
+| 1 | 30 PROPS   | 30L (via DUA, and single engine VFR from 160° radial clockwise to 295° radial). 30R (all other arrs)  | 30L (via GST or GWT), 30R (all other deps) | 30L |
 
 !!! note
     Runways 18/36 and 06/24 are rarely used. They are both unsealed and should generally only be used at pilot request.

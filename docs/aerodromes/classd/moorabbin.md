@@ -121,16 +121,16 @@ Night operations must comply with fixed wing operations.
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| =1 - 17 PROPS | 17L (EAST) & 17R (WEST) | 17L (EAST) & 17R (WEST) |
-| =1 - 35 PROPS | 35L (WEST) & 35R (EAST) | 35L (WEST) & 35R (EAST) |
-| =2 - 13 PROPS | 13L (EAST) & 13R (WEST) | 13L (EAST) & 13R (WEST) |
-| =2 - 31 PROPS | 31L (WEST) & 31R (EAST) | 31L (WEST) & 31R (EAST) |
+| Priority | Mode | Arrivals & Departures |
+| -------- | ---- | --------------------- |
+| 1 | 17 PROPS | 17L (EAST) & 17R (WEST) |
+| 1 | 35 PROPS | 35L (WEST) & 35R (EAST) |
+| 2 | 13 PROPS | 13L (EAST) & 13R (WEST) |
+| 2 | 31 PROPS | 31L (WEST) & 31R (EAST) |
 
-Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
+!!! note
+    Runway 04/22 is not nominated by default and is only available on request or when operationally required for emergencies. Requests for Runway 22 may be granted if traffic conditions allow. Runway 04 is less likely to be approved due the need to vacate onto an intersecting runway.
 
 #### Night Operational Restrictions
 Runways 13R/31L, 17R/35L, and 04/22 are unlit, and **cannot** be used at night.
@@ -158,7 +158,7 @@ The ATIS must indicate runway configuration in the format below:
 | ----------- | ----------- | ----------------------- |
 | PROPS | Single ADC  | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST` |
 | PROPS | Dual ADC    | `RWY 13L/17L/31R/35R FOR ARRS AND DEPS EAST, FREQ 118.1. RWY 13R/17R/31L/35L FOR ARRS AND DEPS WEST, FREQ 123.0` |
-| Single Runway | Single ADC | `ALL OPERATIONS RWY (Number)` |
+| Single Runway | Single ADC | `RWY (number) ALL AIRBORNE OPERATIONS` |
 
 ## Coordination
 ### Departures

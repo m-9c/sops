@@ -27,15 +27,18 @@ GUN assumes responsibility of the airspace to the North-West of the CB TCU above
 
 ### Reclassifications
 === "CB TCU"
-	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by WOL.
+	When **CB TCU** is offline, CB TCU (Class C `SFC` to `A085`) reverts to Class G, and is administered by SNO(WOL).
 
 	!!! note
-		GUN does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of WOL. Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
+		GUN does not assume the CB TCU in the absence of a CB TCU controller. Assumption of the CB TCU is the responsibility of SNO(WOL). Controllers may choose to verbally coordinate the release of the CB TCU to either sector/subsector.
 
 ## Departure and Arrival Procedures
 ### YSBK
 #### Sequencing
 All sequencing, including ascertaining arrival intentions, is performed by BIK.
+
+!!! note
+    SY TCU may communicate [vertical restrictions](../../../terminal/sydney/#ysbk-operations) for YSBK arrivals during heads up coordination.
 
 ### YSCN
 #### Sequencing
@@ -119,8 +122,8 @@ Refer to the vatSys Enroute Holds map for details of published holds on the airw
 
 | Feeder Fix | Holding Fix | Time from Hold to Feeder Fix |
 | ---- | ---- | ---- |
-| RIVET | TARAL | 4 min |
-| WELSH | AKMIR | 2 min |
+| ENLAD | TARAL | 3 min |
+| AKMIR | ANNKY | 3 min |
 
 !!! tip
     Additional holding may be performed at upstream holding fixes to reduce controller workload. This is particularly useful when non-standard child sectors have been opened, allowing aircraft to absorb some of their delay in the previous sector.
@@ -293,7 +296,7 @@ Voiceless for all aircraft:
 All other aircraft coming from GUN CTA must be **Heads-up** Coordinated to CB TCU prior to **20nm** from the boundary.
 
 !!! note
-    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by WOL
+    These coordination requirements apply to aircraft entering the CB TCU, even if the airspace is owned by SNO(WOL).
 
 #### Departures
 Voiceless for all aircraft:

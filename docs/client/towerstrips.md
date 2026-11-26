@@ -6,20 +6,10 @@ title: Tower Strips
 
 In the real world, aerodrome controllers use strips to provide a visual representation of aerodrome activity, beyond what looking out the window or at a radar screen can provide.
 
-Within vatSys, this can be emulated using the [OzStrips plugin](https://maxrumsey.xyz/OzStrips/){target=new}. Strip state is shared between controllers operating at the same aerodrome.
+Within vatSys, this can be emulated using OzStrips. Strip state is shared between controllers operating at the same aerodrome.
 
 ## Setup
-### Installation
-The plugin is included by default in the Australia and Pacific vatSys profiles provided by VATPAC. No installation action is required from controllers.
-
-!!! warning "Important"
-    Controllers should not install the plugin manually when using the Australia or Pacific vatSys profiles, as doing so can create unstable plugin behaviour.
-
-If the client is installed correctly, there will be an *OzStrips* option in the Window dropdown menu.
-
-<figure markdown>
-![OzStrips Dropdown](./img/ozstripsdropdown.png){ width="700" }
-</figure>
+The OzStrips window can be opened through the top menu bar, by clicking **Windows** > **OzStrips**.
 
 ### Connecting
 OzStrips automatically manages the list of aerodromes available, depending on the position and sectors you have set. The desired aerodrome can be chosen from this list.
@@ -28,7 +18,7 @@ OzStrips automatically manages the list of aerodromes available, depending on th
 ![Select Aerodrome](./img/ozstripsaerodromeselect.png){ width="500" }
 </figure>
 
-A connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
+An automatic connection attempt will be made and if successful, the *CONN STAT* field in the Control Bar will turn green.
 
 !!! tip
     Pressing `[` and `]` will cycle through the aerodromes in the dropdown menu, allowing controllers to provide top down coverage to multiple locations easily.
@@ -163,7 +153,7 @@ Fill out the strip of recently connected aircraft so that you can identify any p
     With a strip selected, press `F` to flip it between Departure, Arrival, and Local states.
 
 #### Flight Plan Errors
-OzStrips will flag any potentially invalid routes and incorrect hemispherical levels. Hover over a flag to learn more about the error.
+OzStrips will flag any potentially [invalid routes](../../controller-skills/routes/#flight-plan-requirements) and incorrect hemispherical levels. Hover over a flag to learn more about the error.
 
 <figure markdown>
 ![Invalid Level](./img/ozstripsbadlevel.png){ width="450" }
@@ -175,12 +165,12 @@ OzStrips will flag any potentially invalid routes and incorrect hemispherical le
     <figcaption>A potentially invalid route, shown by the yellow background on the first waypoint box</figcaption>
 </figure>
 
-Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/membership-hub/tools){target=new} page can be helpful to double check these routes.
+Right mouse click on the yellow First Waypoint box to open the Reroute menu. From here, controllers can select a more compliant route. The [VATPAC Tools](https://vatpac.org/tools){target=new} page can be helpful to double check these routes.
 
 !!! warning "Important"
     The invalid route detection system compares the filed route against any ERSA FPR requirements. Some **valid routes may flag** where the route deviates from FPR guidance. Some **invalid routes may not flag** where no FPR guidance exists for that aerodrome pairing.
 
-    ACD controllers must ensure they continue to check each route for errors regardless of strip error status.
+    ACD controllers must ensure they continue to [check each route](../../controller-skills/routes/#validating-routes) for errors regardless of strip error status.
 
 <figure markdown>
 ![SID assigned to VFR Aircraft](./img/ozstripsvfrsid.png){ width="450" }

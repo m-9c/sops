@@ -179,16 +179,15 @@ Helicopters inbound from the south via PKR for either the northen or central hel
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| =1 - 10 PROPS | 10L (NORTH) & 10R (SOUTH) | 10L (NORTH) & 10R (SOUTH) |
-| =1 - 28 PROPS | 28L (SOUTH) & 28R (NORTH) | 28L (SOUTH) & 28R (NORTH) |
-| =2 - 04 PROPS | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) |
-| =2 - 22 PROPS | 22L (SOUTH AND EAST) & 22R (NORTH AND WEST) | 22L (SOUTH Only) & 22R (NORTH AND WEST) |
-| =3 - 10L Only | 10L | 10L |
-| =3 - 28R Only | 28R | 28R |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | -------- | --------- | ---------- |
+| 1 | 10 PROPS | 10L (NORTH) & 10R (SOUTH) | 10L (NORTH) & 10R (SOUTH) |
+| 1 | 28 PROPS | 28L (SOUTH) & 28R (NORTH) | 28L (SOUTH) & 28R (NORTH) |
+| 2 | 04 PROPS | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) | 04L (NORTH AND WEST) & 04R (SOUTH AND EAST) |
+| 2 | 22 PROPS | 22L (SOUTH AND EAST) & 22R (NORTH AND WEST) | 22L (SOUTH Only) & 22R (NORTH AND WEST) |
+| 3 | 10L Only | 10L | 10L |
+| 3 | 28R Only | 28R | 28R |
 
 #### Night Operational Restrictions
 Runways 04L/22R, 04R/22L, and 10R/28L are unlit, and **cannot** be used at night.

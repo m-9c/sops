@@ -41,9 +41,48 @@ SY ADC is responsible for the Class C airspace in the SY CTR `SFC` to `A005` as 
     - Taxiway D south of G
     - Taxiway J east of Runway 16R
     - Taxiway K east of C
-
+    
 #### Heliport Responsibility
 When runway 07 or 25 is in use for either arrivals or departures, the responsibility for management of the helicopter area and associated arriving and departing helicopters falls to **ADC West**. During all other runway modes, **ADC East** (if online) takes responsibility for the heliport.
+
+#### Transferring Between SMC and ADC West
+When both ADC and SMC are online, SMC shall issue aircraft departing on runway 16L/34R with a taxi limit in accordance with the table below. When runway 34R is in use, ADC shall issue further taxi to the holding point, considering any conflict with arriving aircraft taxiing via `U1` and `L`.
+
+| Departure Runway | Taxi Limit |
+| --- | --- |
+| Runway 16L | Holding point `B10` |
+| Runway 34R | Taxiway `S` |
+
+!!! phraseology
+    **SY SMC:** "VOZ853, taxi via Charlie, cross runway 25, hold short Sierra"  
+    **VOZ853:** "Taxi via Charlie, cross runway 25, hold short Sierra, VOZ853"  
+
+    **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
+    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
+
+Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the [standard taxi routes](#runway-16l34r) to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
+
+!!! phraseology
+    **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
+
+#### Transferring Between SMCs
+When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L at [the appropriate point](#crossing-runway-16r34l) and to contact the next SMC frequency. 
+
+The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
+
+!!! phraseology
+    **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
+    **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
+
+    <span class="hotline">**SMC West** -> **ADC**</span>: "On L, JST412 to cross runway 34L"  
+    <span class="hotline">**ADC** -> **SMC West**</span>: "JST412 cross runway 34L"
+
+    **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
+    **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
+    **JST412**: "Cross runway 34L, taxi to holding point Alpha Six, JST412"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
+<p><figcaption style="text-align: center;">Demonstration of Transfer from SMC East to West</figcaption></p>
 
 ### Standard Taxi Routes
 Standard taxi routes establish an implied set of taxi instructions which pilots are expected to comply with in the absence of other instructions. All runway crossings require an explicit crossing instruction.
@@ -75,6 +114,16 @@ Except when the traffic situation warrants, taxi clearances shall conform to the
 
 !!! tip
     For aircraft taxiing northbound on B, consider instructing them to hold short of taxiway B8 when 34L or 16R are in use for arrivals, in order to separate from aircraft using the B7 & B9 rapid exits.
+
+#### Runway 16L/34R
+The standard taxi routes for arrivals on **Runway 16L/34R** are:
+
+| Landing Runway | Route |
+| -------------- | ----- |
+| RWY 16L        | T, L  |
+| RWY 34R        | T2, U, U1, L, or<br>U1, L |
+
+Aircraft landing on Runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima, before [contacting Ground](#transferring-between-smc-and-adc-west).
 
 #### Domestic Aprons
 Additional standard taxi routes exist into and out of the domestic aprons.
@@ -123,59 +172,19 @@ Additional standard taxi routes exist into and out of the domestic aprons.
 
 `ERSA FAC YSSY` noise abatement procedures require jet aircraft to depart runway 34L from full length only. This should be simulated where practical but intersection departures should be offered to jet aircraft on request where available.
 
-#### Runway 16L/34R
-When both ADC and SMC are online, SMC shall issue aircraft departing on runway 16L/34R with a taxi limit in accordance with the table below. When runway 34R is in use, ADC shall issue further taxi to the holding point, considering any conflict with arriving aircraft taxiing via `U1` and `L`.
-
-| Departure Runway | Taxi Limit |
-| --- | --- |
-| Runway 16L | Holding point `B10` |
-| Runway 34R | Taxiway `S` |
-
-!!! phraseology
-    **SY SMC:** "VOZ853, taxi via Charlie, cross runway 25, hold short Sierra"  
-    **VOZ853:** "Taxi via Charlie, cross runway 25, hold short Sierra, VOZ853"  
-
-    **VOZ853:** "Sydney Tower, VOZ853, holding short Sierra, ready"  
-    **SY ADC:** "VOZ853, Sydney Tower, give way to the inbound Jetstar A320, taxi to holding point Tango Six, runway 34R"
-
-Aircraft landing on runway 16L/34R are expected to vacate the runway and taxi via the standard taxi routes to join taxiway Lima. If pilots are unfamiliar with local procedures, they should be instructed by **ADC** to taxi accordingly. Where possible, outbound aircraft should give way to inbound aircraft to avoid creating congestion at the runway exits.
-
-!!! phraseology
-    **SY ADC**: "JAL52, taxi via Tango, Lima, on Lima contact Ground 121.7"
-
-The standard arrival taxi routes are:
-
-| Landing Runway | Route |
-| --- | --- |
-| RWY 16L | T, L |
-| RWY 34R | T2, U, U1, L, or<br>U1, L |
-
-#### Transferring Between SMCs
-When both SMC positions are online and an aircraft is to be passed from one to the other (e.g. an aircraft taxis from the domestic terminal for runway 34L), they should be instructed to hold short of runway 16R/34L and to contact the next SMC frequency. 
-
-The aircraft's strip shall be placed in the receiving controller's bay prior to frequency transfer. The **receiving controller** is responsible for coordinating the runway crossing with ADC.
-
-!!! phraseology
-    **SMC East**: "JST412, cross runway 25, taxi via Lima, hold short runway 34L, on Lima contact ground 126.5"  
-    **JST412**: "Cross runway 25, taxi via Lima, hold short runway 34L, contact ground 126.5, JST412"
-
-    <span class="hotline">**SMC West** -> **ADC**</span>: "On L, JST412 to cross runway 34L"  
-    <span class="hotline">**ADC** -> **SMC West**</span>: "JST412 cross runway 34L"
-
-    **JST412**: "Sydney Ground, JST412, holding short runway 34L"  
-    **SMC West**: "JST412, cross runway 34L, taxi to holding point Alpha Six"  
-    **JST412**: "Cross runway 34L, taxi to holding point Alpha Six, JST412"
-
-Generally, aircraft shall cross runway 16R/34L in the following directions at the following locations:
+#### Crossing Runway 16R/34L
+Generally, aircraft cross runway 16R/34L at the following locations.
 
 | Location | Direction of Taxi |
-| --- | --- |
-| Taxiway Golf | Eastbound |
-| Runway 25 | Westbound |
-| Taxiway Lima | As required |
+| -------------- | ----------- |
+| Taxiway Golf   | Eastbound   |
+| Runway 25      | Westbound   |
+| Taxiway Lima   | Westbound   |
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qVK22SAioeY?si=PAdGhkC3Izv7qHjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" style="display:block; margin:0 auto;" allowfullscreen></iframe>
-<p><figcaption style="text-align: center;">Demonstration of Transfer from SMC East to West</figcaption></p>
+#### Taxiway Restrictions
+Category F aircraft cannot use Taxiway H, or the sections of Taxiways B and C north of Taxiway G and south of Taxiway K.
+
+Certain Category E aircraft, such as B77W and A35K, are also unable to use the full extent of Taxiways B and C. `ERSA FAC YSSY` contains alternate taxi routing options to enable such aircraft to reach Runway 16L/34R.
 
 ## Separation
 ### Reduced Runway Separation
@@ -272,7 +281,18 @@ Helicopter operations should be accommodated without unduly delaying fixed wing 
     **HSZ:** "Maintain own separation, wilco, HSZ"
 
 ### Arrivals
-VFR helicopters are generally processed via by one of Sydney's Helicopter Routes (see above).  IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway.
+IFR helicopters should conform to fixed wing ops and be processed via an appropriate runway. 
+
+VFR helicopters are generally processed via by one of Sydney's Helicopter Routes. Each route includes a clearance limit which helicopters should be instructed to hold at (if required due traffic) or cleared a visual approach (which inherently cancels the clearance limit).
+
+| Route                    | Waypoints | Clearance Limit |
+| ------------------------ | --------- | --------------- |
+| ROSEHILL 5 INBOUND       | `RSH RKWC CBY` | *Novotel (Sydney International Airport) Hotel* |
+| HARBOUR BRIDGE 5 INBOUND | `HBB DHH REDF ERSK APST` | `APST` |
+| BARRACKS 5 INBOUND       | `RCB MPSC` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| MAROUBRA 5 INBOUND       | `MRBR` | *Overpass at the intersection of Southern Cross Drive and Wentworth Avenue* |
+| CAPE BANKS 5 INBOUND     | `CAPS` | *Container Terminal* |
+| WANDA 5 INBOUND          | `YWAN DLPT` | *The Brighton Hotel* |
 
 SY TCU will clear helicopters for all inbound Helicopter Routes, with the exception of the `CAPE BANKS 5 INBOUND` and `WANDA 5 INBOUND`.  Tower controllers should assess the current traffic situation and issue clearances for these aircraft when available.  
 
@@ -286,6 +306,7 @@ SY TCU will clear helicopters for all inbound Helicopter Routes, with the except
     **YZD:** "Cleared visual approach, wilco, YZD"
 
 During times of peak fixed wing traffic, instruct helicopters to hold at their designated clearance limit on their Helicopter Route and maintain own separation on approach to the heliport.
+
 !!! phraseology
     **SY ADC:** "YOE, hold at the clearance limit, traffic is a 717 on a 4nm final to runway 25, report in sight"  
     **YOE:** "Hold at the clearance limit, traffic sighted, YOE"  
@@ -350,33 +371,29 @@ Helicopters intending to enter SY TCU CTA must be first coordinated with SY TCU.
 
 ## Runway Modes
 ### Preferred Runway Modes
-Winds must always be considered for Runway modes (Crosswind <20kts, Tailwind <5kts), however the order of preference is as follows:
 
-| Priority - Mode | Arrivals  | Departures |
-| ----------------| --------- | ---------- |
-| 1 - SODPROPS    | 34L       | 16L (& 34L if operationally required) |
-| 2 - 34 PROPS    | 34L & 34R | 34L & 34R  |
-| 2 - 16 PROPS    | 16L & 16R | 16L & 16R  |
-| 3 - 16D/07A     | 07        | 16L & 16R  |
-| 3 - 25D/34A     | 34L & 34R | 25         |
-| 4 - 16D/25A     | 25        | 16L & 16R  |
-| 5 - 07          | 07        | 07         |
-| 5 - 25          | 25        | 25         |
-| *Curfew         | 34L       | 16R        |
+| Priority | Mode | Arrivals  | Departures |
+| ---- | ---------| --------- | ---------- |
+| 1 | SODPROPS    | 34L       | 16L (& 34L if operationally required) |
+| 2 | 34 PROPS    | 34L & 34R | 34L & 34R  |
+| 2 | 16 PROPS    | 16L & 16R | 16L & 16R  |
+| 2 | 16D/07A     | 07        | 16L & 16R  |
+| 2 | 25D/34A     | 34L & 34R | 25         |
+| 2 | 16D/25A     | 25        | 16L & 16R  |
+| 3 | 07          | 07        | 07         |
+| 3 | 25          | 25        | 25         |
+|   | \*Curfew    | 34L       | 16R        |
 
-*Permitted between the hours of 2300 and 0600 Local. If the pilot does not want to participate in curfew mode operations, the controller must accommodate this request.
+\* <small>*Permitted only between the hours of 2300 and 0600 Local. Pilot requests that would contravene curfew restrictions must still be accommodated.*</small>
 
 !!! note
     In general, the SODPROPS, 16D/07A, and 25D/34A modes are most suitable for noise abatement. The PROPS modes are most suitable for higher capacity. Since for the most part, neither of these are a factor on VATSIM, it is up to you which runway mode you would like to operate, subject to winds. Consider favouring the higher capacity PROPS modes during busy times, such as events like Milk Run Monday or Panic Stations.
 
-!!! tip
-    Take in to account an aircraft's weight when runways 16L/34R or 07/25 are in use. Heavier aircraft may operationally require the longer Runway 16R/34L, or pilots may prefer a departure from 16R instead of 16L so they have a shorter taxi. If in doubt, ask the pilot and try to be accommodating of these requests.
-
 ### Runway Selection
-Unless operationally required, aircraft shall be assigned the following runways for departure when PROPS are in progress:
+When **PROPS** are in progress, aircraft shall be assigned the following runways for departure (unless operationally required otherwise):
 
 | Aircraft tracking | Runway  |
-| ----------------| --------- |
+| ----------------- | ------- |
 | via KADOM   | 16R/34L      |
 | Jets via WOL | 16R/**34R** |
 | Non-Jets via WOL | 16R/34L |
@@ -385,6 +402,9 @@ Unless operationally required, aircraft shall be assigned the following runways 
 | Other aircraft: |
 | To the NORTH and EAST | 16L/34R |
 | To the SOUTH and WEST | 16R/34L |
+
+!!! tip
+    Heavy aircraft, particularly international departures, will often operationally require **Runway 34L/16R**. Assigning **Runway 34L/16R** to aircraft from the international apron can also improve aerodrome efficiency due to the reduced taxi distance.
 
 #### SODPROPS
 During SODPROPS, all departures shall be assigned RWY 16L, except:
